@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -33,12 +33,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python run.py nightly
 
+      # Validation is ADVISORY: a crash here (e.g. datacenter IP blocked by a
+      # source site) must never block the nightly report commit or go red.
       - name: Backtest learned signals (real cached data, no lookahead)
         working-directory: invest-guide
+        continue-on-error: true
         run: python run.py backtest
 
       - name: Screener.in cross-check (budgeted, rotates nightly)
         working-directory: invest-guide
+        continue-on-error: true
         run: python run.py screenerbt
 
       - name: Commit reports + learning memory
