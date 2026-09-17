@@ -1,0 +1,51 @@
+name: nightly-investment-brief
+
+on:
+  schedule:
+    - cron: "15 21 * * *"   # 21:15 UTC = 02:45 IST → ready before your morning
+  workflow_dispatch: {}      # manual "Run workflow" button in Actions tab
+
+permissions:
+  contents: write            # needed to commit reports/KB back to the repo
+
+concurrency:
+  group: nightly-brief
+  cancel-in-progress: false
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Selftest (offline gate — must pass before real run)
+        run: python invest-guide/run.py selftest
+
+      - name: Nightly pipeline
+        working-directory: invest-guide
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python run.py nightly
+
+      - name: Backtest learned signals (real cached data, no lookahead)
+        working-directory: invest-guide
+        run: python run.py backtest
+
+      - name: Screener.in cross-check (budgeted, rotates nightly)
+        working-directory: invest-guide
+        run: python run.py screenerbt
+
+      - name: Commit reports + learning memory
+        run: |
+          git config user.name "invest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add invest-guide/reports invest-guide/data/knowledge_base.json invest-guide/index.html invest-guide/data/last_report.json || true
+          git add invest-guide/data/backtest_report.json invest-guide/data/screener_backtest_report.json invest-guide/data/screener_cursor.json invest-guide/data/screener_accum.json || true
+          git diff --cached --quiet || git commit -m "nightly brief + validation reports $(date -u +%F)"
+          git push

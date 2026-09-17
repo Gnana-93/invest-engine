@@ -1,0 +1,5 @@
+# caches are disposable; knowledge base + reports are the system's memory
+data/cache/
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,172 @@
+# ============================================================================
+# Indian Stock Market — Nightly Investment Engine :: Configuration
+# ----------------------------------------------------------------------------
+# Edit freely. Everything the engine does is driven by this file.
+# ₹0 stack: stdlib-only Python + GitHub Actions public repo + Telegram.
+# ============================================================================
+
+meta:
+  engine_version: "1.0.0"
+  timezone: "Asia/Kolkata"          # all logic in IST
+  # In Actions we run in UTC; cron 21:15 UTC = 02:45 IST (pre-report for morning).
+
+# ----------------------------------------------------------------------------
+# WHO IS THIS FOR (drives sizing, budget-fit, lot math)
+# ----------------------------------------------------------------------------
+investor:
+  capital_inr: 100000               # total equity capital deployed gradually
+  max_price_pref: 1000              # preferred ceiling; NOT a hard filter
+  max_price_hard: 3000              # allow great businesses above 1000 up to this
+  min_position_inr: 8000            # below this, brokerage+DP charges eat returns
+  max_open_positions: 12            # under ₹1L capital: 8-12 names max
+  per_position_pct: [8, 15]         # target position size band (% of capital)
+  horizon_years: 3                  # primary horizon; engine prefers LT-eligible ideas
+  style_weights:                    # what the final score optimises for
+    quality: 0.40
+    value: 0.20
+    momentum: 0.15
+    turnaround: 0.10
+    tax_efficiency: 0.15
+
+# ----------------------------------------------------------------------------
+# UNIVERSE CONTROL ("do not re-research everything nightly")
+# ----------------------------------------------------------------------------
+universe:
+  # Tier A: deep fundamental scan — stocks with fresh signals + rotation slice.
+  deep_scan_per_night: 35
+  rotation_share: 0.35              # % of Tier B that rotates nightly
+  fundamentals_cache_days: 21       # refetch fundamentals at most this often
+  prices_lookback_days: 400         # 1y+ buffer for 200DMA / momentum math
+  # Big-move detector thresholds (used by the learning loop)
+  move_abs_pct: 4.0                 # |day change| >= this counts as a "move"
+  move_volume_x: 2.0                # volume >= 2x 20d-avg strengthens the signal
+  # Multi-horizon move detection (spike vs trend — see learning.py)
+  move_5d_pct: 12.0                 # weekly surge (Stock-A case: +70% in a week)
+  move_21d_pct: 25.0                # monthly re-rating (Stock-B case: slow compounder)
+  spike_regime_1d_pct: 8.0          # |1d| >= this classifies the event as a "spike"
+  # Liquidity floor (microcaps are allowed but must clear this)
+  min_turnover_lacs: 25             # daily traded value >= ₹25 lakh
+  min_price: 12                     # below this = SME/penny noise, excluded
+
+# ----------------------------------------------------------------------------
+# STRATEGY SCREENS (rules engine — all thresholds below are industry-tested)
+# ----------------------------------------------------------------------------
+strategies:
+  quality_compounder:
+    enabled: true
+    roce_min: 15                    # GARP canon (Basant Maheshwari / Motilal school)
+    debt_equity_max: 0.75
+    sales_cagr_3y_min: 10
+    profit_cagr_3y_min: 12
+    opm_min: 12                     # pricing power proxy
+    fcf_positive_years: 3           # of last 4
+    dividend_ok: true               # bonus points, not required
+  deep_value:
+    enabled: true
+    pe_max: 14
+    pb_max: 1.8
+    debt_equity_max: 1.0
+    promoter_pledge_max: 5          # %
+    require: earnings_stabilizing   # last-Q profit YoY not negative
+  smallcap_quality_momentum:
+    enabled: true
+    price_above_200dma: true
+    rs_vs_nifty_3m_min: 5           # % outperformance
+    roce_min: 14
+    deliv_pct_min: 45               # delivery % — anti-pump-and-dump filter
+    market_cap_max_cr: 5000
+  turnaround:
+    enabled: true
+    require: improving_margins      # last 2 quarters OPM rising
+    debt_watch: true                # flagged hard, never hidden
+    promoter_stake_min: 45
+
+# ----------------------------------------------------------------------------
+# SCORE → CONFIDENCE
+# ----------------------------------------------------------------------------
+scoring:
+  quality_weight: 0.60              # base fundamental score
+  signal_evidence_weight: 0.25      # learned hit-rates (learning loop)
+  data_quality_weight: 0.10         # freshness + completeness of data
+  liquidity_weight: 0.05
+  min_suggest_score: 60             # only >= this appears in BUY section
+  watch_score: 45                   # 45-60 goes to WATCH
+  confidence_bands: { A: 75, B: 60, C: 45 }   # else D
+  min_history_n: 8                  # signals need n>=8 events before their
+                                    # hit-rate replaces the default prior
+
+# ----------------------------------------------------------------------------
+# EXITS & HOLD WARNINGS
+# ----------------------------------------------------------------------------
+exits:
+  stop_loss_pct: 20                 # hard stop for suggestions once bought
+  thesis_break_score_drop: 15       # score fell this much since buy → review
+  trailing_alert_pct: 25            # up this much → engine drafts trail-stop plan
+  tax_review_days_lt: 300           # near 365d: LTCG decision window warnings
+  dead_money_days: 270              # flat stock + falling score → "not wise to hold"
+
+# ----------------------------------------------------------------------------
+# DELIVERY
+# ----------------------------------------------------------------------------
+telegram:
+  enabled: true
+  secret_env: TELEGRAM_BOT_TOKEN    # set in repo Settings → Secrets
+  chat_env: TELEGRAM_CHAT_ID
+  max_message_chars: 3900
+
+report:
+  title: "Nightly Investment Brief"
+  keep_days_of_history: 90
+  dashboard_refresh: true
+
+# ----------------------------------------------------------------------------
+# NEWS & EVENTS (learning-loop causes)
+# ----------------------------------------------------------------------------
+news:
+  rss_sources:
+    - name: ET-Markets
+      url: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms"
+    - name: Moneycontrol-Top
+      url: "https://www.moneycontrol.com/rss/business/rss.xml"
+    - name: BusinessStandard-Markets
+      url: "https://www.business-standard.com/rss/markets-106.rss"
+  keyword_tags:
+    order_win: ["order win", "bagged order", "letter of award", "loa", "contract"]
+    results: ["q1", "q2", "q3", "q4 results", "quarterly results", "profit rises", "profit falls"]
+    management: ["resign", "appointed as", "ceo", "cfo", "md & ceo"]
+    pledge: ["pledge", "revoke of pledge", "release of pledge"]
+    capex: ["capex", "expansion", "new plant", "commissioned"]
+    regulatory: ["sebi", "gst notice", "tax notice", "nclt", "inspection"]
+    dividend_split: ["dividend", "stock split", "bonus issue", "buyback"]
+    rating: ["upgrade", "downgrade", "target price", "initiates coverage"]
+
+# ----------------------------------------------------------------------------
+# LEARNING LOOP
+# ----------------------------------------------------------------------------
+learning:
+  evaluation_windows_days: [30, 90]
+  success_threshold_pct: 5.0        # +5% within 30d = suggestion "worked" (events/spikes)
+  success_threshold_90d_pct: 15.0   # trend-regime success: +15% within 90d (sustained)
+  success_threshold_result_pct: 5.0 # result/PEAD regime: drift in surprise direction
+  fade_threshold_pct: -10.0         # spike that gave back this much = "chase trap"
+  backfill_years: 5                 # nightly backfill: move-cause harvest
+  prior_hit_rate: 0.5               # Laplace-smoothing prior
+  parabolic_21d_pct: 60.0           # +60%/21d chart → evidence capped (don't chase)
+  parabolic_5d_pct: 35.0            # +35%/5d chart → same cap
+  # Paper-signal regimes (international canon — trusted ONLY if our NSE
+  # backtest shows their measured rate beats the base rate):
+  near_52w_within_pct: 2.0          # high52 trigger: within 2% of 52w high (0 = at high)
+  mom63_1_min_pct: 15.0             # mom63_1 trigger: 3-1 momentum >= +15%
+  success_threshold_paper_pct: 5.0  # high52/mom63_1 success: +5% within 30d
+
+# ----------------------------------------------------------------------------
+# SCREENER.IN CROSS-CHECK (real historical fundamentals — user's instruction:
+# cross-check theories against old stock data, not only papers)
+# ----------------------------------------------------------------------------
+screener:
+  enabled: true
+  cache_days: 30                    # refetch a company page at most this often
+  max_requests_per_run: 200         # politeness budget per backtest run
+  request_sleep_s: 1.5              # seconds between page fetches
+  surprise_yoy_pct: 20.0            # quarterly profit YoY >= this = surprise (PEAD proxy)
+  strategy_fwd_days: 250            # strategy backtest horizon: 1 trading year
