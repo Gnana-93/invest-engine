@@ -187,7 +187,9 @@ def selftest() -> int:
     ok("screens: TEST hits deep_value", any(h["strategy"] == "deep_value" for h in hits.get("TEST", [])))
 
     # --- screener.in fundamentals path (offline fixture, mirrors a real page) ---
-    from engine.screener import _Tables as _T2, _TopRatios, fetch_fundamentals_from_company
+    from engine.screener import (_Tables as _T2, _TopRatios,
+                                 fetch_fundamentals_from_company,
+                                 quarterly_fundamentals)
     tp2 = _T2()
     tp2.feed("<table><tr><th></th><th>Mar 2023</th><th>Mar 2024</th></tr>"
              "<tr><td>Sales</td><td>1,000</td><td>1,200</td></tr>"
@@ -210,6 +212,33 @@ def selftest() -> int:
        rec_sc["roce"] == 18.5 and rec_sc["roce_est"] == 18.5
        and rec_sc["pe"] == 24.5 and rec_sc["pb"] == 2.0)
     ok("derive: price present", rec["price"] is not None)
+
+    # --- numeric quarterly review (turnaround's real margin inflection) ---
+    tq2 = _T2()
+    tq2.feed("<table><tr><th></th><th>Oct 2025</th><th>Dec 2025</th><th>Mar 2026</th>"
+             "<th>Jun 2026</th><th>Sep 2026</th></tr>"
+             "<tr><td>Sales</td><td>100</td><td>105</td><td>110</td><td>120</td><td>125</td></tr>"
+             "<tr><td>OPM %</td><td>10</td><td>11</td><td>9</td><td>14</td><td>17</td></tr>"
+             "<tr><td>Net Profit</td><td>5</td><td>6</td><td>4</td><td>10</td><td>13</td></tr></table>")
+    qtr = quarterly_fundamentals({"tables": tq2.tables})
+    ok("quarterly: 2Q OPM inflection + YoY detected",
+       bool(qtr) and qtr["opm_trend"] == "rising" and qtr["opm_delta"] == 3.0
+       and qtr["profit_yoy_pct"] == 160.0 and qtr["profit_qoq_pct"] == 30.0)
+    fin_q = {"symbol": "TESTQ", "source": "screener_in", "opm": 17.0,
+             "profit_margin": 10.0,
+             "opm_trend": qtr["opm_trend"], "opm_delta": qtr["opm_delta"],
+             "profit_qoq_pct": qtr["profit_qoq_pct"], "profit_yoy_pct": qtr["profit_yoy_pct"]}
+    rec_q = financials.derive(fin_q, px)
+    hits_q = strategies.screen_all(cfg, {"TESTQ": rec_q})
+    ok("turnaround: real quarterly inflection drives the screen",
+       any(h["strategy"] == "turnaround" for h in hits_q.get("TESTQ", [])))
+    tq3 = _T2()
+    tq3.feed("<table><tr><th></th><th>Jun 2026</th><th>Sep 2026</th></tr>"
+             "<tr><td>Sales</td><td>100</td><td>95</td></tr>"
+             "<tr><td>OPM %</td><td>14</td><td>9</td></tr>"
+             "<tr><td>Net Profit</td><td>8</td><td>4</td></tr></table>")
+    ok("quarterly: falling OPM detected",
+       quarterly_fundamentals({"tables": tq3.tables})["opm_trend"] == "falling")
 
     # hermetic KB for all learning tests (never touches the real one)
     import tempfile

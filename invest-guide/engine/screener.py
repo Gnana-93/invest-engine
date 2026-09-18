@@ -317,6 +317,7 @@ def fetch_fundamentals_from_company(co: dict) -> dict | None:
                 earn_g = round(latest_yoy, 1)
         pm = (profit[-1] / sales[-1] * 100
               if (sales and profit and sales[-1] and profit[-1] is not None) else None)
+        qtr = quarterly_fundamentals(co)
 
         # D/E fallback from balance sheet: Borrowings / (Equity + Reserves)
         if de is None:
@@ -358,14 +359,54 @@ def fetch_fundamentals_from_company(co: dict) -> dict | None:
             "revenue_growth": rev_g, "earnings_growth": earn_g,
             "div_yield": dy, "payout_ratio": payout[-1] if payout else None,
             "fcf_cr": fcf, "book_value_ps": bv,
+            # numeric quarterly review (turnaround screen + evidence)
+            "opm_trend": (qtr or {}).get("opm_trend"),
+            "opm_delta": (qtr or {}).get("opm_delta"),
+            "profit_qoq_pct": (qtr or {}).get("profit_qoq_pct"),
+            "profit_yoy_pct": (qtr or {}).get("profit_yoy_pct"),
             "fetched_at": co.get("fetched_at"),
         }
     except Exception:
         return None
 
 
+# ------------------------------------------------- numeric quarterly review --
+def quarterly_fundamentals(co: dict) -> dict | None:
+    """Numeric quarterly review from the screener QUARTERLY table: last-2Q OPM
+    trend (the real margin-inflection the turnaround screen wants), QoQ and
+    YoY profit. Pure function of `co` — offline-testable; never raises."""
+    try:
+        if not co or not co.get("tables"):
+            return None
+        qt = _find_period_table(co["tables"], "net profit", annual=False)
+        if not qt:
+            return None
+        _k1, q_profit = _series_from_table(qt, "net profit")
+        _k2, q_opm = _series_from_table(qt, "opm")
+        out = {"opm_trend": None, "opm_delta": None, "opm_now": None,
+               "opm_prev": None, "profit_qoq_pct": None, "profit_yoy_pct": None,
+               "n_quarters": len(q_profit)}
+        if (len(q_opm) >= 2 and q_opm[-1] is not None
+                and q_opm[-2] is not None):
+            out["opm_now"], out["opm_prev"] = q_opm[-1], q_opm[-2]
+            d = round(q_opm[-1] - q_opm[-2], 1)
+            out["opm_delta"] = d
+            out["opm_trend"] = "rising" if d > 0 else "falling" if d < 0 else "flat"
+        if (len(q_profit) >= 2 and q_profit[-1] is not None
+                and q_profit[-2] not in (None, 0)):
+            out["profit_qoq_pct"] = round((q_profit[-1] / q_profit[-2] - 1) * 100, 1)
+        if (len(q_profit) >= 5 and q_profit[-1] is not None
+                and q_profit[-5] not in (None, 0)):
+            out["profit_yoy_pct"] = round((q_profit[-1] / q_profit[-5] - 1) * 100, 1)
+        if out["opm_trend"] is None and out["profit_qoq_pct"] is None:
+            return None
+        return out
+    except Exception:
+        return None
+
+
 def fetch_fundamentals(symbol: str, cfg: dict) -> dict | None:
-    """Screener.in fundamentals (top-ratios widget + annual tables),
+    """Screener.in fundamentals (top-ratios widget + annual + quarterly tables),
     page-cached like all screener fetches."""
     co = fetch_company(symbol, cfg)
     return fetch_fundamentals_from_company(co) if co else None

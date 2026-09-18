@@ -28,6 +28,9 @@ def derive(fin: dict | None, px: dict | None) -> dict:
         "ev_ebitda": None, "target_upside": None,
         "above_200dma": None, "ret_3m": None, "ret_1y": None,
         "turnover_lacs": None, "next_earnings": None,
+        # numeric quarterly review (screener.in path only; Yahoo has none)
+        "opm_trend": None, "opm_delta": None,
+        "profit_qoq_pct": None, "profit_yoy_pct": None,
         "data_quality": 0.0, "sources": [],
     }
 
@@ -57,6 +60,10 @@ def derive(fin: dict | None, px: dict | None) -> dict:
         out["ev_ebitda"] = _pos(f.get("ev_ebitda"))
         out["next_earnings"] = f.get("next_earnings")
         out["target_mean"] = f.get("target_mean")  # upside computed post-merge
+        # quarterly review passthrough (no unit conversion needed)
+        for k in ("opm_trend", "opm_delta", "profit_qoq_pct", "profit_yoy_pct"):
+            if f.get(k) is not None:
+                out[k] = f[k]
 
     if px:
         p = px

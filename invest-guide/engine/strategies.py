@@ -55,8 +55,14 @@ def _quality_compounder(c: dict, r: dict) -> dict | None:
 
 
 def _deep_value(c: dict, r: dict) -> dict | None:
-    stable = (r["earn_growth"] is not None and r["earn_growth"] >= 0) \
-        if c.get("require") == "earnings_stabilizing" else True
+    # earnings stabilizing: quarterly profit YoY when available (fresher, and
+    # what the config actually means), else the annual-based earn_growth.
+    if c.get("require") == "earnings_stabilizing":
+        yoy = r["profit_yoy_pct"]
+        stable = (yoy >= 0) if yoy is not None else \
+            (r["earn_growth"] is not None and r["earn_growth"] >= 0)
+    else:
+        stable = True
     tests = [
         ("pe <= max", _le(r["pe"], c["pe_max"])),
         ("pb <= max", _le(r["pb"], c["pb_max"])),
@@ -78,10 +84,13 @@ def _smallcap_momentum(c: dict, r: dict) -> dict | None:
 
 
 def _turnaround(c: dict, r: dict) -> dict | None:
-    # Margin inflection proxy with point-in-time data: positive OPM that is
-    # below the sector norm + earnings turned positive. Full 2-quarter math
-    # arrives with the Screener.in quarterly upgrade (README).
-    improving = (r["opm"] or 0) > 0 and (r["earn_growth"] or -999) > 0
+    # Margin inflection: REAL 2-quarter OPM trend when the screener.in path
+    # provides it; otherwise the point-in-time proxy (positive OPM + earnings
+    # growth) keeps the screen usable for names without quarterly data.
+    if r["opm_trend"] is not None:
+        improving = r["opm_trend"] == "rising"
+    else:
+        improving = (r["opm"] or 0) > 0 and (r["earn_growth"] or -999) > 0
     tests = [
         ("margins improving", improving),
         ("not loss-making", (r["profit_margin"] or -999) > 0),
