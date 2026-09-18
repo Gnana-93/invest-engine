@@ -1,3 +1,3 @@
 """Indian equity nightly research engine — ₹0 stack, stdlib only."""
 
-__version__ = "1.2.0"
+__version__ = "1.3.0"

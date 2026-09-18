@@ -19,7 +19,7 @@ def derive(fin: dict | None, px: dict | None) -> dict:
         "symbol": (fin or px or {}).get("symbol", "UNKNOWN"),
         "name": None, "industry": None,
         "market_cap_cr": None, "price": None,
-        "pe": None, "pb": None, "roe": None, "roce_est": None,
+        "pe": None, "pb": None, "roe": None, "roce": None, "roce_est": None,
         "opm": None, "profit_margin": None,
         "debt_equity": None, "current_ratio": None,
         "fcf_cr": None, "cash_cr": None, "debt_cr": None,
@@ -39,18 +39,21 @@ def derive(fin: dict | None, px: dict | None) -> dict:
         out["market_cap_cr"] = f.get("market_cap_cr")
         out["pe"] = _pos(f.get("pe"))
         out["pb"] = _pos(f.get("pb"))
-        out["roe"] = _ratio(f.get("roe"))
-        out["opm"] = _ratio(f.get("opm"))
-        out["profit_margin"] = _ratio(f.get("profit_margin"))
+        # screener.in values arrive already in percent — no fraction scaling
+        _r = _pct if f.get("source") == "screener_in" else _ratio
+        out["roe"] = _r(f.get("roe"))
+        out["roce"] = _r(f.get("roce"))
+        out["opm"] = _r(f.get("opm"))
+        out["profit_margin"] = _r(f.get("profit_margin"))
         out["debt_equity"] = _de(f.get("debt_equity"))   # Yahoo: x100, debt-only
         out["current_ratio"] = f.get("current_ratio")
         out["fcf_cr"] = f.get("fcf_cr")
         out["cash_cr"] = f.get("cash_cr")
         out["debt_cr"] = f.get("debt_cr")
-        out["rev_growth"] = _ratio(f.get("revenue_growth"))
-        out["earn_growth"] = _ratio(f.get("earnings_growth"))
-        out["div_yield"] = _ratio(f.get("div_yield"))
-        out["payout"] = _ratio(f.get("payout_ratio"))
+        out["rev_growth"] = _r(f.get("revenue_growth"))
+        out["earn_growth"] = _r(f.get("earnings_growth"))
+        out["div_yield"] = _r(f.get("div_yield"))
+        out["payout"] = _r(f.get("payout_ratio"))
         out["ev_ebitda"] = _pos(f.get("ev_ebitda"))
         out["next_earnings"] = f.get("next_earnings")
         out["target_mean"] = f.get("target_mean")  # upside computed post-merge
@@ -66,11 +69,12 @@ def derive(fin: dict | None, px: dict | None) -> dict:
         if not out["market_cap_cr"]:
             out["market_cap_cr"] = None  # never fake it
 
-    # ---- ROCE estimate: Yahoo gives ROA+ROE; ROE levered is the honest proxy.
-    # True ROCE needs EBIT/capital-employed from annual reports (Screener.in
-    # scrape is the planned upgrade; see README "Upgrade path").
-    if out["roe"] is not None:
-        out["roce_est"] = out["roe"]  # labelled "est" — screens treat as proxy
+    # ---- ROCE: true value when available (screener.in top-ratios widget);
+    # otherwise Yahoo's ROE levered is the honest proxy (labelled "est").
+    if out["roce"] is not None:
+        out["roce_est"] = out["roce"]
+    elif out["roe"] is not None:
+        out["roce_est"] = out["roe"]
 
     # analyst target upside needs the LIVE price (from px), not fundamentals
     tp = out.pop("target_mean", None)
@@ -102,6 +106,17 @@ def _ratio(v):
     if abs(v) <= 1.5:          # fraction form
         return round(v * 100, 1)
     return round(v, 1)          # already percent-ish
+
+
+def _pct(v):
+    """screener.in percentages arrive already in percent — sanitize only.
+    (Yahoo path must keep using _ratio: it sends fractions like 0.0045.)"""
+    if v is None:
+        return None
+    try:
+        return round(float(v), 1)
+    except (TypeError, ValueError):
+        return None
 
 
 def _de(v):

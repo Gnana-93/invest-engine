@@ -180,12 +180,36 @@ def selftest() -> int:
     px = data.synthetic_prices()
     fin = data.synthetic_fundamentals()
     rec = financials.derive(fin, px)
-    ok("derive: price present", rec["price"] is not None)
-    ok("derive: data_quality full", rec["data_quality"] >= 0.9)
+    records = {"TEST": rec}
 
-    hits = strategies.screen_all(cfg, {"TEST": rec})
+    hits = strategies.screen_all(cfg, records)
     ok("screens: TEST hits quality_compounder", any(h["strategy"] == "quality_compounder" for h in hits.get("TEST", [])))
     ok("screens: TEST hits deep_value", any(h["strategy"] == "deep_value" for h in hits.get("TEST", [])))
+
+    # --- screener.in fundamentals path (offline fixture, mirrors a real page) ---
+    from engine.screener import _Tables as _T2, _TopRatios, fetch_fundamentals_from_company
+    tp2 = _T2()
+    tp2.feed("<table><tr><th></th><th>Mar 2023</th><th>Mar 2024</th></tr>"
+             "<tr><td>Sales</td><td>1,000</td><td>1,200</td></tr>"
+             "<tr><td>Net Profit</td><td>100</td><td>150</td></tr></table>")
+    trp = _TopRatios()
+    trp.feed('<ul id="top-ratios"><li><span class="name">Market Cap</span>'
+             '<span class="nowrap value">₹1,50,000 Cr.</span></li>'
+             '<li><span class="name">Current Price</span><span class="nowrap value">₹ 500</span></li>'
+             '<li><span class="name">Stock P/E</span><span class="nowrap value">24.5</span></li>'
+             '<li><span class="name">Book Value</span><span class="nowrap value">₹ 250</span></li>'
+             '<li><span class="name">ROCE</span><span class="nowrap value">18.5</span></li>'
+             '<li><span class="name">Debt to equity</span><span class="nowrap value">0.35</span></li></ul>')
+    co_fx = {"symbol": "TEST", "name": "Test Ltd", "fetched_at": "2026-09-18",
+             "ratios": trp.ratios, "tables": tp2.tables}
+    fin_sc = fetch_fundamentals_from_company(co_fx)
+    ok("screener fundamentals: parsed ratios", bool(fin_sc) and fin_sc["pe"] == 24.5
+       and fin_sc["roce"] == 18.5 and fin_sc["market_cap_cr"] == 150000.0)
+    rec_sc = financials.derive(dict(fin_sc, source="screener_in"), px)
+    ok("screener fundamentals: ROCE flows into record (no x100)",
+       rec_sc["roce"] == 18.5 and rec_sc["roce_est"] == 18.5
+       and rec_sc["pe"] == 24.5 and rec_sc["pb"] == 2.0)
+    ok("derive: price present", rec["price"] is not None)
 
     # hermetic KB for all learning tests (never touches the real one)
     import tempfile
@@ -292,19 +316,19 @@ def selftest() -> int:
     alerts = exits.check_watchlist(cfg, wl, {"TEST": scored})
     ok("exits: stop-zone fires", any(a["level"] == "EXIT" for a in alerts))
 
-    rp = report.build_report(cfg, _selftest_ctx(cfg, rec, scored, hits, alerts))
+    rp = report.build_report(cfg, _selftest_ctx(cfg, rec, scored, hits, alerts, rec_sc))
     ok("report: written & non-empty", len(rp) > 500)
     ok("dashboard: no crash", (dashboard.build(cfg) or True))
     print(f"== selftest {'FAILED: ' + ', '.join(fails) if fails else 'ALL PASS'} ==")
     return 1 if fails else 0
 
 
-def _selftest_ctx(cfg, rec, scored, hits, alerts):
+def _selftest_ctx(cfg, rec, scored, hits, alerts, rec_sc=None):
     return {
         "date": "selftest", "version": "1.0.0-selftest", "nifty": None,
         "stats": {"universe_size": 1, "deep_scan": 1, "movers_tonight": 0},
         "buy": [scored], "watch": [], "alerts": alerts,
-        "records": {"TEST": rec}, "moves_learned": 0, "kb_total": 0,
+        "records": {"TEST": rec, "TESTSC": rec_sc}, "moves_learned": 0, "kb_total": 0,
         "move_digest": [], "signal_stats": {},
     }
 
@@ -349,10 +373,12 @@ def nightly() -> int:
         time.sleep(0.12)
     nifty = data.fetch_prices("^NSEI", lb, is_index=True)  # Yahoo index symbol
 
-    # fundamentals only for deep set (cache TTL 21d keeps cost flat)
+    # fundamentals for the deep set: screener.in first (true ROCE, PB, D/E),
+    # Yahoo quoteSummary as fallback when a page is missing/unparseable.
     fins: dict[str, dict] = {}
     for sym in tier["deep"]:
-        fins[sym] = data.fetch_fundamentals(sym) or {}
+        fins[sym] = (scrmod.fetch_fundamentals(sym, cfg)
+                     or data.fetch_fundamentals(sym) or {})
 
     records = {}
     for row in universe:

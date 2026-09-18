@@ -199,10 +199,163 @@ def fetch_company(symbol: str, cfg: dict) -> dict | None:
         return None
     if not p.tables:
         return None
-    out = {"symbol": symbol, "tables": p.tables,
+    tr = _TopRatios()
+    try:
+        tr.feed(html_text)
+    except Exception:
+        pass
+    out = {"symbol": symbol, "tables": p.tables, "ratios": tr.ratios,
            "fetched_at": datetime.utcnow().isoformat()}
     data.cache_write(key, out)
     return out
+
+
+# ---------------------------------------------- fundamentals from screener --
+class _TopRatios(HTMLParser):
+    """Parse the 'top ratios' widget on company pages (li > name span + value
+    span): Market Cap, Current Price, Stock P/E, Book Value, Dividend Yield,
+    ROCE, ROE, Debt to equity. Not a <table>, so it needs its own parser."""
+
+    def __init__(self):
+        super().__init__()
+        self.ratios: dict[str, str] = {}
+        self._in_ul = self._in_li = 0
+        self._span: list[str] | None = None
+        self._li_texts: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "ul" and "top-ratios" in (a.get("id", "") + " " + a.get("class", "")):
+            self._in_ul += 1
+        elif self._in_ul and tag == "li":
+            self._in_li += 1
+            self._li_texts = []
+        elif self._in_li and tag in ("span", "b", "a"):
+            self._span = []
+
+    def handle_endtag(self, tag):
+        if tag in ("span", "b", "a") and self._span is not None:
+            txt = " ".join("".join(self._span).split())
+            if txt and txt not in self._li_texts:
+                self._li_texts.append(txt)
+            self._span = None
+        elif tag == "li" and self._in_li:
+            if self._li_texts:
+                name = self._li_texts[0].strip().lower()
+                nums = [t for t in self._li_texts[1:] if any(c.isdigit() for c in t)]
+                val = (nums[-1].strip() if nums
+                       else self._li_texts[-1].strip() if len(self._li_texts) > 1 else "")
+                if name and val:
+                    self.ratios[name] = val
+            self._in_li -= 1
+        elif tag == "ul" and self._in_ul:
+            self._in_ul -= 1
+
+    def handle_data(self, d):
+        if self._span is not None:
+            self._span.append(d)
+
+
+def _ratio_val(ratios: dict, name: str) -> float | None:
+    v = str(ratios.get(name, "")).replace("₹", "").replace("Cr.", "").strip()
+    return _num(v)
+
+
+def fetch_fundamentals_from_company(co: dict) -> dict | None:
+    """Build a fin dict (same shape as data.fetch_fundamentals) from a parsed
+    screener company page: top-ratios widget + annual tables. Values arrive
+    ALREADY IN PERCENT (screener convention). Pure function of `co` —
+    offline-testable; never raises."""
+    try:
+        if not co or not co.get("tables"):
+            return None
+        r = co.get("ratios") or {}
+        price = _ratio_val(r, "current price")
+        pe = _ratio_val(r, "stock p/e")
+        bv = _ratio_val(r, "book value")
+        roce = _ratio_val(r, "roce")
+        roe = _ratio_val(r, "roe")
+        dy = _ratio_val(r, "dividend yield")
+        de = _ratio_val(r, "debt to equity")
+        mcap = _ratio_val(r, "market cap")
+
+        at = _find_period_table(co["tables"], "sales", annual=True)
+        _ky, sales = _series_from_table(at, "sales") if at else ([], [])
+        _kp, profit = _series_from_table(at, "net profit") if at else ([], [])
+        _ko, opm = _series_from_table(at, "opm") if at else ([], [])
+        _kd, payout = _series_from_table(at, "dividend payout") if at else ([], [])
+
+        def cagr(series, n=3):
+            if len(series) > n and series[-1] and series[-1 - n]:
+                try:
+                    return round(((series[-1] / series[-1 - n]) ** (1 / n) - 1) * 100, 1)
+                except (ZeroDivisionError, TypeError):
+                    return None
+            return None
+
+        rev_g = cagr(sales)
+        earn_g = cagr(profit)
+        # deep_value "earnings stabilizing": a LAST-YEAR collapse must not
+        # hide behind a good 3y average — surface the negative YoY.
+        if (len(profit) > 1 and profit[-1] is not None
+                and profit[-2] not in (None, 0)):
+            latest_yoy = (profit[-1] / profit[-2] - 1) * 100
+            if latest_yoy < 0:
+                earn_g = round(latest_yoy, 1)
+        pm = (profit[-1] / sales[-1] * 100
+              if (sales and profit and sales[-1] and profit[-1] is not None) else None)
+
+        # D/E fallback from balance sheet: Borrowings / (Equity + Reserves)
+        if de is None:
+            bt = _find_table(co["tables"], ["borrowings"])
+            if bt:
+                eq = bor = None
+                for row in bt["rows"]:
+                    lab = row[0].strip().lower()
+                    if lab.startswith("equity capital"):
+                        eq = _num(row[-1])
+                    elif lab.startswith("reserves"):
+                        eq = (eq or 0) + (_num(row[-1]) or 0)
+                    elif lab.startswith("borrowings"):
+                        bor = _num(row[-1])
+                if bor is not None and eq:
+                    de = round(bor / eq, 2)
+
+        # FCF proxy: latest year "Cash from Operating Activity"
+        fcf = None
+        ct = _find_table(co["tables"], ["cash from operating activity"])
+        if ct:
+            for row in ct["rows"]:
+                if row and "cash from operating activity" in row[0].strip().lower():
+                    fcf = _num(row[-1])
+                    break
+
+        if all(v is None for v in (pe, roce, mcap, rev_g)):
+            return None
+        return {
+            "symbol": co.get("symbol"),
+            "name": co.get("name") or co.get("symbol"),
+            "source": "screener_in",
+            "market_cap_cr": mcap, "pe": pe,
+            "pb": round(price / bv, 2) if (price and bv) else None,
+            "roce": roce, "roe": roe,
+            "opm": opm[-1] if opm else None,
+            "profit_margin": round(pm, 1) if pm is not None else None,
+            "debt_equity": de,
+            "revenue_growth": rev_g, "earnings_growth": earn_g,
+            "div_yield": dy, "payout_ratio": payout[-1] if payout else None,
+            "fcf_cr": fcf, "book_value_ps": bv,
+            "fetched_at": co.get("fetched_at"),
+        }
+    except Exception:
+        return None
+
+
+def fetch_fundamentals(symbol: str, cfg: dict) -> dict | None:
+    """Screener.in fundamentals (top-ratios widget + annual tables),
+    page-cached like all screener fetches."""
+    co = fetch_company(symbol, cfg)
+    return fetch_fundamentals_from_company(co) if co else None
 
 
 # ------------------------------------------------------------ PEAD proxy ----
