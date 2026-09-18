@@ -132,7 +132,9 @@ def fetch_prices(symbol: str, lookback_days: int = 400, force: bool = False,
     ysym = symbol if is_index else f"{symbol}.NS"
     url = (
         "https://query1.finance.yahoo.com/v8/finance/chart/"
-        f"{urllib.request.quote(ysym)}?range=1y&interval=1d"
+        # range=2y: ret_1y needs 251 closes; range=1y returns exactly ~250
+        # bars and the 1-year return printed as None every night.
+        f"{urllib.request.quote(ysym)}?range=2y&interval=1d"
     )
     js = _get_json(url)
     out = None

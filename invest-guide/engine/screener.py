@@ -175,6 +175,18 @@ def _series_from_table(t: dict, label_match: str) -> tuple[list, list[float]]:
     return [], []
 
 
+def _page_name(html_text: str) -> str | None:
+    """Company name from the page <h1> (e.g. 'Colgate Palmolive (India) Ltd.')
+    — tags stripped, 'share price' tail removed, length-capped."""
+    m = re.search(r"<h1[^>]*>(.*?)</h1>", html_text, re.S | re.I)
+    if not m:
+        return None
+    txt = re.sub(r"<[^>]+>", " ", m.group(1))
+    txt = " ".join(txt.split())
+    txt = re.sub(r"\s*share price.*$", "", txt, flags=re.I).strip()
+    return (txt or None) and txt[:60]
+
+
 # ------------------------------------------------------------ fetch ---------
 def fetch_company(symbol: str, cfg: dict) -> dict | None:
     """Fetch + parse one screener company page (cached screener.cache_days)."""
@@ -204,7 +216,8 @@ def fetch_company(symbol: str, cfg: dict) -> dict | None:
         tr.feed(html_text)
     except Exception:
         pass
-    out = {"symbol": symbol, "tables": p.tables, "ratios": tr.ratios,
+    out = {"symbol": symbol, "name": _page_name(html_text),
+           "tables": p.tables, "ratios": tr.ratios,
            "fetched_at": datetime.utcnow().isoformat()}
     data.cache_write(key, out)
     return out
