@@ -272,6 +272,10 @@ def selftest() -> int:
          "causes": ["order_win"], "fwd_30d": 6.0, "fwd_90d": 22.0, "faded": None},
         {"symbol": "D", "move_date": "2025-04-01", "regime": "trend", "direction": "up",
          "causes": ["order_win"], "fwd_30d": 5.0, "fwd_90d": None, "faded": None},
+        {"symbol": "E", "move_date": "2025-05-01", "regime": "corpact", "direction": "up",
+         "causes": ["dividend_split"], "fwd_30d": 6.0, "fwd_90d": None, "faded": None},
+        {"symbol": "F", "move_date": "2025-06-01", "regime": "corpact", "direction": "down",
+         "causes": ["dividend_split"], "fwd_30d": -6.0, "fwd_90d": None, "faded": None},
     ], "signals": {}})
     stats = learning.update_signal_stats(cfg)
     ok("v3: spike stats direction-aware (+5%/30d)", stats["spike"]["order_win:up"]["n"] == 2
@@ -284,6 +288,16 @@ def selftest() -> int:
        learning._success(cfg, {"regime": "spike", "direction": "down", "fwd_30d": -6.0}) is True)
     ok("v3: down-move that bounces is a miss",
        learning._success(cfg, {"regime": "spike", "direction": "down", "fwd_30d": 3.0}) is False)
+    ok("v1.4: corpact regime success (+5%/30d, direction-aware)",
+       learning._success(cfg, {"regime": "corpact", "direction": "up", "fwd_30d": 5.0}) is True
+       and learning._success(cfg, {"regime": "corpact", "direction": "up", "fwd_30d": -2.0}) is False
+       and learning._success(cfg, {"regime": "corpact", "direction": "down", "fwd_30d": -5.0}) is True
+       and learning._success(cfg, {"regime": "corpact", "direction": "up", "fwd_30d": None}) is None)
+    stats_cc = learning.update_signal_stats(cfg)
+    ok("v1.4: corpact tag lessons learned from KB",
+       stats_cc["corpact"]["dividend_split:up"]["n"] == 1
+       and stats_cc["corpact"]["dividend_split:down"]["n"] == 1
+       and stats_cc["corpact"]["__base__"]["n"] == 2)
     ok("v3: consistency = 1.0 for one-sided recent half",
        learning._consistency([("2025-01-01", False), ("2025-02-01", True),
                               ("2025-03-01", True), ("2025-04-01", True)]) == 1.0)

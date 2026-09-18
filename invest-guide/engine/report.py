@@ -82,13 +82,13 @@ def build_report(cfg: dict, ctx: dict) -> str:
         r.append(f"- {m}")
     if ctx.get("signal_stats"):
         flat = []
-        for regime in ("spike", "trend", "result"):
+        for regime in ("spike", "trend", "result", "corpact"):
             for tag, st in (ctx["signal_stats"].get(regime) or {}).items():
                 if tag == "__base__":
                     continue
                 flat.append((regime, tag, st))
         flat.sort(key=lambda x: -x[2]["n"])
-        r.append("\nTop learned signals (direction-aware · spike/result hit = +5%/30d · trend hit = +15%/90d):")
+        r.append("\nTop learned signals (direction-aware · spike/result/corpact hit = +5%/30d · trend hit = +15%/90d):")
         for regime, tag, st in flat[:6]:
             line = (f"- `{regime}:{tag}`: {st['hit_rate']:.0%} over {st['n']} events"
                     + (f" · consistency {st['consistency']:.0%}" if st.get("consistency") is not None else "")

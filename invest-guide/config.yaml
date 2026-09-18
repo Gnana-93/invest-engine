@@ -148,6 +148,7 @@ learning:
   success_threshold_pct: 5.0        # +5% within 30d = suggestion "worked" (events/spikes)
   success_threshold_90d_pct: 15.0   # trend-regime success: +15% within 90d (sustained)
   success_threshold_result_pct: 5.0 # result/PEAD regime: drift in surprise direction
+  success_threshold_corpact_pct: 5.0 # corpact regime: drift in announcement direction
   fade_threshold_pct: -10.0         # spike that gave back this much = "chase trap"
   backfill_years: 5                 # nightly backfill: move-cause harvest
   prior_hit_rate: 0.5               # Laplace-smoothing prior

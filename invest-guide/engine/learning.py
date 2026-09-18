@@ -99,7 +99,7 @@ from . import data
 ROOT = Path(__file__).resolve().parent.parent
 KB_FILE = ROOT / "data" / "knowledge_base.json"
 
-REGIMES = ("spike", "trend", "result", "high52", "mom63_1")
+REGIMES = ("spike", "trend", "result", "high52", "mom63_1", "corpact")
 
 
 # ------------------------------------------------------------- knowledge base
@@ -188,8 +188,13 @@ def tag_causes(cfg: dict, symbol: str, news: list[dict]) -> list[str]:
     sym_clean = symbol.lower().replace("&", "and")
     for item in news:
         title = item.get("title", "").lower()
+        # v1.4: some headlines name the company via keywords without the
+        # symbol ("record date for bonus issue announced") — match those too
+        # so corporate-action lessons actually get recorded.
         if sym_clean not in title and symbol.lower() not in title:
-            continue
+            kw = cfg["news"]["keyword_tags"]
+            if not ("dividend_split" in kw and any(w in title for w in kw["dividend_split"])):
+                continue
         for tag, words in kw.items():
             if any(w in title for w in words):
                 tags.add(tag)
@@ -219,6 +224,7 @@ def harvest(cfg: dict, universe: list[dict], news: list[dict], max_stocks: int =
     # high52/mom63_1 de-dup: state-like signals, one event per 45d window
     recent_high52 = set()
     recent_mom = set()
+    recent_corpact = set()
     for e in kb["events"]:
         try:
             age = (today - datetime.strptime(e["move_date"], "%Y-%m-%d")).days
@@ -232,6 +238,8 @@ def harvest(cfg: dict, universe: list[dict], news: list[dict], max_stocks: int =
             recent_high52.add(e["symbol"])
         if age <= 45 and e.get("regime") == "mom63_1":
             recent_mom.add(e["symbol"])
+        if age <= 90 and e.get("regime") == "corpact":
+            recent_corpact.add(e["symbol"])
 
     for rec in universe:
         sym = rec["symbol"]
@@ -240,6 +248,29 @@ def harvest(cfg: dict, universe: list[dict], news: list[dict], max_stocks: int =
         if not px:
             continue
         causes = tag_causes(cfg, sym, news)
+
+        # ---- CORPACT regime: bonus/dividend/split/buyback headlines —
+        # the record IS the announcement (these rarely move price >=4%, so a
+        # price-shape event would never capture them). De-dup 90d = same
+        # corporate action once; results-day keeps the sharper result lesson.
+        if ("dividend_split" in causes and "results" not in causes
+                and sym not in recent_corpact
+                and (sym, px["dates"][-1]) not in seen_exact):
+            r1 = px.get("ret_1d") or 0.0
+            kb["events"].append({
+                "symbol": sym, "move_date": px["dates"][-1],
+                "kind": "corpact", "regime": "corpact",
+                "direction": "up" if r1 >= 0 else "down",
+                "ret_1d": px.get("ret_1d"), "ret_5d": px.get("ret_5d"),
+                "ret_21d": px.get("ret_21d"),
+                "trigger_ret": round(r1, 2),
+                "violent": False, "volume_x": None, "confirmed": None,
+                "causes": causes,
+                "fwd_30d": None, "fwd_90d": None, "faded": None,
+                "recorded": today_s,
+            })
+            written += 1
+            continue
 
         # ---- RESULT regime (PEAD): results-day headline, any price reaction
         if "results" in causes and sym not in recent_results and (sym, px["dates"][-1]) not in seen_exact:
@@ -365,6 +396,12 @@ def _success(cfg: dict, e: dict) -> bool | None:
             return None                      # trends need their 90d verdict
         thr = lcfg.get("success_threshold_90d_pct", 15.0)
         return f <= -thr if down else f >= thr
+    if e.get("regime") == "corpact":
+        f = e.get("fwd_30d")
+        if f is None:
+            return None                      # corporate-action drift needs its 30d verdict
+        thr = lcfg.get("success_threshold_corpact_pct", 5.0)
+        return f <= -thr if down else f >= thr
     if e.get("regime") == "result":
         f = e.get("fwd_30d")
         if f is None:
@@ -481,6 +518,9 @@ def _current_regime(cfg: dict, symbol: str, causes_today: list[str]) -> tuple[st
     if "results" in causes_today:
         notes.append("results-day detected — PEAD drift stats used")
         return "result", notes
+    if "dividend_split" in causes_today:
+        notes.append("corporate-action context (bonus/dividend/split/buyback) — corpact stats used")
+        return "corpact", notes
     if not px:
         return "spike", notes             # default: judge by event-day tags
     u = cfg["universe"]
@@ -511,7 +551,7 @@ def _current_direction(cfg: dict, symbol: str, regime: str) -> str:
     if not px:
         return "up"
     r1, r5, r21 = px.get("ret_1d"), px.get("ret_5d"), px.get("ret_21d")
-    if regime in ("result", "spike", "high52", "mom63_1"):
+    if regime in ("result", "spike", "high52", "mom63_1", "corpact"):
         return "up" if (r1 or 0) >= 0 else "down"
     if r5 is not None and abs(r5) >= cfg["universe"].get("move_5d_pct", 12.0):
         return "up" if r5 >= 0 else "down"
