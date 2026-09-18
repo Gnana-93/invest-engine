@@ -42,7 +42,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1917.8,
+   "ref_price": 1860.0,
    "date": "2026-09-18",
    "causes": []
   },
@@ -72,7 +72,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 215.71,
+   "ref_price": 209.45,
    "date": "2026-09-18",
    "causes": []
   },
@@ -102,7 +102,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2660.1,
+   "ref_price": 2460.3,
    "date": "2026-09-18",
    "causes": []
   },
@@ -132,7 +132,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2748.6,
+   "ref_price": 2596.6,
    "date": "2026-09-18",
    "causes": []
   }
