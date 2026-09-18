@@ -42,7 +42,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1860.0,
+   "ref_price": 1917.8,
    "date": "2026-09-18",
    "causes": []
   },
@@ -72,7 +72,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 209.45,
+   "ref_price": 215.71,
    "date": "2026-09-18",
    "causes": []
   },
@@ -102,7 +102,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2460.3,
+   "ref_price": 2660.1,
    "date": "2026-09-18",
    "causes": []
   },
@@ -132,37 +132,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2596.6,
-   "date": "2026-09-18",
-   "causes": []
-  },
-  {
-   "symbol": "MANKIND",
-   "score": 60.7,
-   "parts": {
-    "quality": 55.3,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 2300.0,
+   "ref_price": 2748.6,
    "date": "2026-09-18",
    "causes": []
   }
