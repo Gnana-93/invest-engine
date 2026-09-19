@@ -1,5 +1,9 @@
 # 🚀 Going Live — Step-by-Step (from a fresh Windows PC)
 
+> **STATUS (2026-09-19): ✅ COMPLETE — engine is LIVE.** This guide is kept for
+> reference / re-setup on a new machine. Parts 1–7 were all executed; nightly
+> runs are green and reports commit to the repo on schedule.
+
 Follow top to bottom. Nothing here needs money. Total time: ~30 minutes.
 
 > After finishing, the engine runs itself at **02:45 IST every night** and the
@@ -165,5 +169,7 @@ From tonight on, it runs itself at 02:45 IST. Nothing more to do.
 - **Morning:** read Telegram. That's the whole routine.
 - **Track buys:** add symbols to `invest-guide/data/watchlist.json`
   (format shown in README) — they get exit/tax monitoring every night.
+- **On your PC:** run `git pull` before working locally — the bot commits
+  reports every night and your clone will be behind.
 - **Fix anything:** ask the assistant in a chat session; the progress map
   (`invest-guide/PROGRESS.md`) lets any session resume instantly.

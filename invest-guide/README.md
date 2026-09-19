@@ -24,8 +24,10 @@ timelines**, and pings you on **Telegram** before your morning.
    | Turnaround | margin inflection + earnings turned positive; debt always flagged |
 4. **Learning loop**: every ≥4% move is recorded with cause tags (order win,
    results, management change, pledge, capex, regulatory, ratings) from free
-   news RSS. Each signal accumulates a hit-rate — P(+5% within 30d) — with
-   Laplace smoothing. Hit-rates need n≥8 events before they influence scores.
+   news RSS, plus a **corporate-action regime** (bonus/dividend/split/buyback:
+   the announcement itself is the event; success = 30d drift in reaction
+   direction). Each signal accumulates a hit-rate with Laplace smoothing.
+   Hit-rates need n≥8 events before they influence scores.
    This is the **evidence/confidence factor** shown next to every suggestion.
 5. **Scoring**: `quality(0.60) + evidence(0.25) + data-quality(0.10) + liquidity(0.05)`
    → A ≥75, B ≥60, C ≥45, else D. Only A/B go to the BUY table.
@@ -81,7 +83,8 @@ Add microcaps to the universe via `invest-guide/data/universe_extra.json`
 
 - **Daily**: read Telegram. That's it.
 - **Weekly**: skim `reports/` + learned-signal table on the dashboard;
-  prune watchlist names that exited.
+  prune watchlist names that exited. On your PC, run `git pull` so your
+  local copy matches the bot's nightly commits.
 - **Every July** (new FY): verify tax constants at the top of
   `engine/tax.py` against current Finance Act. Two numbers: STCG rate,
   LTCG rate/exemption.
@@ -91,17 +94,19 @@ Add microcaps to the universe via `invest-guide/data/universe_extra.json`
 ## Local run (optional)
 
 ```bash
-python run.py selftest   # offline assertions, no network
-python run.py backfill   # learning-loop harvest only
-python run.py nightly    # full pipeline
+python run.py selftest    # offline assertions, no network
+python run.py nightly     # full pipeline
+python run.py backfill    # learning-loop harvest only
+python run.py backtest    # regime backtest from cached price history
+python run.py screenerbt  # screener.in cross-check (budgeted, rotates)
 ```
 
 Python 3.10+ · zero dependencies (stdlib only).
 
 ## How the engine validates itself (evidence, not trust)
 
-The engine holds theories — its strategy screens and 5 learning regimes
-(spike, trend, results-drift, 52-week-high, 3-1 momentum). Per your rule, no
+The engine holds theories — its strategy screens and 6 learning regimes
+(spike, trend, results-drift, 52-week-high, 3-1 momentum, corpact). Per your rule, no
 theory is trusted because a paper or a guru says so: each is backtested
 against REAL data, and only trusted if its measured rate beats the base rate.
 
@@ -126,7 +131,7 @@ International canon used (verification status honest):
 |---|---|---|
 | Compute/schedule | GitHub Actions, public repo | ₹0 |
 | Price data | Yahoo Finance chart API | ₹0 |
-| Fundamentals | Yahoo quoteSummary (+ Screener.in 10-yr/quarterly cross-check, built in) | ₹0 |
+| Fundamentals | Screener.in pages (true ROCE/PB/D/E + annual & quarterly tables), Yahoo quoteSummary as fallback — swapped Sep 2026 after Yahoo started 401-ing | ₹0 |
 | News | ET / Moneycontrol / Business-Standard RSS | ₹0 |
 | Delivery | Telegram bot + committed HTML dashboard | ₹0 |
 | LLM | none — deterministic rules engine | ₹0 |
