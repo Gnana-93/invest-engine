@@ -1,56 +1,11 @@
 {
- "date": "2026-09-18",
+ "date": "2026-09-19",
  "buy": [
   {
-   "symbol": "COLPAL",
-   "score": 75.1,
+   "symbol": "PIDILITIND",
+   "score": 68.7,
    "parts": {
-    "quality": 79.4,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "quality_compounder",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 2,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1860.0,
-   "date": "2026-09-18",
-   "causes": []
-  },
-  {
-   "symbol": "HFCL",
-   "score": 71.3,
-   "parts": {
-    "quality": 72.9,
+    "quality": 68.6,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -72,15 +27,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 209.45,
-   "date": "2026-09-18",
-   "causes": []
+   "ref_price": 1572.1,
+   "date": "2026-09-19",
+   "causes": [
+    "dividend_split"
+   ]
   },
   {
-   "symbol": "WELCORP",
-   "score": 67.9,
+   "symbol": "POWERGRID",
+   "score": 65.1,
    "parts": {
-    "quality": 67.3,
+    "quality": 62.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -102,15 +59,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2460.3,
-   "date": "2026-09-18",
-   "causes": []
+   "ref_price": 270.3,
+   "date": "2026-09-19",
+   "causes": [
+    "dividend_split"
+   ]
   },
   {
-   "symbol": "CAPLIPOINT",
-   "score": 67.6,
+   "symbol": "TORNTPOWER",
+   "score": 61.3,
    "parts": {
-    "quality": 66.9,
+    "quality": 56.3,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -132,11 +91,41 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2596.6,
-   "date": "2026-09-18",
-   "causes": []
+   "ref_price": 1258.8,
+   "date": "2026-09-19",
+   "causes": [
+    "dividend_split"
+   ]
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "DRREDDY",
+   "score": 56.9,
+   "parts": {
+    "quality": 49.0,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }
