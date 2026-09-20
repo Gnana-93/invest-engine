@@ -1,16 +1,16 @@
 {
- "date": "2026-09-19",
+ "date": "2026-09-20",
  "buy": [
   {
-   "symbol": "PIDILITIND",
-   "score": 68.7,
+   "symbol": "NATIONALUM",
+   "score": 76.1,
    "parts": {
-    "quality": 68.6,
+    "quality": 81.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "A",
    "strategies": [
     "turnaround"
    ],
@@ -27,17 +27,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1572.1,
-   "date": "2026-09-19",
+   "ref_price": 350.5,
+   "date": "2026-09-20",
    "causes": [
     "dividend_split"
    ]
   },
   {
-   "symbol": "POWERGRID",
-   "score": 65.1,
+   "symbol": "TBOTEK",
+   "score": 62.7,
    "parts": {
-    "quality": 62.7,
+    "quality": 58.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -59,17 +59,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 270.3,
-   "date": "2026-09-19",
+   "ref_price": 1710.6,
+   "date": "2026-09-20",
    "causes": [
     "dividend_split"
    ]
   },
   {
-   "symbol": "TORNTPOWER",
-   "score": 61.3,
+   "symbol": "AWL",
+   "score": 61.0,
    "parts": {
-    "quality": 56.3,
+    "quality": 55.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -91,41 +91,13 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1258.8,
-   "date": "2026-09-19",
+   "ref_price": 186.98,
+   "date": "2026-09-20",
    "causes": [
     "dividend_split"
    ]
   }
  ],
- "watch": [
-  {
-   "symbol": "DRREDDY",
-   "score": 56.9,
-   "parts": {
-    "quality": 49.0,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  }
- ],
+ "watch": [],
  "alerts": []
 }

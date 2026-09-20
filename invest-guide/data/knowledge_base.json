@@ -13405,6 +13405,48 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
+  },
+  {
+   "symbol": "ABBOTINDIA",
+   "move_date": "2026-09-16",
+   "kind": "corpact",
+   "regime": "corpact",
+   "direction": "up",
+   "ret_1d": 0.0,
+   "ret_5d": 2.23,
+   "ret_21d": -2.9,
+   "trigger_ret": 0.0,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-20"
+  },
+  {
+   "symbol": "JMFINANCIL",
+   "move_date": "2026-09-16",
+   "kind": "corpact",
+   "regime": "corpact",
+   "direction": "down",
+   "ret_1d": -0.62,
+   "ret_5d": -4.95,
+   "ret_21d": -3.94,
+   "trigger_ret": -0.62,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-20"
   }
  ],
  "signals": {
@@ -13415,6 +13457,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-09-19T23:01:14.617027",
- "backfill_cursor": 120
+ "updated": "2026-09-20T23:16:53.035111",
+ "backfill_cursor": 140
 }
