@@ -30,7 +30,7 @@
      "data_quality": 1.0
     }
    ],
-   "ref_price": 1826.7,
+   "ref_price": 1824.6,
    "date": "2026-09-22",
    "causes": []
   },
@@ -60,7 +60,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1415.4,
+   "ref_price": 1486.0,
    "date": "2026-09-22",
    "causes": []
   }
