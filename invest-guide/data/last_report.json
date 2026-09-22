@@ -1,43 +1,44 @@
 {
- "date": "2026-09-20",
+ "date": "2026-09-22",
  "buy": [
   {
-   "symbol": "NATIONALUM",
-   "score": 76.1,
+   "symbol": "LLOYDSME",
+   "score": 79.7,
    "parts": {
-    "quality": 81.0,
+    "quality": 87.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "A",
    "strategies": [
-    "turnaround"
+    "quality_compounder"
    ],
    "hits": [
     {
-     "strategy": "turnaround",
+     "strategy": "quality_compounder",
      "criteria_passed": [
-      "margins improving",
-      "not loss-making"
+      "roce_est >= min",
+      "debt_equity <= max",
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+     "data_quality": 1.0
     }
    ],
-   "ref_price": 350.5,
-   "date": "2026-09-20",
-   "causes": [
-    "dividend_split"
-   ]
+   "ref_price": 1826.7,
+   "date": "2026-09-22",
+   "causes": []
   },
   {
-   "symbol": "TBOTEK",
-   "score": 62.7,
+   "symbol": "AEGISLOG",
+   "score": 64.9,
    "parts": {
-    "quality": 58.7,
+    "quality": 62.4,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -59,22 +60,22 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1710.6,
-   "date": "2026-09-20",
-   "causes": [
-    "dividend_split"
-   ]
-  },
+   "ref_price": 1415.4,
+   "date": "2026-09-22",
+   "causes": []
+  }
+ ],
+ "watch": [
   {
-   "symbol": "AWL",
-   "score": 61.0,
+   "symbol": "TECHNOE",
+   "score": 59.8,
    "parts": {
-    "quality": 55.8,
+    "quality": 53.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "C",
    "strategies": [
     "turnaround"
    ],
@@ -90,14 +91,8 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ],
-   "ref_price": 186.98,
-   "date": "2026-09-20",
-   "causes": [
-    "dividend_split"
    ]
   }
  ],
- "watch": [],
  "alerts": []
 }
