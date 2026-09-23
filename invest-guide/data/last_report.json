@@ -1,44 +1,11 @@
 {
- "date": "2026-09-22",
+ "date": "2026-09-23",
  "buy": [
   {
-   "symbol": "LLOYDSME",
-   "score": 79.7,
+   "symbol": "JMFINANCIL",
+   "score": 72.2,
    "parts": {
-    "quality": 87.0,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "quality_compounder"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ],
-   "ref_price": 1824.6,
-   "date": "2026-09-22",
-   "causes": []
-  },
-  {
-   "symbol": "AEGISLOG",
-   "score": 64.9,
-   "parts": {
-    "quality": 62.4,
+    "quality": 74.5,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -60,9 +27,43 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1486.0,
-   "date": "2026-09-22",
-   "causes": []
+   "ref_price": 127.51,
+   "date": "2026-09-23",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "ASAHIINDIA",
+   "score": 67.1,
+   "parts": {
+    "quality": 65.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 965.15,
+   "date": "2026-09-23",
+   "causes": [
+    "dividend_split"
+   ]
   }
  ],
  "watch": [
@@ -71,6 +72,60 @@
    "score": 59.8,
    "parts": {
     "quality": 53.8,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "JSWENERGY",
+   "score": 58.9,
+   "parts": {
+    "quality": 52.4,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "MAZDOCK",
+   "score": 58.8,
+   "parts": {
+    "quality": 52.1,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
