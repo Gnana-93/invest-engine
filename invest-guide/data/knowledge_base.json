@@ -17139,6 +17139,385 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-24"
+  },
+  {
+   "symbol": "AUBANK",
+   "move_date": "2026-09-24",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.02,
+   "ret_5d": -3.77,
+   "ret_21d": -10.18,
+   "trigger_ret": -5.02,
+   "volume_x": 3.69,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "ANANTRAJ",
+   "move_date": "2026-09-25",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -1.07,
+   "ret_5d": 1.86,
+   "ret_21d": 2.01,
+   "trigger_ret": 15.94,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "BALRAMCHIN",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.0,
+   "ret_5d": 1.96,
+   "ret_21d": 5.52,
+   "trigger_ret": 4.0,
+   "volume_x": 1.1,
+   "confirmed": false,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "CASTROLIND",
+   "move_date": "2026-09-25",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 3.53,
+   "ret_5d": 2.3,
+   "ret_21d": 8.85,
+   "trigger_ret": -1.09,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "CUB",
+   "move_date": "2026-09-25",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 2.29,
+   "ret_5d": -4.33,
+   "ret_21d": -1.6,
+   "trigger_ret": 18.91,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "ENGINERSIN",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 6.4,
+   "ret_5d": 18.51,
+   "ret_21d": 27.81,
+   "trigger_ret": 6.4,
+   "volume_x": 2.52,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "HEGAM",
+   "move_date": "2026-09-25",
+   "kind": "corpact",
+   "regime": "corpact",
+   "direction": "up",
+   "ret_1d": 3.87,
+   "ret_5d": 3.08,
+   "ret_21d": -65.59,
+   "trigger_ret": 3.87,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "HAL",
+   "move_date": "2026-09-25",
+   "kind": "result",
+   "regime": "result",
+   "direction": "up",
+   "ret_1d": 0.54,
+   "ret_5d": -0.01,
+   "ret_21d": -2.02,
+   "trigger_ret": 0.54,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "HOMEFIRST",
+   "move_date": "2026-09-24",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.01,
+   "ret_5d": -1.35,
+   "ret_21d": -2.21,
+   "trigger_ret": -4.01,
+   "volume_x": 0.38,
+   "confirmed": false,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "JUBLFOOD",
+   "move_date": "2026-09-25",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 1.18,
+   "ret_5d": -3.09,
+   "ret_21d": -3.86,
+   "trigger_ret": 18.08,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "KAYNES",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.0,
+   "ret_5d": 3.84,
+   "ret_21d": -9.18,
+   "trigger_ret": 4.0,
+   "volume_x": 1.26,
+   "confirmed": false,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "MFSL",
+   "move_date": "2026-09-24",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": true,
+   "ret_1d": -9.78,
+   "ret_5d": -9.27,
+   "ret_21d": -11.88,
+   "trigger_ret": -9.78,
+   "volume_x": 21.74,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "MEESHO",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -6.78,
+   "ret_5d": 1.22,
+   "ret_21d": 4.54,
+   "trigger_ret": -6.78,
+   "volume_x": 1.32,
+   "confirmed": false,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "OLAELEC",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": true,
+   "ret_1d": -9.5,
+   "ret_5d": 5.74,
+   "ret_21d": 2.26,
+   "trigger_ret": -9.5,
+   "volume_x": 2.09,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "POLICYBZR",
+   "move_date": "2026-09-25",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -3.41,
+   "ret_5d": -33.1,
+   "ret_21d": -36.56,
+   "trigger_ret": -33.1,
+   "volume_x": 16.04,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "WELCORP",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.21,
+   "ret_5d": 6.48,
+   "ret_21d": 17.73,
+   "trigger_ret": 5.21,
+   "volume_x": 1.31,
+   "confirmed": false,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "WHIRLPOOL",
+   "move_date": "2026-09-25",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.67,
+   "ret_5d": 28.03,
+   "ret_21d": 9.24,
+   "trigger_ret": 7.67,
+   "volume_x": 23.12,
+   "confirmed": true,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
+  },
+  {
+   "symbol": "ZYDUSLIFE",
+   "move_date": "2026-09-25",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 2.0,
+   "ret_5d": 3.78,
+   "ret_21d": 1.24,
+   "trigger_ret": -0.09,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-09-25"
   }
  ],
  "signals": {
@@ -17149,6 +17528,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-09-24T23:54:09.495273",
- "backfill_cursor": 220
+ "updated": "2026-09-25T23:58:10.036439",
+ "backfill_cursor": 240
 }
