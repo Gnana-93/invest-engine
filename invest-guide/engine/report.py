@@ -106,6 +106,31 @@ def build_report(cfg: dict, ctx: dict) -> str:
              "sell-timeline advice per holding appears in section 4 when triggered.")
     r.append("")
 
+    # ---- 6b research desk (v2 shadow channels)
+    v2 = ctx.get("v2") or {}
+    if v2:
+        r.append("## 6b. Research desk (shadow mode — displayed, not yet scored)")
+        ta_lines = v2.get("ta_lines") or []
+        own = v2.get("ownership_alerts") or []
+        deal_lines = v2.get("deal_lines") or []
+        if ta_lines:
+            r.append("**Technicals** (from cached price series):")
+            for ln in ta_lines[:10]:
+                r.append(f"- {ln}")
+        if own:
+            r.append("\n**Ownership shifts** (quarterly shareholding, screener tables):")
+            for ln in own[:8]:
+                r.append(f"- {ln}")
+        if deal_lines:
+            r.append("\n**Bulk/block deals today** (NSE archives):")
+            for ln in deal_lines:
+                r.append(f"- {ln}")
+        elif v2.get("deals_note"):
+            r.append(f"\n_Bulk/block deals: {v2['deals_note']}_")
+        if not (ta_lines or own or deal_lines):
+            r.append("_nothing new surfaced by the shadow channels tonight_")
+        r.append("")
+
     # ---- 7 data honesty
     r.append("## 7. Data quality note")
     weak = [s for s, rec in ctx["records"].items() if (rec.get("data_quality") or 0) < 0.5]

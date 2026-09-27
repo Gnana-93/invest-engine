@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
 from engine import data, financials, strategies, scoring, learning, tax, exits, report, dashboard, notify  # noqa: E402
+from engine import ownership, technical  # v2 shadow channels  # noqa: E402
 from engine import backtest as btmod  # noqa: E402
 from engine import screener as scrmod  # noqa: E402
 from engine.universe import build_universe, pick_tier_a  # noqa: E402
@@ -371,8 +372,8 @@ def _selftest_ctx(cfg, rec, scored, hits, alerts, rec_sc=None):
         "date": "selftest", "version": "1.0.0-selftest", "nifty": None,
         "stats": {"universe_size": 1, "deep_scan": 1, "movers_tonight": 0},
         "buy": [scored], "watch": [], "alerts": alerts,
-        "records": {"TEST": rec, "TESTSC": rec_sc}, "moves_learned": 0, "kb_total": 0,
-        "move_digest": [], "signal_stats": {},
+        "records": {"TEST": rec, "TESTSC": (rec_sc or {})}, "moves_learned": 0, "kb_total": 0,
+        "move_digest": [], "signal_stats": {}, "v2": {},
     }
 
 
@@ -418,10 +419,25 @@ def nightly() -> int:
 
     # fundamentals for the deep set: screener.in first (true ROCE, PB, D/E),
     # Yahoo quoteSummary as fallback when a page is missing/unparseable.
+    # v2: we keep the parsed company page (fetch_company is page-cached) so
+    # the ownership channel can read the shareholding table from the SAME
+    # response — zero extra requests to screener.in.
     fins: dict[str, dict] = {}
+    companies: dict[str, dict] = {}
     for sym in tier["deep"]:
-        fins[sym] = (scrmod.fetch_fundamentals(sym, cfg)
-                     or data.fetch_fundamentals(sym) or {})
+        co = scrmod.fetch_company(sym, cfg)
+        companies[sym] = co
+        fins[sym] = (scrmod.fetch_fundamentals_from_company(co)
+                     if co else None) or data.fetch_fundamentals(sym) or {}
+
+    # v2 channel: quarterly shareholding shifts + today's bulk/block deals.
+    # Deals feed fails soft (NSE 403s non-browser traffic) — never critical.
+    deals = ownership.fetch_deals({r["symbol"] for r in universe})
+    ownership_by_sym: dict[str, dict] = {}
+    for sym in tier["deep"]:
+        bundled = ownership.analyze(companies.get(sym), deals, sym)
+        if bundled:
+            ownership_by_sym[sym] = bundled
 
     records = {}
     for row in universe:
@@ -432,6 +448,18 @@ def nightly() -> int:
         sym = w.get("symbol", "").upper()
         if sym in prices and sym not in records:
             records[sym] = financials.derive(fins.get(sym), prices.get(sym))
+
+    # v2 overlay: technicals from the already-cached 400-bar series (no
+    # network) + the ownership bundle. Shadow phase — displayed in the
+    # report but NOT yet inputs to scoring (config has no technical_weight
+    # until the measured rates justify trusting them).
+    for sym, rec in records.items():
+        ta = technical.analyze(prices.get(sym) or {})
+        if ta:
+            rec["technical"] = ta
+        ob = ownership_by_sym.get(sym)
+        if ob:
+            rec["ownership"] = ob
 
     hits = strategies.screen_all(cfg, records)
 
@@ -494,6 +522,20 @@ def nightly() -> int:
         for m in learning.detect_moves(cfg, universe)[:10]
     ]
 
+    # v2 research-desk digest for the report + Telegram (shadow mode)
+    ta_lines = []
+    for sym in sorted(candidates):
+        ta_lines.extend(technical.shadow_summary(sym, {sym: records.get(sym) or {}}))
+    own_alerts = [f"{sym}: {a}" for sym in sorted(ownership_by_sym)
+                  for a in ownership_by_sym[sym]["alerts"]]
+    v2 = {
+        "mode": "shadow",
+        "ta_lines": ta_lines,
+        "ownership_alerts": own_alerts,
+        "deal_lines": ownership.deal_lines(deals),
+        "deals_note": deals.get("note", ""),
+    }
+
     ctx = {
         "date": today,
         "version": _version(),
@@ -507,6 +549,7 @@ def nightly() -> int:
         "kb_total": len(learning._load_kb()["events"]),
         "move_digest": move_digest,
         "signal_stats": signal_stats,
+        "v2": v2,
     }
     text = report.build_report(cfg, ctx)
     print("[nightly] report + last_report.json written", flush=True)
@@ -585,6 +628,15 @@ def _telegram_summary(cfg, ctx) -> str:
         lines.append("\n<b>⚠ Alerts</b>")
         for a in ctx["alerts"][:5]:
             lines.append(f"• [{_esc(a['level'])}] {_esc(a['symbol'])}: {_esc(a['msg'][:90])}")
+    v2 = ctx.get("v2") or {}
+    own_al = v2.get("ownership_alerts") or []
+    if own_al:
+        lines.append("\n<b>🔭 Research desk (shadow)</b>")
+        for ln in own_al[:3]:
+            lines.append(f"• {_esc(ln)}")
+    dl = v2.get("deal_lines") or []
+    for ln in dl[:2]:
+        lines.append(f"• {_esc(ln)}")
     lines.append(f"\nLearned tonight: {ctx['moves_learned']} moves · KB {ctx['kb_total']}")
     lines.append("<i>Educational tool. Not investment advice.</i>")
     return "\n".join(lines)
