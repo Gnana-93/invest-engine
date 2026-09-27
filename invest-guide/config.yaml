@@ -6,7 +6,7 @@
 # ============================================================================
 
 meta:
-  engine_version: "1.0.0"
+  engine_version: "1.5.0"
   timezone: "Asia/Kolkata"          # all logic in IST
   # In Actions we run in UTC; cron 21:15 UTC = 02:45 IST (pre-report for morning).
 
