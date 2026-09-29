@@ -56,6 +56,14 @@ A zero-cost, client-side web app to analyze big life decisions via scenario anal
 
 **Deploy status: not live anywhere.** `origin` = github.com/Gnana-93/invest-engine, but `main` is ahead 2 commits (31aeca6 app + 14c3309 fix) — **unpushed**. No Vercel/Netlify config exists in the repo. Deploy remains the owner's manual step (checklist at bottom).
 
+## Backlog — proposed for next version (NOT started, awaiting owner review after mobile testing)
+
+Owner feedback, 2026-09-29:
+1. **Exact numeric input for sliders** — slider-only adjustment is difficult; add the option to type the exact value as a number.
+2. **Guidance text** — explain what an "option" is, and how to build a custom template, with an example of what's expected in each field.
+
+Ideas (owner to decide scope): number inputs beside sliders (aria-friendly, keyboard-first); a "What's an option?" explainer card or info tooltips on the template/custom screens; a filled example decision (not just placeholders) plus per-field help text (title ≥10 chars, description ≥20 chars, scenario description ≥10 chars, probability per option must sum to 100%, value from −100 to +100).
+
 ## Owner's manual testing checklist
 1. Open on phone-sized window — layout stacks, no horizontal scroll
 2. Landing → pick a template (marriage / career / house / business) → wizard loads pre-filled
@@ -75,7 +83,7 @@ npm run dev   # http://localhost:3000
 
 ## Deploy (zero cost, ~5 min, owner does this at the end)
 
-> Status 2026-09-29: repo **pushed** to GitHub (merge commit 8530176; fix 14c3309 included). Vercel import pending — when importing, set **Root Directory = `decision-analyzer`** (monorepo) or the build will fail.
+> Status 2026-09-29: **LIVE** — https://invest-engine-nine.vercel.app — owner completed the Vercel import. Verified 2026-09-29: the full 19-assertion browser suite was run against the production URL — **19/19 PASS** (landing → custom decision → accordions → sliders → validation/normalize → **Calculate Results navigates to `/results`** → persistence → no console errors). Identical results to the verified local build.
 1. Push this repo to GitHub
 2. vercel.com → Sign up free → "Add New Project" → import the repo → Framework auto-detected → Deploy
 3. Done — free `*.vercel.app` URL, auto-redeploys on every git push
