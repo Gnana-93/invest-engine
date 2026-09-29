@@ -1,6 +1,6 @@
 # Scenario Decision Analyzer — Build Log
 
-> Living document. Updated at every milestone. Last updated: 2026-09-29 — **build complete, verified.**
+> Living document. Updated at every milestone. Last updated: 2026-09-29 — **goResults navigation bug fixed, browser-verified (commit 14c3309).**
 
 ## What this is
 A zero-cost, client-side web app to analyze big life decisions via scenario analysis and Expected Value (EV). No backend, no accounts, no API keys. Data stays in your browser (localStorage, key `decision-storage`).
@@ -36,6 +36,26 @@ A zero-cost, client-side web app to analyze big life decisions via scenario anal
 - `npm run build` — production build succeeds (`.next/BUILD_ID` present)
 - Store persists via zustand `persist` middleware → localStorage key `decision-storage`
 
+## Bug fix + verification session — 2026-09-29 (commit 14c3309)
+
+**Bug:** `components/wizard/DecisionEditor.tsx` → `goResults()` called `calculateExpectedValues()` + `setStep(2)` but never navigated, so the **Calculate Results button did nothing**. Caught by owner testing (no CI existed to catch it).
+
+**Fix (14c3309, 1 file, +3 lines):** added `useRouter` import, `const router = useRouter()`, `router.push("/results")`.
+
+**Checks run — all pass, evidence is exit codes:**
+| Check | Command | Result |
+|---|---|---|
+| Typecheck | `npx tsc --noEmit` | exit 0, no errors |
+| Build | `npm run build` | pass — Next.js 16.3.7 (Turbopack), 6 static pages |
+| Cleanup | `rm -rf e2e-tmp/` | stale puppeteer scaffolding deleted (was never git-tracked) |
+| Regression test | throwaway puppeteer-core script vs system Chrome on `next dev --port 3210` | **19/19 assertions PASS, exit 0** |
+
+**Browser test coverage (19 assertions):** landing renders → template selector → Start Custom Decision → all 6 accordion triggers expanded via `aria-expanded` (sliders hidden until expanded) → 12 `[role="slider"]` thumbs appear, 6 with `aria-label="Scenario probability"` → first probability = 30 → ArrowLeft ×10 → 20, banner "Probabilities sum to 90%", **Calculate Results correctly disabled** → "Normalize to 100%" → re-proportioned to 22.2/55.6/22.2, banner green → **Calculate Results navigates to `/results`** (URL, title, Breakdown tab verified) → state survives page reload (localStorage persist) → no console/page errors.
+
+> Note: the test script was intentionally throwaway (deleted after the run; driver installed in a temp dir outside the repo). It is **not** yet a permanent part of the project — making it a permanent Playwright test is a proposed follow-up.
+
+**Deploy status: not live anywhere.** `origin` = github.com/Gnana-93/invest-engine, but `main` is ahead 2 commits (31aeca6 app + 14c3309 fix) — **unpushed**. No Vercel/Netlify config exists in the repo. Deploy remains the owner's manual step (checklist at bottom).
+
 ## Owner's manual testing checklist
 1. Open on phone-sized window — layout stacks, no horizontal scroll
 2. Landing → pick a template (marriage / career / house / business) → wizard loads pre-filled
@@ -54,6 +74,8 @@ npm run dev   # http://localhost:3000
 ```
 
 ## Deploy (zero cost, ~5 min, owner does this at the end)
+
+> Status 2026-09-29: **not started** — repo not yet pushed; no live URL exists.
 1. Push this repo to GitHub
 2. vercel.com → Sign up free → "Add New Project" → import the repo → Framework auto-detected → Deploy
 3. Done — free `*.vercel.app` URL, auto-redeploys on every git push
