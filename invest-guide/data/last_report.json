@@ -1,11 +1,11 @@
 {
- "date": "2026-09-27",
+ "date": "2026-09-29",
  "buy": [
   {
-   "symbol": "NMDC",
-   "score": 69.7,
+   "symbol": "VEDL",
+   "score": 70.1,
    "parts": {
-    "quality": 70.3,
+    "quality": 71.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,50 +27,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 79.9,
-   "date": "2026-09-27",
+   "ref_price": 259.0,
+   "date": "2026-09-29",
    "causes": [
     "dividend_split"
    ]
   },
   {
-   "symbol": "BBTC",
-   "score": 65.0,
+   "symbol": "TRENT",
+   "score": 63.7,
    "parts": {
-    "quality": 62.4,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "deep_value"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ],
-   "ref_price": 1435.2,
-   "date": "2026-09-27",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "CHAMBLFERT",
-   "score": 64.6,
-   "parts": {
-    "quality": 61.8,
+    "quality": 60.3,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -92,13 +59,41 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 417.95,
-   "date": "2026-09-27",
+   "ref_price": 2626.0,
+   "date": "2026-09-29",
    "causes": [
     "dividend_split"
    ]
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "MAZDOCK",
+   "score": 58.8,
+   "parts": {
+    "quality": 52.1,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }
