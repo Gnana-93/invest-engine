@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { ArrowLeft, ArrowRight, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,6 +14,7 @@ import { OptionEditor } from "./OptionEditor";
 import { ProgressBar } from "./ProgressBar";
 
 export function DecisionEditor() {
+  const router = useRouter();
   const decision = useDecisionStore((s) => s.currentDecision);
   const updateDecisionInfo = useDecisionStore((s) => s.updateDecisionInfo);
   const updateOption = useDecisionStore((s) => s.updateOption);
@@ -40,6 +42,7 @@ export function DecisionEditor() {
   const goResults = () => {
     calculateExpectedValues();
     setStep(2);
+    router.push("/results");
   };
 
   return (
