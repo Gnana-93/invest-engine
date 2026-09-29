@@ -75,7 +75,7 @@ npm run dev   # http://localhost:3000
 
 ## Deploy (zero cost, ~5 min, owner does this at the end)
 
-> Status 2026-09-29: **not started** — repo not yet pushed; no live URL exists.
+> Status 2026-09-29: repo **pushed** to GitHub (merge commit 8530176; fix 14c3309 included). Vercel import pending — when importing, set **Root Directory = `decision-analyzer`** (monorepo) or the build will fail.
 1. Push this repo to GitHub
 2. vercel.com → Sign up free → "Add New Project" → import the repo → Framework auto-detected → Deploy
 3. Done — free `*.vercel.app` URL, auto-redeploys on every git push
