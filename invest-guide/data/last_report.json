@@ -1,6 +1,135 @@
 {
- "date": "2026-10-01",
- "buy": [],
+ "date": "2026-10-02",
+ "buy": [
+  {
+   "symbol": "MOTILALOFS",
+   "score": 69.2,
+   "parts": {
+    "quality": 69.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 994.0,
+   "date": "2026-10-02",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "EMAMILTD",
+   "score": 66.7,
+   "parts": {
+    "quality": 65.3,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 372.65,
+   "date": "2026-10-02",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "score": 66.2,
+   "parts": {
+    "quality": 64.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1737.8,
+   "date": "2026-10-02",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "CONCOR",
+   "score": 61.6,
+   "parts": {
+    "quality": 56.8,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 442.0,
+   "date": "2026-10-02",
+   "causes": [
+    "dividend_split"
+   ]
+  }
+ ],
  "watch": [],
  "alerts": []
 }
