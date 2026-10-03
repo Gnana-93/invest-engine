@@ -1,11 +1,11 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "buy": [
   {
-   "symbol": "MOTILALOFS",
-   "score": 69.2,
+   "symbol": "RAILTEL",
+   "score": 67.2,
    "parts": {
-    "quality": 69.6,
+    "quality": 66.2,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,17 +27,15 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 994.0,
-   "date": "2026-10-02",
-   "causes": [
-    "dividend_split"
-   ]
+   "ref_price": 257.2,
+   "date": "2026-10-03",
+   "causes": []
   },
   {
-   "symbol": "EMAMILTD",
-   "score": 66.7,
+   "symbol": "UBL",
+   "score": 62.9,
    "parts": {
-    "quality": 65.3,
+    "quality": 58.9,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -59,22 +57,22 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 372.65,
-   "date": "2026-10-02",
-   "causes": [
-    "dividend_split"
-   ]
-  },
+   "ref_price": 1188.8,
+   "date": "2026-10-03",
+   "causes": []
+  }
+ ],
+ "watch": [
   {
-   "symbol": "ADANIPORTS",
-   "score": 66.2,
+   "symbol": "BELRISE",
+   "score": 53.3,
    "parts": {
-    "quality": 64.6,
+    "quality": 43.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "C",
    "strategies": [
     "turnaround"
    ],
@@ -90,46 +88,8 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ],
-   "ref_price": 1737.8,
-   "date": "2026-10-02",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "CONCOR",
-   "score": 61.6,
-   "parts": {
-    "quality": 56.8,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 442.0,
-   "date": "2026-10-02",
-   "causes": [
-    "dividend_split"
    ]
   }
  ],
- "watch": [],
  "alerts": []
 }
