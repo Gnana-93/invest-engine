@@ -20733,6 +20733,28 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-03"
+  },
+  {
+   "symbol": "TCS",
+   "move_date": "2026-10-01",
+   "kind": "result",
+   "regime": "result",
+   "direction": "up",
+   "ret_1d": 1.19,
+   "ret_5d": -0.57,
+   "ret_21d": -11.63,
+   "trigger_ret": 1.19,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-03"
   }
  ],
  "signals": {
@@ -20743,6 +20765,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-10-03T00:29:48.046284",
- "backfill_cursor": 380
+ "updated": "2026-10-03T23:48:52.091861",
+ "backfill_cursor": 400
 }

@@ -29,7 +29,9 @@
    ],
    "ref_price": 257.2,
    "date": "2026-10-03",
-   "causes": []
+   "causes": [
+    "dividend_split"
+   ]
   },
   {
    "symbol": "UBL",
@@ -59,7 +61,9 @@
    ],
    "ref_price": 1188.8,
    "date": "2026-10-03",
-   "causes": []
+   "causes": [
+    "dividend_split"
+   ]
   }
  ],
  "watch": [
