@@ -20755,6 +20755,28 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-03"
+  },
+  {
+   "symbol": "FACT",
+   "move_date": "2026-10-01",
+   "kind": "result",
+   "regime": "result",
+   "direction": "down",
+   "ret_1d": -3.03,
+   "ret_5d": -5.51,
+   "ret_21d": -8.62,
+   "trigger_ret": -3.03,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-04"
   }
  ],
  "signals": {
@@ -20765,6 +20787,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-10-03T23:48:52.091861",
- "backfill_cursor": 400
+ "updated": "2026-10-04T23:59:12.554190",
+ "backfill_cursor": 420
 }

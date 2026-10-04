@@ -1,11 +1,11 @@
 {
- "date": "2026-10-03",
+ "date": "2026-10-04",
  "buy": [
   {
-   "symbol": "RAILTEL",
-   "score": 67.2,
+   "symbol": "GMDCLTD",
+   "score": 68.6,
    "parts": {
-    "quality": 66.2,
+    "quality": 68.5,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,40 +27,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 257.2,
-   "date": "2026-10-03",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "UBL",
-   "score": 62.9,
-   "parts": {
-    "quality": 58.9,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1188.8,
-   "date": "2026-10-03",
+   "ref_price": 487.65,
+   "date": "2026-10-04",
    "causes": [
     "dividend_split"
    ]
@@ -68,10 +36,10 @@
  ],
  "watch": [
   {
-   "symbol": "BELRISE",
-   "score": 53.3,
+   "symbol": "ZEEL",
+   "score": 51.5,
    "parts": {
-    "quality": 43.0,
+    "quality": 40.1,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
