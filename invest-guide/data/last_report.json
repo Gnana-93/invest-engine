@@ -1,11 +1,11 @@
 {
- "date": "2026-10-04",
+ "date": "2026-10-06",
  "buy": [
   {
-   "symbol": "GMDCLTD",
-   "score": 68.6,
+   "symbol": "VTL",
+   "score": 69.7,
    "parts": {
-    "quality": 68.5,
+    "quality": 70.4,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,8 +27,137 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 487.65,
-   "date": "2026-10-04",
+   "ref_price": 529.25,
+   "date": "2026-10-06",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "score": 68.3,
+   "parts": {
+    "quality": 68.0,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1971.4,
+   "date": "2026-10-06",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "TRENT",
+   "score": 63.7,
+   "parts": {
+    "quality": 60.3,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 2580.0,
+   "date": "2026-10-06",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "360ONE",
+   "score": 63.6,
+   "parts": {
+    "quality": 60.2,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1050.0,
+   "date": "2026-10-06",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "INOXWIND",
+   "score": 60.2,
+   "parts": {
+    "quality": 54.4,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 67.8,
+   "date": "2026-10-06",
    "causes": [
     "dividend_split"
    ]
@@ -36,10 +165,10 @@
  ],
  "watch": [
   {
-   "symbol": "ZEEL",
-   "score": 51.5,
+   "symbol": "ANURAS",
+   "score": 56.9,
    "parts": {
-    "quality": 40.1,
+    "quality": 49.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
