@@ -33851,6 +33851,72 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-10"
+  },
+  {
+   "symbol": "CANHLIFE",
+   "move_date": "2026-10-09",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.36,
+   "ret_5d": -3.22,
+   "ret_21d": -9.69,
+   "trigger_ret": -4.36,
+   "volume_x": 0.89,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-11"
+  },
+  {
+   "symbol": "GLENMARK",
+   "move_date": "2026-10-09",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.6,
+   "ret_5d": -1.63,
+   "ret_21d": -7.33,
+   "trigger_ret": 4.6,
+   "volume_x": 0.68,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-11"
+  },
+  {
+   "symbol": "PTCIL",
+   "move_date": "2026-10-09",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 0.27,
+   "ret_5d": 11.4,
+   "ret_21d": 3.39,
+   "trigger_ret": -0.61,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-11"
   }
  ],
  "signals": {
@@ -33861,6 +33927,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-10-10T00:49:52.624719",
- "backfill_cursor": 19
+ "updated": "2026-10-11T00:17:16.958859",
+ "backfill_cursor": 39
 }

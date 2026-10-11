@@ -1,6 +1,155 @@
 {
- "date": "2026-10-10",
- "buy": [],
- "watch": [],
+ "date": "2026-10-11",
+ "buy": [
+  {
+   "symbol": "BAJAJFINSV",
+   "score": 68.3,
+   "parts": {
+    "quality": 67.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1734.7,
+   "date": "2026-10-11",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "KPRMILL",
+   "score": 65.4,
+   "parts": {
+    "quality": 63.2,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1053.8,
+   "date": "2026-10-11",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "symbol": "PATANJALI",
+   "score": 58.0,
+   "parts": {
+    "quality": 50.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "NBCC",
+   "score": 56.1,
+   "parts": {
+    "quality": 47.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "DEEPAKNTR",
+   "score": 55.1,
+   "parts": {
+    "quality": 46.0,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }
