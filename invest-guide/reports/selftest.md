@@ -1,5 +1,5 @@
 # Nightly Investment Brief — selftest
-_generated 2026-10-12 00:30 UTC · engine v1.0.0-selftest_
+_generated 2026-10-13 02:33 UTC · engine v1.0.0-selftest_
 
 ## 1. Market context
 Nifty data unavailable tonight (fetch failed — see data note).

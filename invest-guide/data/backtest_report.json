@@ -1,40 +1,40 @@
 {
- "generated": "2026-10-12T00:34:41.723423",
+ "generated": "2026-10-13T02:36:47.015661",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2110,
+ "total_evaluable_events": 2098,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1119,
+   "n": 1115,
    "hit_rate": 0.328,
-   "raw_hits": 366,
-   "raw_rate": 0.327,
-   "avg_fwd": 3.37,
+   "raw_hits": 364,
+   "raw_rate": 0.326,
+   "avg_fwd": 3.45,
    "consistency": 0.405
   },
   "trend": {
-   "n": 234,
-   "hit_rate": 0.289,
+   "n": 227,
+   "hit_rate": 0.298,
    "raw_hits": 66,
-   "raw_rate": 0.282,
-   "avg_fwd": 14.51,
-   "consistency": 0.316
+   "raw_rate": 0.291,
+   "avg_fwd": 15.34,
+   "consistency": 0.298
   },
   "high52": {
    "n": 225,
    "hit_rate": 0.352,
    "raw_hits": 78,
    "raw_rate": 0.347,
-   "avg_fwd": 1.39,
+   "avg_fwd": 1.32,
    "consistency": 0.15
   },
   "mom63_1": {
-   "n": 532,
-   "hit_rate": 0.337,
-   "raw_hits": 178,
-   "raw_rate": 0.335,
-   "avg_fwd": 1.79,
+   "n": 531,
+   "hit_rate": 0.34,
+   "raw_hits": 179,
+   "raw_rate": 0.337,
+   "avg_fwd": 1.98,
    "consistency": 0.258
   }
  },
@@ -44,87 +44,87 @@
    "hit_rate": 0.352,
    "raw_hits": 78,
    "raw_rate": 0.347,
-   "avg_fwd": 1.39,
+   "avg_fwd": 1.32,
    "consistency": 0.15
   },
   "high52:high52+vol": {
-   "n": 83,
-   "hit_rate": 0.385,
+   "n": 80,
+   "hit_rate": 0.398,
    "raw_hits": 31,
-   "raw_rate": 0.373,
-   "avg_fwd": 3.17,
+   "raw_rate": 0.388,
+   "avg_fwd": 2.72,
    "consistency": 0.048
   },
   "high52:high52-vol": {
-   "n": 142,
-   "hit_rate": 0.34,
+   "n": 145,
+   "hit_rate": 0.333,
    "raw_hits": 47,
-   "raw_rate": 0.331,
-   "avg_fwd": 0.35,
-   "consistency": 0.211
+   "raw_rate": 0.324,
+   "avg_fwd": 0.55,
+   "consistency": 0.205
   },
   "mom63_1:mom63_1": {
-   "n": 532,
-   "hit_rate": 0.337,
-   "raw_hits": 178,
-   "raw_rate": 0.335,
-   "avg_fwd": 1.79,
+   "n": 531,
+   "hit_rate": 0.34,
+   "raw_hits": 179,
+   "raw_rate": 0.337,
+   "avg_fwd": 1.98,
    "consistency": 0.258
   },
   "mom63_1:mom63_1+vol": {
-   "n": 42,
-   "hit_rate": 0.4,
+   "n": 41,
+   "hit_rate": 0.408,
    "raw_hits": 16,
-   "raw_rate": 0.381,
-   "avg_fwd": 2.33,
+   "raw_rate": 0.39,
+   "avg_fwd": 3.8,
    "consistency": 0.143
   },
   "mom63_1:mom63_1-vol": {
    "n": 490,
-   "hit_rate": 0.333,
-   "raw_hits": 162,
-   "raw_rate": 0.331,
-   "avg_fwd": 1.74,
+   "hit_rate": 0.335,
+   "raw_hits": 163,
+   "raw_rate": 0.333,
+   "avg_fwd": 1.83,
    "consistency": 0.265
   },
   "spike:spike": {
-   "n": 1119,
+   "n": 1115,
    "hit_rate": 0.328,
-   "raw_hits": 366,
-   "raw_rate": 0.327,
-   "avg_fwd": 3.37,
+   "raw_hits": 364,
+   "raw_rate": 0.326,
+   "avg_fwd": 3.45,
    "consistency": 0.405
   },
   "spike:spike+vol": {
-   "n": 563,
-   "hit_rate": 0.313,
-   "raw_hits": 175,
-   "raw_rate": 0.311,
-   "avg_fwd": 1.83,
-   "consistency": 0.371
+   "n": 557,
+   "hit_rate": 0.315,
+   "raw_hits": 174,
+   "raw_rate": 0.312,
+   "avg_fwd": 1.6,
+   "consistency": 0.376
   },
   "spike:spike-vol": {
-   "n": 556,
-   "hit_rate": 0.346,
-   "raw_hits": 191,
-   "raw_rate": 0.344,
-   "avg_fwd": 4.94,
-   "consistency": 0.439
+   "n": 558,
+   "hit_rate": 0.343,
+   "raw_hits": 190,
+   "raw_rate": 0.341,
+   "avg_fwd": 5.3,
+   "consistency": 0.441
   },
   "spike:violent": {
-   "n": 90,
-   "hit_rate": 0.327,
+   "n": 89,
+   "hit_rate": 0.33,
    "raw_hits": 28,
-   "raw_rate": 0.311,
-   "avg_fwd": -0.18,
+   "raw_rate": 0.315,
+   "avg_fwd": -0.5,
    "consistency": 0.289
   },
   "trend:monthly": {
    "n": 32,
-   "hit_rate": 0.3,
-   "raw_hits": 8,
-   "raw_rate": 0.25,
-   "avg_fwd": 9.07,
+   "hit_rate": 0.325,
+   "raw_hits": 9,
+   "raw_rate": 0.281,
+   "avg_fwd": 10.36,
    "consistency": 0.375
   },
   "trend:monthly+vol": {
@@ -137,39 +137,39 @@
   },
   "trend:monthly-vol": {
    "n": 28,
-   "hit_rate": 0.306,
-   "raw_hits": 7,
-   "raw_rate": 0.25,
-   "avg_fwd": 7.83,
+   "hit_rate": 0.333,
+   "raw_hits": 8,
+   "raw_rate": 0.286,
+   "avg_fwd": 9.31,
    "consistency": 0.286
   },
   "trend:weekly": {
-   "n": 202,
-   "hit_rate": 0.295,
-   "raw_hits": 58,
-   "raw_rate": 0.287,
-   "avg_fwd": 15.37,
-   "consistency": 0.287
+   "n": 195,
+   "hit_rate": 0.3,
+   "raw_hits": 57,
+   "raw_rate": 0.292,
+   "avg_fwd": 16.16,
+   "consistency": 0.265
   },
   "trend:weekly+vol": {
-   "n": 75,
-   "hit_rate": 0.313,
-   "raw_hits": 22,
-   "raw_rate": 0.293,
-   "avg_fwd": 17.08,
-   "consistency": 0.211
+   "n": 70,
+   "hit_rate": 0.359,
+   "raw_hits": 24,
+   "raw_rate": 0.343,
+   "avg_fwd": 18.69,
+   "consistency": 0.2
   },
   "trend:weekly-vol": {
-   "n": 127,
-   "hit_rate": 0.296,
-   "raw_hits": 36,
-   "raw_rate": 0.283,
-   "avg_fwd": 14.37,
-   "consistency": 0.344
+   "n": 125,
+   "hit_rate": 0.278,
+   "raw_hits": 33,
+   "raw_rate": 0.264,
+   "avg_fwd": 14.74,
+   "consistency": 0.333
   }
  },
  "examples": [
-  "360ONE 2025-01-22 spike down (-4.4%/1d) \u2192 30d -14.4% = HIT",
+  "360ONE 2025-01-27 spike down (-4.5%/1d) \u2192 30d -16.8% = HIT",
   "360ONE 2025-02-17 monthly down (-9.6%/5d) \u2192 90d +31.3% = MISS",
   "360ONE 2025-03-10 spike down (-8.0%/1d) \u2192 30d +9.9% = MISS",
   "360ONE 2025-05-12 spike up (+5.0%/1d) \u2192 30d +20.3% = HIT",

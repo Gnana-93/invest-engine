@@ -1,11 +1,11 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "buy": [
   {
-   "symbol": "DEEPAKNTR",
-   "score": 72.8,
+   "symbol": "HCLTECH",
+   "score": 68.8,
    "parts": {
-    "quality": 75.5,
+    "quality": 68.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,21 +27,55 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1621.9,
-   "date": "2026-10-12",
+   "ref_price": 1216.7,
+   "date": "2026-10-13",
    "causes": [
-    "dividend_split"
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "UBL",
+   "score": 62.9,
+   "parts": {
+    "quality": 58.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1168.2,
+   "date": "2026-10-13",
+   "causes": [
+    "dividend_split",
+    "results"
    ]
   }
  ],
  "watch": [
   {
-   "symbol": "TATACHEM",
-   "score": 52.1,
+   "symbol": "CDSL",
+   "score": 59.9,
    "parts": {
-    "quality": 42.7,
+    "quality": 54.0,
     "evidence": 50.0,
-    "data_quality": 90.0,
+    "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
@@ -57,7 +91,7 @@
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 0.9,
+     "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ]
