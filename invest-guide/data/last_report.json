@@ -42,9 +42,12 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 546.9,
+   "ref_price": 549.6,
    "date": "2026-10-14",
-   "causes": []
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
   },
   {
    "symbol": "JPPOWER",
@@ -85,9 +88,12 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 15.07,
+   "ref_price": 15.43,
    "date": "2026-10-14",
-   "causes": []
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
   }
  ],
  "watch": [
