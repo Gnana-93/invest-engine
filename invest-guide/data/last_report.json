@@ -1,81 +1,20 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "buy": [
   {
-   "symbol": "HINDZINC",
-   "score": 83.4,
+   "symbol": "ASAHIINDIA",
+   "score": 67.1,
    "parts": {
-    "quality": 93.2,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "quality_compounder",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 2,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 549.6,
-   "date": "2026-10-14",
-   "causes": [
-    "dividend_split",
-    "results"
-   ]
-  },
-  {
-   "symbol": "JPPOWER",
-   "score": 69.7,
-   "parts": {
-    "quality": 70.4,
+    "quality": 65.9,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "B",
    "strategies": [
-    "deep_value",
     "turnaround"
    ],
    "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
     {
      "strategy": "turnaround",
      "criteria_passed": [
@@ -88,8 +27,74 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 15.43,
-   "date": "2026-10-14",
+   "ref_price": 930.4,
+   "date": "2026-10-15",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "GALLANTT",
+   "score": 64.7,
+   "parts": {
+    "quality": 62.0,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 628.15,
+   "date": "2026-10-15",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "VOLTAS",
+   "score": 62.6,
+   "parts": {
+    "quality": 58.5,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1039.8,
+   "date": "2026-10-15",
    "causes": [
     "dividend_split",
     "results"
@@ -98,10 +103,37 @@
  ],
  "watch": [
   {
-   "symbol": "IRCON",
+   "symbol": "NBCC",
    "score": 56.1,
    "parts": {
-    "quality": 47.7,
+    "quality": 47.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "DRREDDY",
+   "score": 53.5,
+   "parts": {
+    "quality": 43.3,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
