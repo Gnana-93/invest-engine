@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-16T23:36:10.544224",
+ "generated": "2026-10-17T23:09:47.359212",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2121,
+ "total_evaluable_events": 2123,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1123,
+   "n": 1124,
    "hit_rate": 0.327,
    "raw_hits": 366,
    "raw_rate": 0.326,
-   "avg_fwd": 3.42,
-   "consistency": 0.408
+   "avg_fwd": 3.43,
+   "consistency": 0.409
   },
   "trend": {
    "n": 228,
@@ -30,12 +30,12 @@
    "consistency": 0.183
   },
   "mom63_1": {
-   "n": 541,
-   "hit_rate": 0.337,
+   "n": 542,
+   "hit_rate": 0.336,
    "raw_hits": 181,
-   "raw_rate": 0.335,
-   "avg_fwd": 2.1,
-   "consistency": 0.275
+   "raw_rate": 0.334,
+   "avg_fwd": 2.08,
+   "consistency": 0.277
   }
  },
  "signals": {
@@ -64,12 +64,12 @@
    "consistency": 0.233
   },
   "mom63_1:mom63_1": {
-   "n": 541,
-   "hit_rate": 0.337,
+   "n": 542,
+   "hit_rate": 0.336,
    "raw_hits": 181,
-   "raw_rate": 0.335,
-   "avg_fwd": 2.1,
-   "consistency": 0.275
+   "raw_rate": 0.334,
+   "avg_fwd": 2.08,
+   "consistency": 0.277
   },
   "mom63_1:mom63_1+vol": {
    "n": 43,
@@ -80,20 +80,20 @@
    "consistency": 0.182
   },
   "mom63_1:mom63_1-vol": {
-   "n": 498,
-   "hit_rate": 0.332,
+   "n": 499,
+   "hit_rate": 0.331,
    "raw_hits": 164,
    "raw_rate": 0.329,
-   "avg_fwd": 1.98,
-   "consistency": 0.286
+   "avg_fwd": 1.96,
+   "consistency": 0.289
   },
   "spike:spike": {
-   "n": 1123,
+   "n": 1124,
    "hit_rate": 0.327,
    "raw_hits": 366,
    "raw_rate": 0.326,
-   "avg_fwd": 3.42,
-   "consistency": 0.408
+   "avg_fwd": 3.43,
+   "consistency": 0.409
   },
   "spike:spike+vol": {
    "n": 570,
@@ -104,12 +104,12 @@
    "consistency": 0.389
   },
   "spike:spike-vol": {
-   "n": 553,
-   "hit_rate": 0.348,
+   "n": 554,
+   "hit_rate": 0.347,
    "raw_hits": 191,
    "raw_rate": 0.345,
-   "avg_fwd": 5.33,
-   "consistency": 0.422
+   "avg_fwd": 5.35,
+   "consistency": 0.424
   },
   "spike:violent": {
    "n": 97,

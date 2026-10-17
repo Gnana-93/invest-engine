@@ -1,35 +1,20 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "buy": [
   {
-   "symbol": "ADANIPOWER",
-   "score": 76.8,
+   "symbol": "WIPRO",
+   "score": 65.4,
    "parts": {
-    "quality": 82.1,
+    "quality": 63.2,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "A",
+   "band": "B",
    "strategies": [
-    "quality_compounder",
     "turnaround"
    ],
    "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
     {
      "strategy": "turnaround",
      "criteria_passed": [
@@ -42,14 +27,69 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 196.5,
-   "date": "2026-10-16",
+   "ref_price": 184.4,
+   "date": "2026-10-17",
    "causes": [
     "dividend_split",
     "results"
    ]
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "BHEL",
+   "score": 59.3,
+   "parts": {
+    "quality": 52.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "APOLLOHOSP",
+   "score": 57.9,
+   "parts": {
+    "quality": 50.7,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }
