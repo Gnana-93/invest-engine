@@ -1,11 +1,59 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "buy": [
   {
-   "symbol": "WIPRO",
-   "score": 65.4,
+   "symbol": "VBL",
+   "score": 77.2,
    "parts": {
-    "quality": 63.2,
+    "quality": 82.8,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "A",
+   "strategies": [
+    "quality_compounder",
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "quality_compounder",
+     "criteria_passed": [
+      "roce_est >= min",
+      "debt_equity <= max",
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0
+    },
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 430.5,
+   "date": "2026-10-18",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "PETRONET",
+   "score": 68.3,
+   "parts": {
+    "quality": 68.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -27,25 +75,23 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 184.4,
-   "date": "2026-10-17",
+   "ref_price": 293.0,
+   "date": "2026-10-18",
    "causes": [
     "dividend_split",
     "results"
    ]
-  }
- ],
- "watch": [
+  },
   {
-   "symbol": "BHEL",
-   "score": 59.3,
+   "symbol": "EMCURE",
+   "score": 66.1,
    "parts": {
-    "quality": 52.9,
+    "quality": 64.4,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "C",
+   "band": "B",
    "strategies": [
     "turnaround"
    ],
@@ -61,13 +107,21 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
+   ],
+   "ref_price": 1820.6,
+   "date": "2026-10-18",
+   "causes": [
+    "dividend_split",
+    "results"
    ]
-  },
+  }
+ ],
+ "watch": [
   {
-   "symbol": "APOLLOHOSP",
-   "score": 57.9,
+   "symbol": "AEGISVOPAK",
+   "score": 59.8,
    "parts": {
-    "quality": 50.7,
+    "quality": 53.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
