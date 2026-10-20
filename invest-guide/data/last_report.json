@@ -27,37 +27,7 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1008.3,
-   "date": "2026-10-20",
-   "causes": []
-  },
-  {
-   "symbol": "LAURUSLABS",
-   "score": 63.1,
-   "parts": {
-    "quality": 59.3,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 2060.1,
+   "ref_price": 986.8,
    "date": "2026-10-20",
    "causes": []
   }

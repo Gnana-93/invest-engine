@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-20T00:20:41.606201",
+ "generated": "2026-10-20T23:53:37.587100",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2098,
+ "total_evaluable_events": 2107,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1112,
-   "hit_rate": 0.321,
+   "n": 1116,
+   "hit_rate": 0.319,
    "raw_hits": 355,
-   "raw_rate": 0.319,
-   "avg_fwd": 3.57,
-   "consistency": 0.41
+   "raw_rate": 0.318,
+   "avg_fwd": 3.5,
+   "consistency": 0.412
   },
   "trend": {
    "n": 223,
@@ -30,11 +30,11 @@
    "consistency": 0.175
   },
   "mom63_1": {
-   "n": 540,
-   "hit_rate": 0.336,
-   "raw_hits": 180,
-   "raw_rate": 0.333,
-   "avg_fwd": 2.05,
+   "n": 545,
+   "hit_rate": 0.335,
+   "raw_hits": 181,
+   "raw_rate": 0.332,
+   "avg_fwd": 1.97,
    "consistency": 0.267
   }
  },
@@ -64,11 +64,11 @@
    "consistency": 0.222
   },
   "mom63_1:mom63_1": {
-   "n": 540,
-   "hit_rate": 0.336,
-   "raw_hits": 180,
-   "raw_rate": 0.333,
-   "avg_fwd": 2.05,
+   "n": 545,
+   "hit_rate": 0.335,
+   "raw_hits": 181,
+   "raw_rate": 0.332,
+   "avg_fwd": 1.97,
    "consistency": 0.267
   },
   "mom63_1:mom63_1+vol": {
@@ -80,36 +80,36 @@
    "consistency": 0.13
   },
   "mom63_1:mom63_1-vol": {
-   "n": 494,
-   "hit_rate": 0.335,
-   "raw_hits": 164,
-   "raw_rate": 0.332,
-   "avg_fwd": 2.06,
-   "consistency": 0.271
+   "n": 499,
+   "hit_rate": 0.333,
+   "raw_hits": 165,
+   "raw_rate": 0.331,
+   "avg_fwd": 1.97,
+   "consistency": 0.275
   },
   "spike:spike": {
-   "n": 1112,
-   "hit_rate": 0.321,
+   "n": 1116,
+   "hit_rate": 0.319,
    "raw_hits": 355,
-   "raw_rate": 0.319,
-   "avg_fwd": 3.57,
-   "consistency": 0.41
+   "raw_rate": 0.318,
+   "avg_fwd": 3.5,
+   "consistency": 0.412
   },
   "spike:spike+vol": {
-   "n": 572,
-   "hit_rate": 0.317,
+   "n": 575,
+   "hit_rate": 0.316,
    "raw_hits": 180,
-   "raw_rate": 0.315,
-   "avg_fwd": 1.59,
-   "consistency": 0.394
+   "raw_rate": 0.313,
+   "avg_fwd": 1.47,
+   "consistency": 0.396
   },
   "spike:spike-vol": {
-   "n": 540,
-   "hit_rate": 0.327,
+   "n": 541,
+   "hit_rate": 0.326,
    "raw_hits": 175,
-   "raw_rate": 0.324,
-   "avg_fwd": 5.68,
-   "consistency": 0.434
+   "raw_rate": 0.323,
+   "avg_fwd": 5.66,
+   "consistency": 0.436
   },
   "spike:violent": {
    "n": 95,
