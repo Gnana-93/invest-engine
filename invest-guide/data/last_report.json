@@ -1,59 +1,11 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-20",
  "buy": [
   {
-   "symbol": "VBL",
-   "score": 77.2,
+   "symbol": "CCL",
+   "score": 64.3,
    "parts": {
-    "quality": 82.8,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "quality_compounder",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 430.5,
-   "date": "2026-10-18",
-   "causes": [
-    "dividend_split",
-    "results"
-   ]
-  },
-  {
-   "symbol": "PETRONET",
-   "score": 68.3,
-   "parts": {
-    "quality": 68.0,
+    "quality": 61.4,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -75,18 +27,15 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 293.0,
-   "date": "2026-10-18",
-   "causes": [
-    "dividend_split",
-    "results"
-   ]
+   "ref_price": 1008.3,
+   "date": "2026-10-20",
+   "causes": []
   },
   {
-   "symbol": "EMCURE",
-   "score": 66.1,
+   "symbol": "LAURUSLABS",
+   "score": 63.1,
    "parts": {
-    "quality": 64.4,
+    "quality": 59.3,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -108,42 +57,11 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1820.6,
-   "date": "2026-10-18",
-   "causes": [
-    "dividend_split",
-    "results"
-   ]
+   "ref_price": 2060.1,
+   "date": "2026-10-20",
+   "causes": []
   }
  ],
- "watch": [
-  {
-   "symbol": "AEGISVOPAK",
-   "score": 59.8,
-   "parts": {
-    "quality": 53.8,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  }
- ],
+ "watch": [],
  "alerts": []
 }
