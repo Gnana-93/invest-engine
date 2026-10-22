@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-20T23:53:37.587100",
+ "generated": "2026-10-22T00:02:21.224440",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2107,
+ "total_evaluable_events": 2109,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1116,
+   "n": 1117,
    "hit_rate": 0.319,
    "raw_hits": 355,
    "raw_rate": 0.318,
    "avg_fwd": 3.5,
-   "consistency": 0.412
+   "consistency": 0.413
   },
   "trend": {
    "n": 223,
@@ -30,11 +30,11 @@
    "consistency": 0.175
   },
   "mom63_1": {
-   "n": 545,
-   "hit_rate": 0.335,
+   "n": 546,
+   "hit_rate": 0.334,
    "raw_hits": 181,
    "raw_rate": 0.332,
-   "avg_fwd": 1.97,
+   "avg_fwd": 1.95,
    "consistency": 0.267
   }
  },
@@ -64,11 +64,11 @@
    "consistency": 0.222
   },
   "mom63_1:mom63_1": {
-   "n": 545,
-   "hit_rate": 0.335,
+   "n": 546,
+   "hit_rate": 0.334,
    "raw_hits": 181,
    "raw_rate": 0.332,
-   "avg_fwd": 1.97,
+   "avg_fwd": 1.95,
    "consistency": 0.267
   },
   "mom63_1:mom63_1+vol": {
@@ -80,28 +80,28 @@
    "consistency": 0.13
   },
   "mom63_1:mom63_1-vol": {
-   "n": 499,
+   "n": 500,
    "hit_rate": 0.333,
    "raw_hits": 165,
-   "raw_rate": 0.331,
-   "avg_fwd": 1.97,
-   "consistency": 0.275
+   "raw_rate": 0.33,
+   "avg_fwd": 1.95,
+   "consistency": 0.278
   },
   "spike:spike": {
-   "n": 1116,
+   "n": 1117,
    "hit_rate": 0.319,
    "raw_hits": 355,
    "raw_rate": 0.318,
    "avg_fwd": 3.5,
-   "consistency": 0.412
+   "consistency": 0.413
   },
   "spike:spike+vol": {
-   "n": 575,
-   "hit_rate": 0.316,
+   "n": 576,
+   "hit_rate": 0.315,
    "raw_hits": 180,
-   "raw_rate": 0.313,
+   "raw_rate": 0.312,
    "avg_fwd": 1.47,
-   "consistency": 0.396
+   "consistency": 0.398
   },
   "spike:spike-vol": {
    "n": 541,
