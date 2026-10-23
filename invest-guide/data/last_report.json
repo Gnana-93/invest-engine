@@ -1,69 +1,11 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "buy": [
   {
-   "symbol": "GESHIP",
-   "score": 84.3,
+   "symbol": "M&M",
+   "score": 72.2,
    "parts": {
-    "quality": 94.6,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "quality_compounder",
-    "deep_value",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 2,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1519.3,
-   "date": "2026-10-21",
-   "causes": []
-  },
-  {
-   "symbol": "RAILTEL",
-   "score": 67.2,
-   "parts": {
-    "quality": 66.2,
+    "quality": 74.6,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -85,15 +27,18 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 240.55,
-   "date": "2026-10-21",
-   "causes": []
+   "ref_price": 2864.1,
+   "date": "2026-10-22",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
   },
   {
-   "symbol": "NAVA",
-   "score": 66.7,
+   "symbol": "AARTIIND",
+   "score": 64.5,
    "parts": {
-    "quality": 65.3,
+    "quality": 61.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -115,69 +60,14 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 536.2,
-   "date": "2026-10-21",
-   "causes": []
-  },
-  {
-   "symbol": "TBOTEK",
-   "score": 62.7,
-   "parts": {
-    "quality": 58.7,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1613.6,
-   "date": "2026-10-21",
-   "causes": []
-  }
- ],
- "watch": [
-  {
-   "symbol": "POLYMED",
-   "score": 59.8,
-   "parts": {
-    "quality": 53.8,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
+   "ref_price": 441.3,
+   "date": "2026-10-22",
+   "causes": [
+    "dividend_split",
+    "results"
    ]
   }
  ],
+ "watch": [],
  "alerts": []
 }
