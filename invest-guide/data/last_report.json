@@ -1,33 +1,31 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "buy": [
   {
-   "symbol": "HINDZINC",
-   "score": 81.5,
+   "symbol": "GAIL",
+   "score": 72.4,
    "parts": {
-    "quality": 90.0,
+    "quality": 74.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "A",
+   "band": "B",
    "strategies": [
-    "quality_compounder",
+    "deep_value",
     "turnaround"
    ],
    "hits": [
     {
-     "strategy": "quality_compounder",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "roce_est >= min",
+      "pe <= max",
+      "pb <= max",
       "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
-     "bonus": 2,
+     "bonus": 0,
      "data_quality": 1.0
     },
     {
@@ -42,18 +40,18 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 496.0,
-   "date": "2026-10-23",
+   "ref_price": 163.96,
+   "date": "2026-10-24",
    "causes": [
     "dividend_split",
     "results"
    ]
   },
   {
-   "symbol": "IPCALAB",
-   "score": 65.3,
+   "symbol": "RUBICON",
+   "score": 68.9,
    "parts": {
-    "quality": 63.0,
+    "quality": 69.0,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -75,8 +73,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1953.3,
-   "date": "2026-10-23",
+   "ref_price": 1424.4,
+   "date": "2026-10-24",
    "causes": [
     "dividend_split",
     "results"
@@ -85,37 +83,10 @@
  ],
  "watch": [
   {
-   "symbol": "BHEL",
-   "score": 59.3,
+   "symbol": "KSB",
+   "score": 55.6,
    "parts": {
-    "quality": 52.9,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "IRCON",
-   "score": 57.9,
-   "parts": {
-    "quality": 50.7,
+    "quality": 46.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
