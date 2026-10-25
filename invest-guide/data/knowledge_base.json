@@ -42040,6 +42040,28 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-24"
+  },
+  {
+   "symbol": "ICICILIFE",
+   "move_date": "2026-10-23",
+   "kind": "result",
+   "regime": "result",
+   "direction": "down",
+   "ret_1d": -2.04,
+   "ret_5d": -5.97,
+   "ret_21d": -13.24,
+   "trigger_ret": -2.04,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-10-25"
   }
  ],
  "signals": {
@@ -42050,6 +42072,6 @@
   "mom63_1": {},
   "corpact": {}
  },
- "updated": "2026-10-24T23:11:54.430426",
- "backfill_cursor": 319
+ "updated": "2026-10-25T23:16:23.020386",
+ "backfill_cursor": 339
 }
