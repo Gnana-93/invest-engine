@@ -1,6 +1,106 @@
 {
- "date": "2026-10-25",
- "buy": [],
+ "date": "2026-10-27",
+ "buy": [
+  {
+   "symbol": "NTPCGREEN",
+   "score": 72.8,
+   "parts": {
+    "quality": 75.4,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 81.21,
+   "date": "2026-10-27",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "AWL",
+   "score": 63.4,
+   "parts": {
+    "quality": 59.8,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 173.1,
+   "date": "2026-10-27",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  },
+  {
+   "symbol": "TRENT",
+   "score": 62.0,
+   "parts": {
+    "quality": 57.4,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 2727.5,
+   "date": "2026-10-27",
+   "causes": [
+    "dividend_split",
+    "results"
+   ]
+  }
+ ],
  "watch": [
   {
    "symbol": "TECHNOE",
@@ -30,7 +130,7 @@
    ]
   },
   {
-   "symbol": "IRCON",
+   "symbol": "APOLLOHOSP",
    "score": 57.9,
    "parts": {
     "quality": 50.7,
