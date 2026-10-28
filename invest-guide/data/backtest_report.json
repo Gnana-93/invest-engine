@@ -1,33 +1,33 @@
 {
- "generated": "2026-10-27T00:26:51.573805",
+ "generated": "2026-10-28T00:33:06.634118",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2078,
+ "total_evaluable_events": 2085,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1095,
-   "hit_rate": 0.314,
+   "n": 1098,
+   "hit_rate": 0.313,
    "raw_hits": 342,
-   "raw_rate": 0.312,
-   "avg_fwd": 4.04,
-   "consistency": 0.395
+   "raw_rate": 0.311,
+   "avg_fwd": 4.01,
+   "consistency": 0.399
   },
   "trend": {
-   "n": 225,
-   "hit_rate": 0.3,
+   "n": 227,
+   "hit_rate": 0.298,
    "raw_hits": 66,
-   "raw_rate": 0.293,
-   "avg_fwd": 16.69,
-   "consistency": 0.292
+   "raw_rate": 0.291,
+   "avg_fwd": 16.46,
+   "consistency": 0.298
   },
   "high52": {
-   "n": 216,
-   "hit_rate": 0.339,
-   "raw_hits": 72,
-   "raw_rate": 0.333,
-   "avg_fwd": 1.22,
-   "consistency": 0.185
+   "n": 218,
+   "hit_rate": 0.345,
+   "raw_hits": 74,
+   "raw_rate": 0.339,
+   "avg_fwd": 1.09,
+   "consistency": 0.164
   },
   "mom63_1": {
    "n": 542,
@@ -40,28 +40,28 @@
  },
  "signals": {
   "high52:high52": {
-   "n": 216,
-   "hit_rate": 0.339,
-   "raw_hits": 72,
-   "raw_rate": 0.333,
-   "avg_fwd": 1.22,
-   "consistency": 0.185
+   "n": 218,
+   "hit_rate": 0.345,
+   "raw_hits": 74,
+   "raw_rate": 0.339,
+   "avg_fwd": 1.09,
+   "consistency": 0.164
   },
   "high52:high52+vol": {
-   "n": 79,
-   "hit_rate": 0.368,
-   "raw_hits": 28,
-   "raw_rate": 0.354,
-   "avg_fwd": 1.83,
-   "consistency": 0.05
+   "n": 80,
+   "hit_rate": 0.375,
+   "raw_hits": 29,
+   "raw_rate": 0.362,
+   "avg_fwd": 1.57,
+   "consistency": 0.024
   },
   "high52:high52-vol": {
-   "n": 137,
-   "hit_rate": 0.331,
-   "raw_hits": 44,
-   "raw_rate": 0.321,
-   "avg_fwd": 0.87,
-   "consistency": 0.217
+   "n": 138,
+   "hit_rate": 0.336,
+   "raw_hits": 45,
+   "raw_rate": 0.326,
+   "avg_fwd": 0.8,
+   "consistency": 0.188
   },
   "mom63_1:mom63_1": {
    "n": 542,
@@ -88,20 +88,20 @@
    "consistency": 0.286
   },
   "spike:spike": {
-   "n": 1095,
-   "hit_rate": 0.314,
+   "n": 1098,
+   "hit_rate": 0.313,
    "raw_hits": 342,
-   "raw_rate": 0.312,
-   "avg_fwd": 4.04,
-   "consistency": 0.395
+   "raw_rate": 0.311,
+   "avg_fwd": 4.01,
+   "consistency": 0.399
   },
   "spike:spike+vol": {
-   "n": 560,
-   "hit_rate": 0.317,
+   "n": 563,
+   "hit_rate": 0.315,
    "raw_hits": 176,
-   "raw_rate": 0.314,
-   "avg_fwd": 1.72,
-   "consistency": 0.402
+   "raw_rate": 0.313,
+   "avg_fwd": 1.68,
+   "consistency": 0.408
   },
   "spike:spike-vol": {
    "n": 535,
@@ -112,20 +112,20 @@
    "consistency": 0.418
   },
   "spike:violent": {
-   "n": 80,
-   "hit_rate": 0.307,
+   "n": 81,
+   "hit_rate": 0.303,
    "raw_hits": 23,
-   "raw_rate": 0.287,
-   "avg_fwd": 1.98,
-   "consistency": 0.35
+   "raw_rate": 0.284,
+   "avg_fwd": 1.89,
+   "consistency": 0.366
   },
   "trend:monthly": {
-   "n": 30,
-   "hit_rate": 0.263,
+   "n": 31,
+   "hit_rate": 0.256,
    "raw_hits": 6,
-   "raw_rate": 0.2,
-   "avg_fwd": 9.55,
-   "consistency": 0.333
+   "raw_rate": 0.194,
+   "avg_fwd": 8.8,
+   "consistency": 0.375
   },
   "trend:monthly+vol": {
    "n": 5,
@@ -136,19 +136,19 @@
    "consistency": 0.333
   },
   "trend:monthly-vol": {
-   "n": 25,
-   "hit_rate": 0.273,
+   "n": 26,
+   "hit_rate": 0.265,
    "raw_hits": 5,
-   "raw_rate": 0.2,
-   "avg_fwd": 8.6,
+   "raw_rate": 0.192,
+   "avg_fwd": 7.74,
    "consistency": 0.385
   },
   "trend:weekly": {
-   "n": 195,
-   "hit_rate": 0.315,
+   "n": 196,
+   "hit_rate": 0.314,
    "raw_hits": 60,
-   "raw_rate": 0.308,
-   "avg_fwd": 17.79,
+   "raw_rate": 0.306,
+   "avg_fwd": 17.67,
    "consistency": 0.265
   },
   "trend:weekly+vol": {
@@ -160,11 +160,11 @@
    "consistency": 0.179
   },
   "trend:weekly-vol": {
-   "n": 117,
-   "hit_rate": 0.288,
+   "n": 118,
+   "hit_rate": 0.286,
    "raw_hits": 32,
-   "raw_rate": 0.274,
-   "avg_fwd": 15.71,
+   "raw_rate": 0.271,
+   "avg_fwd": 15.52,
    "consistency": 0.322
   }
  },
