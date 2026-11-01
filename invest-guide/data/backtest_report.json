@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-31T00:48:31.246424",
+ "generated": "2026-11-01T00:07:59.932392",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2101,
+ "total_evaluable_events": 2102,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
@@ -30,12 +30,12 @@
    "consistency": 0.138
   },
   "mom63_1": {
-   "n": 547,
+   "n": 548,
    "hit_rate": 0.335,
    "raw_hits": 182,
-   "raw_rate": 0.333,
-   "avg_fwd": 2.05,
-   "consistency": 0.27
+   "raw_rate": 0.332,
+   "avg_fwd": 2.03,
+   "consistency": 0.273
   }
  },
  "signals": {
@@ -64,12 +64,12 @@
    "consistency": 0.159
   },
   "mom63_1:mom63_1": {
-   "n": 547,
+   "n": 548,
    "hit_rate": 0.335,
    "raw_hits": 182,
-   "raw_rate": 0.333,
-   "avg_fwd": 2.05,
-   "consistency": 0.27
+   "raw_rate": 0.332,
+   "avg_fwd": 2.03,
+   "consistency": 0.273
   },
   "mom63_1:mom63_1+vol": {
    "n": 41,
@@ -80,12 +80,12 @@
    "consistency": 0.143
   },
   "mom63_1:mom63_1-vol": {
-   "n": 506,
-   "hit_rate": 0.331,
+   "n": 507,
+   "hit_rate": 0.33,
    "raw_hits": 166,
-   "raw_rate": 0.328,
-   "avg_fwd": 1.93,
-   "consistency": 0.283
+   "raw_rate": 0.327,
+   "avg_fwd": 1.9,
+   "consistency": 0.286
   },
   "spike:spike": {
    "n": 1109,
