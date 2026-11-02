@@ -2982,7 +2982,7 @@
    "causes": [],
    "fwd_30d": -17.47,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2999,7 +2999,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -8.73,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -3018,7 +3018,7 @@
    "volume_x": 0.77,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.14,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -3037,7 +3037,7 @@
    "volume_x": 0.35,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -14.97,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -47103,10 +47103,166 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-11-01"
+  },
+  {
+   "symbol": "ANANDRATHI",
+   "move_date": "2026-10-30",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "down",
+   "ret_1d": -0.79,
+   "ret_5d": 0.76,
+   "ret_21d": 7.21,
+   "trigger_ret": -0.79,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "CHENNPETRO",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -0.02,
+   "ret_5d": 2.43,
+   "ret_21d": 5.19,
+   "trigger_ret": 16.23,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "CYIENT",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -0.85,
+   "ret_5d": -7.96,
+   "ret_21d": 7.54,
+   "trigger_ret": 48.44,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "DIVISLAB",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 1.2,
+   "ret_5d": 9.27,
+   "ret_21d": 3.7,
+   "trigger_ret": 22.52,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "GLAND",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 0.7,
+   "ret_5d": 9.52,
+   "ret_21d": 3.55,
+   "trigger_ret": 18.89,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "PAYTM",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -3.1,
+   "ret_5d": 1.13,
+   "ret_21d": -2.89,
+   "trigger_ret": 28.59,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
+  },
+  {
+   "symbol": "PTCIL",
+   "move_date": "2026-10-30",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -3.06,
+   "ret_5d": 2.09,
+   "ret_21d": 6.26,
+   "trigger_ret": 31.5,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-02"
   }
  ],
  "signals": {
-  "spike": {},
+  "spike": {
+   "__base__": {
+    "n": 1,
+    "hit_rate": 0.556,
+    "raw_hits": 1,
+    "consistency": null,
+    "fades": 0,
+    "base": true
+   }
+  },
   "trend": {},
   "result": {},
   "high52": {},
@@ -47122,6 +47278,6 @@
   },
   "corpact": {}
  },
- "updated": "2026-11-01T00:07:58.775298",
- "backfill_cursor": 459
+ "updated": "2026-11-02T00:42:51.203053",
+ "backfill_cursor": 479
 }

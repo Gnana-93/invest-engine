@@ -1,41 +1,11 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "buy": [
   {
-   "symbol": "NAVA",
-   "score": 76.4,
+   "symbol": "DEEPAKFERT",
+   "score": 74.1,
    "parts": {
-    "quality": 81.6,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 508.8,
-   "date": "2026-11-01",
-   "causes": []
-  },
-  {
-   "symbol": "JMFINANCIL",
-   "score": 72.2,
-   "parts": {
-    "quality": 74.5,
+    "quality": 77.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -57,60 +27,17 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 107.78,
-   "date": "2026-11-01",
-   "causes": []
+   "ref_price": 1100.2,
+   "date": "2026-11-02",
+   "causes": [
+    "dividend_split"
+   ]
   },
   {
-   "symbol": "HONASA",
-   "score": 68.1,
+   "symbol": "RAILTEL",
+   "score": 67.2,
    "parts": {
-    "quality": 67.7,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "quality_compounder",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 442.1,
-   "date": "2026-11-01",
-   "causes": []
-  },
-  {
-   "symbol": "BATAINDIA",
-   "score": 66.3,
-   "parts": {
-    "quality": 64.7,
+    "quality": 66.2,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -132,47 +59,46 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 628.35,
-   "date": "2026-11-01",
-   "causes": []
-  },
-  {
-   "symbol": "HDFCAMC",
-   "score": 64.6,
-   "parts": {
-    "quality": 61.8,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 2309.5,
-   "date": "2026-11-01",
-   "causes": []
+   "ref_price": 222.4,
+   "date": "2026-11-02",
+   "causes": [
+    "dividend_split"
+   ]
   }
  ],
  "watch": [
   {
-   "symbol": "APOLLOHOSP",
+   "symbol": "JAINREC",
    "score": 57.9,
    "parts": {
     "quality": 50.7,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "RHIM",
+   "score": 53.2,
+   "parts": {
+    "quality": 42.8,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
