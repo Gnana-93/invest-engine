@@ -1,43 +1,11 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "buy": [
   {
-   "symbol": "CLEANMAX",
-   "score": 69.1,
+   "symbol": "AFFLE",
+   "score": 60.0,
    "parts": {
-    "quality": 71.0,
-    "evidence": 50.0,
-    "data_quality": 90.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 0.9,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1242.5,
-   "date": "2026-11-03",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "ENGINERSIN",
-   "score": 62.3,
-   "parts": {
-    "quality": 58.0,
+    "quality": 54.1,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -59,40 +27,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 289.65,
-   "date": "2026-11-03",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "TARIL",
-   "score": 61.3,
-   "parts": {
-    "quality": 56.3,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 308.4,
-   "date": "2026-11-03",
+   "ref_price": 1506.5,
+   "date": "2026-11-04",
    "causes": [
     "dividend_split"
    ]
@@ -100,10 +36,37 @@
  ],
  "watch": [
   {
-   "symbol": "JUBLFOOD",
-   "score": 56.3,
+   "symbol": "DRREDDY",
+   "score": 57.6,
    "parts": {
-    "quality": 47.9,
+    "quality": 50.2,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "SOBHA",
+   "score": 50.2,
+   "parts": {
+    "quality": 37.9,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
