@@ -1,72 +1,12 @@
 {
- "date": "2026-11-04",
- "buy": [
-  {
-   "symbol": "AFFLE",
-   "score": 60.0,
-   "parts": {
-    "quality": 54.1,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1506.5,
-   "date": "2026-11-04",
-   "causes": [
-    "dividend_split"
-   ]
-  }
- ],
+ "date": "2026-11-05",
+ "buy": [],
  "watch": [
   {
-   "symbol": "DRREDDY",
-   "score": 57.6,
+   "symbol": "ANANTRAJ",
+   "score": 59.7,
    "parts": {
-    "quality": 50.2,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "SOBHA",
-   "score": 50.2,
-   "parts": {
-    "quality": 37.9,
+    "quality": 53.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
