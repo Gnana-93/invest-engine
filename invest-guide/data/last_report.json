@@ -1,17 +1,16 @@
 {
- "date": "2026-11-05",
- "buy": [],
- "watch": [
+ "date": "2026-11-06",
+ "buy": [
   {
-   "symbol": "ANANTRAJ",
-   "score": 59.7,
+   "symbol": "INOXWIND",
+   "score": 60.2,
    "parts": {
-    "quality": 53.7,
+    "quality": 54.4,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "C",
+   "band": "B",
    "strategies": [
     "turnaround"
    ],
@@ -27,8 +26,12 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ]
+   ],
+   "ref_price": 63.5,
+   "date": "2026-11-06",
+   "causes": []
   }
  ],
+ "watch": [],
  "alerts": []
 }
