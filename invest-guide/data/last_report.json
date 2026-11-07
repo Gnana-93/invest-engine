@@ -1,16 +1,17 @@
 {
- "date": "2026-11-06",
- "buy": [
+ "date": "2026-11-07",
+ "buy": [],
+ "watch": [
   {
-   "symbol": "INOXWIND",
-   "score": 60.2,
+   "symbol": "SOLARINDS",
+   "score": 54.5,
    "parts": {
-    "quality": 54.4,
-    "evidence": 50.0,
+    "quality": 61.1,
+    "evidence": 11.4,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "C",
    "strategies": [
     "turnaround"
    ],
@@ -26,12 +27,35 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
+   ]
+  },
+  {
+   "symbol": "LEMONTREE",
+   "score": 53.2,
+   "parts": {
+    "quality": 57.6,
+    "evidence": 14.3,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
    ],
-   "ref_price": 63.5,
-   "date": "2026-11-06",
-   "causes": []
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
   }
  ],
- "watch": [],
  "alerts": []
 }
