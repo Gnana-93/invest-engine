@@ -1,13 +1,111 @@
 {
- "date": "2026-11-07",
- "buy": [],
+ "date": "2026-11-08",
+ "buy": [
+  {
+   "symbol": "MPHASIS",
+   "score": 62.4,
+   "parts": {
+    "quality": 72.8,
+    "evidence": 15.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 2520.0,
+   "date": "2026-11-08",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "NTPC",
+   "score": 62.0,
+   "parts": {
+    "quality": 72.1,
+    "evidence": 15.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "deep_value"
+   ],
+   "hits": [
+    {
+     "strategy": "deep_value",
+     "criteria_passed": [
+      "pe <= max",
+      "pb <= max",
+      "debt_equity <= max",
+      "earnings stabilizing"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0
+    }
+   ],
+   "ref_price": 323.45,
+   "date": "2026-11-08",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "IGIL",
+   "score": 61.8,
+   "parts": {
+    "quality": 71.8,
+    "evidence": 15.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 407.4,
+   "date": "2026-11-08",
+   "causes": [
+    "dividend_split"
+   ]
+  }
+ ],
  "watch": [
   {
-   "symbol": "SOLARINDS",
-   "score": 54.5,
+   "symbol": "RELIANCE",
+   "score": 57.0,
    "parts": {
-    "quality": 61.1,
-    "evidence": 11.4,
+    "quality": 63.7,
+    "evidence": 15.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -30,29 +128,30 @@
    ]
   },
   {
-   "symbol": "LEMONTREE",
+   "symbol": "NCC",
    "score": 53.2,
    "parts": {
-    "quality": 57.6,
-    "evidence": 14.3,
+    "quality": 57.5,
+    "evidence": 15.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
    "strategies": [
-    "turnaround"
+    "deep_value"
    ],
    "hits": [
     {
-     "strategy": "turnaround",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "margins improving",
-      "not loss-making"
+      "pe <= max",
+      "pb <= max",
+      "debt_equity <= max",
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+     "data_quality": 1.0
     }
    ]
   }

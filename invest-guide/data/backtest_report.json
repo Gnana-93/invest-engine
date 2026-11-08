@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-07T00:55:55.297042",
+ "generated": "2026-11-08T00:35:58.607936",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2096,
+ "total_evaluable_events": 2100,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
@@ -14,38 +14,38 @@
    "consistency": 0.4
   },
   "trend": {
-   "n": 227,
-   "hit_rate": 0.311,
+   "n": 228,
+   "hit_rate": 0.309,
    "raw_hits": 69,
-   "raw_rate": 0.304,
-   "avg_fwd": 16.4,
+   "raw_rate": 0.303,
+   "avg_fwd": 16.3,
    "consistency": 0.316
   },
   "high52": {
-   "n": 213,
-   "hit_rate": 0.38,
-   "raw_hits": 80,
-   "raw_rate": 0.376,
-   "avg_fwd": 0.98,
-   "consistency": 0.101
+   "n": 215,
+   "hit_rate": 0.381,
+   "raw_hits": 81,
+   "raw_rate": 0.377,
+   "avg_fwd": 0.92,
+   "consistency": 0.099
   },
   "mom63_1": {
-   "n": 551,
-   "hit_rate": 0.335,
+   "n": 552,
+   "hit_rate": 0.334,
    "raw_hits": 183,
    "raw_rate": 0.332,
-   "avg_fwd": 2.13,
-   "consistency": 0.288
+   "avg_fwd": 2.1,
+   "consistency": 0.29
   }
  },
  "signals": {
   "high52:high52": {
-   "n": 213,
-   "hit_rate": 0.38,
-   "raw_hits": 80,
-   "raw_rate": 0.376,
-   "avg_fwd": 0.98,
-   "consistency": 0.101
+   "n": 215,
+   "hit_rate": 0.381,
+   "raw_hits": 81,
+   "raw_rate": 0.377,
+   "avg_fwd": 0.92,
+   "consistency": 0.099
   },
   "high52:high52+vol": {
    "n": 81,
@@ -56,20 +56,20 @@
    "consistency": 0.024
   },
   "high52:high52-vol": {
-   "n": 132,
-   "hit_rate": 0.393,
-   "raw_hits": 51,
-   "raw_rate": 0.386,
-   "avg_fwd": 0.82,
-   "consistency": 0.147
+   "n": 134,
+   "hit_rate": 0.394,
+   "raw_hits": 52,
+   "raw_rate": 0.388,
+   "avg_fwd": 0.73,
+   "consistency": 0.134
   },
   "mom63_1:mom63_1": {
-   "n": 551,
-   "hit_rate": 0.335,
+   "n": 552,
+   "hit_rate": 0.334,
    "raw_hits": 183,
    "raw_rate": 0.332,
-   "avg_fwd": 2.13,
-   "consistency": 0.288
+   "avg_fwd": 2.1,
+   "consistency": 0.29
   },
   "mom63_1:mom63_1+vol": {
    "n": 43,
@@ -80,12 +80,12 @@
    "consistency": 0.182
   },
   "mom63_1:mom63_1-vol": {
-   "n": 508,
+   "n": 509,
    "hit_rate": 0.329,
    "raw_hits": 166,
-   "raw_rate": 0.327,
-   "avg_fwd": 1.93,
-   "consistency": 0.307
+   "raw_rate": 0.326,
+   "avg_fwd": 1.9,
+   "consistency": 0.31
   },
   "spike:spike": {
    "n": 1105,
@@ -144,19 +144,19 @@
    "consistency": 0.385
   },
   "trend:weekly": {
-   "n": 197,
-   "hit_rate": 0.322,
+   "n": 198,
+   "hit_rate": 0.32,
    "raw_hits": 62,
-   "raw_rate": 0.315,
-   "avg_fwd": 16.96,
-   "consistency": 0.293
+   "raw_rate": 0.313,
+   "avg_fwd": 16.84,
+   "consistency": 0.313
   },
   "trend:weekly+vol": {
-   "n": 73,
-   "hit_rate": 0.37,
+   "n": 74,
+   "hit_rate": 0.366,
    "raw_hits": 26,
-   "raw_rate": 0.356,
-   "avg_fwd": 17.95,
+   "raw_rate": 0.351,
+   "avg_fwd": 17.63,
    "consistency": 0.243
   },
   "trend:weekly-vol": {
