@@ -1,12 +1,12 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "buy": [
   {
-   "symbol": "MPHASIS",
-   "score": 62.4,
+   "symbol": "BPCL",
+   "score": 60.8,
    "parts": {
-    "quality": 72.8,
-    "evidence": 15.0,
+    "quality": 58.7,
+    "evidence": 42.3,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -27,73 +27,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2520.0,
-   "date": "2026-11-08",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "NTPC",
-   "score": 62.0,
-   "parts": {
-    "quality": 72.1,
-    "evidence": 15.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "deep_value"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ],
-   "ref_price": 323.45,
-   "date": "2026-11-08",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "IGIL",
-   "score": 61.8,
-   "parts": {
-    "quality": 71.8,
-    "evidence": 15.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 407.4,
-   "date": "2026-11-08",
+   "ref_price": 317.6,
+   "date": "2026-11-09",
    "causes": [
     "dividend_split"
    ]
@@ -101,11 +36,11 @@
  ],
  "watch": [
   {
-   "symbol": "RELIANCE",
-   "score": 57.0,
+   "symbol": "SAGILITY",
+   "score": 59.1,
    "parts": {
-    "quality": 63.7,
-    "evidence": 15.0,
+    "quality": 66.2,
+    "evidence": 17.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -128,30 +63,110 @@
    ]
   },
   {
-   "symbol": "NCC",
-   "score": 53.2,
+   "symbol": "CDSL",
+   "score": 58.6,
    "parts": {
-    "quality": 57.5,
-    "evidence": 15.0,
+    "quality": 65.4,
+    "evidence": 17.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
    "strategies": [
-    "deep_value"
+    "turnaround"
    ],
    "hits": [
     {
-     "strategy": "deep_value",
+     "strategy": "turnaround",
      "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
+      "margins improving",
+      "not loss-making"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "MARUTI",
+   "score": 50.1,
+   "parts": {
+    "quality": 51.2,
+    "evidence": 17.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "SYNGENE",
+   "score": 47.8,
+   "parts": {
+    "quality": 47.4,
+    "evidence": 17.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "PINELABS",
+   "score": 46.5,
+   "parts": {
+    "quality": 45.2,
+    "evidence": 17.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ]
   }
