@@ -1,12 +1,104 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "buy": [
   {
-   "symbol": "BPCL",
-   "score": 60.8,
+   "symbol": "ONGC",
+   "score": 65.3,
    "parts": {
-    "quality": 58.7,
-    "evidence": 42.3,
+    "quality": 77.4,
+    "evidence": 15.4,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "deep_value",
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "deep_value",
+     "criteria_passed": [
+      "pe <= max",
+      "pb <= max",
+      "debt_equity <= max",
+      "earnings stabilizing"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0
+    },
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 233.5,
+   "date": "2026-11-10",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "FINCABLES",
+   "score": 64.4,
+   "parts": {
+    "quality": 75.9,
+    "evidence": 15.4,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "quality_compounder",
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "quality_compounder",
+     "criteria_passed": [
+      "roce_est >= min",
+      "debt_equity <= max",
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0
+    },
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1232.4,
+   "date": "2026-11-10",
+   "causes": [
+    "dividend_split"
+   ]
+  },
+  {
+   "symbol": "IEX",
+   "score": 62.2,
+   "parts": {
+    "quality": 72.2,
+    "evidence": 15.4,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -27,8 +119,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 317.6,
-   "date": "2026-11-09",
+   "ref_price": 112.74,
+   "date": "2026-11-10",
    "causes": [
     "dividend_split"
    ]
@@ -36,119 +128,41 @@
  ],
  "watch": [
   {
-   "symbol": "SAGILITY",
+   "symbol": "NAVINFLUOR",
    "score": 59.1,
    "parts": {
-    "quality": 66.2,
-    "evidence": 17.6,
+    "quality": 67.0,
+    "evidence": 15.4,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
    "strategies": [
-    "turnaround"
+    "quality_compounder"
    ],
    "hits": [
     {
-     "strategy": "turnaround",
+     "strategy": "quality_compounder",
      "criteria_passed": [
-      "margins improving",
-      "not loss-making"
+      "roce_est >= min",
+      "debt_equity <= max",
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+     "data_quality": 1.0
     }
    ]
   },
   {
-   "symbol": "CDSL",
-   "score": 58.6,
+   "symbol": "NYKAA",
+   "score": 47.5,
    "parts": {
-    "quality": 65.4,
-    "evidence": 17.6,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "MARUTI",
-   "score": 50.1,
-   "parts": {
-    "quality": 51.2,
-    "evidence": 17.6,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "SYNGENE",
-   "score": 47.8,
-   "parts": {
-    "quality": 47.4,
-    "evidence": 17.6,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "PINELABS",
-   "score": 46.5,
-   "parts": {
-    "quality": 45.2,
-    "evidence": 17.6,
+    "quality": 47.8,
+    "evidence": 15.4,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
