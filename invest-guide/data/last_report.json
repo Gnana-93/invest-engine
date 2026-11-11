@@ -1,57 +1,12 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "buy": [
   {
-   "symbol": "ONGC",
-   "score": 65.3,
+   "symbol": "ZENTEC",
+   "score": 74.3,
    "parts": {
-    "quality": 77.4,
-    "evidence": 15.4,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "deep_value",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 233.5,
-   "date": "2026-11-10",
-   "causes": [
-    "dividend_split"
-   ]
-  },
-  {
-   "symbol": "FINCABLES",
-   "score": 64.4,
-   "parts": {
-    "quality": 75.9,
-    "evidence": 15.4,
+    "quality": 81.5,
+    "evidence": 41.7,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -87,18 +42,18 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1232.4,
-   "date": "2026-11-10",
+   "ref_price": 1712.6,
+   "date": "2026-11-11",
    "causes": [
     "dividend_split"
    ]
   },
   {
-   "symbol": "IEX",
-   "score": 62.2,
+   "symbol": "IGIL",
+   "score": 61.6,
    "parts": {
-    "quality": 72.2,
-    "evidence": 15.4,
+    "quality": 71.8,
+    "evidence": 14.1,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -119,8 +74,8 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 112.74,
-   "date": "2026-11-10",
+   "ref_price": 426.8,
+   "date": "2026-11-11",
    "causes": [
     "dividend_split"
    ]
@@ -128,41 +83,11 @@
  ],
  "watch": [
   {
-   "symbol": "NAVINFLUOR",
-   "score": 59.1,
+   "symbol": "SAGILITY",
+   "score": 58.3,
    "parts": {
-    "quality": 67.0,
-    "evidence": 15.4,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "quality_compounder"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ]
-  },
-  {
-   "symbol": "NYKAA",
-   "score": 47.5,
-   "parts": {
-    "quality": 47.8,
-    "evidence": 15.4,
+    "quality": 66.2,
+    "evidence": 14.1,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
