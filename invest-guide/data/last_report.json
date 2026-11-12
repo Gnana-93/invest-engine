@@ -1,35 +1,20 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "buy": [
   {
-   "symbol": "ZENTEC",
-   "score": 74.3,
+   "symbol": "NMDC",
+   "score": 69.7,
    "parts": {
-    "quality": 81.5,
-    "evidence": 41.7,
+    "quality": 70.3,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "B",
    "strategies": [
-    "quality_compounder",
     "turnaround"
    ],
    "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
     {
      "strategy": "turnaround",
      "criteria_passed": [
@@ -42,18 +27,16 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1712.6,
-   "date": "2026-11-11",
-   "causes": [
-    "dividend_split"
-   ]
+   "ref_price": 71.5,
+   "date": "2026-11-12",
+   "causes": []
   },
   {
-   "symbol": "IGIL",
-   "score": 61.6,
+   "symbol": "CGPOWER",
+   "score": 61.8,
    "parts": {
-    "quality": 71.8,
-    "evidence": 14.1,
+    "quality": 57.1,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -74,20 +57,45 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 426.8,
-   "date": "2026-11-11",
-   "causes": [
-    "dividend_split"
-   ]
+   "ref_price": 800.0,
+   "date": "2026-11-12",
+   "causes": []
   }
  ],
  "watch": [
   {
-   "symbol": "SAGILITY",
-   "score": 58.3,
+   "symbol": "SIGNATURE",
+   "score": 55.5,
    "parts": {
-    "quality": 66.2,
-    "evidence": 14.1,
+    "quality": 46.7,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "RHIM",
+   "score": 53.3,
+   "parts": {
+    "quality": 42.9,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },

@@ -550,7 +550,7 @@
    "causes": [],
    "fwd_30d": -15.76,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -569,7 +569,7 @@
    "causes": [],
    "fwd_30d": 6.68,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -588,7 +588,7 @@
    "causes": [],
    "fwd_30d": -1.95,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -607,7 +607,7 @@
    "causes": [],
    "fwd_30d": -1.38,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -624,7 +624,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 9.82,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -643,7 +643,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 6.72,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -662,7 +662,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 9.24,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -681,7 +681,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -18.51,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -700,7 +700,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -24.56,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -719,7 +719,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 12.47,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2355,7 +2355,7 @@
    "causes": [],
    "fwd_30d": -12.07,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2374,7 +2374,7 @@
    "causes": [],
    "fwd_30d": -16.55,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2391,7 +2391,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -16.34,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -3818,7 +3818,7 @@
    "causes": [],
    "fwd_30d": -21.57,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-18"
   },
   {
@@ -3837,7 +3837,7 @@
    "causes": [],
    "fwd_30d": -7.5,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -3856,7 +3856,7 @@
    "causes": [],
    "fwd_30d": -1.36,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -3873,7 +3873,7 @@
    "volume_x": 2.72,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -20.56,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -3892,7 +3892,7 @@
    "volume_x": 1.79,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -8.26,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -3911,7 +3911,7 @@
    "volume_x": 1.08,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -3.86,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -7183,7 +7183,7 @@
    ],
    "fwd_30d": -12.48,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7204,7 +7204,7 @@
    ],
    "fwd_30d": -16.0,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7225,7 +7225,7 @@
    ],
    "fwd_30d": -4.14,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7246,7 +7246,7 @@
    ],
    "fwd_30d": -3.74,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7267,7 +7267,7 @@
    ],
    "fwd_30d": -16.26,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7288,7 +7288,7 @@
    ],
    "fwd_30d": 7.35,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7309,7 +7309,7 @@
    ],
    "fwd_30d": -5.65,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7330,7 +7330,7 @@
    ],
    "fwd_30d": 1.52,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7351,7 +7351,7 @@
    ],
    "fwd_30d": 15.47,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7372,7 +7372,7 @@
    ],
    "fwd_30d": -10.41,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7393,7 +7393,7 @@
    ],
    "fwd_30d": -1.01,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7414,7 +7414,7 @@
    ],
    "fwd_30d": 1.6,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7435,7 +7435,7 @@
    ],
    "fwd_30d": -12.66,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7456,7 +7456,7 @@
    ],
    "fwd_30d": 3.68,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7477,7 +7477,7 @@
    ],
    "fwd_30d": -29.49,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7496,7 +7496,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -11.79,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7517,7 +7517,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 8.6,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7559,7 +7559,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -12.81,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7580,7 +7580,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 6.91,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7601,7 +7601,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 6.55,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7622,7 +7622,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 0.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7643,7 +7643,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -6.43,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7664,7 +7664,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -19.21,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7685,7 +7685,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 5.69,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7706,7 +7706,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -26.25,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7727,7 +7727,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 1.71,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7748,7 +7748,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -11.34,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7769,7 +7769,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 4.51,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7790,7 +7790,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.64,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7811,7 +7811,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 6.0,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -7832,7 +7832,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -11.64,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -13578,7 +13578,7 @@
    "causes": [],
    "fwd_30d": 6.66,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-22"
   },
   {
@@ -13595,7 +13595,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 5.47,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -13614,7 +13614,7 @@
    "volume_x": 0.68,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -4.7,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -14739,7 +14739,7 @@
    ],
    "fwd_30d": -15.81,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -14760,7 +14760,7 @@
    ],
    "fwd_30d": 1.27,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -14781,7 +14781,7 @@
    ],
    "fwd_30d": -10.21,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-23"
   },
   {
@@ -14802,7 +14802,7 @@
    ],
    "fwd_30d": 13.67,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -14821,7 +14821,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.41,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -14842,7 +14842,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -16.11,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -14863,7 +14863,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 7.29,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -14884,7 +14884,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -22.63,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -14905,7 +14905,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -0.39,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -14926,7 +14926,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -1.79,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -16643,7 +16643,7 @@
    "causes": [],
    "fwd_30d": 2.81,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -16662,7 +16662,7 @@
    "causes": [],
    "fwd_30d": -16.73,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -16679,7 +16679,7 @@
    "volume_x": 2.71,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -18.66,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-24"
@@ -58522,39 +58522,39 @@
  "signals": {
   "spike": {
    "__base__": {
-    "n": 33,
+    "n": 37,
     "hit_rate": 0.244,
-    "raw_hits": 6,
-    "consistency": 0.647,
+    "raw_hits": 7,
+    "consistency": 0.579,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 1,
-    "hit_rate": 0.444,
+    "n": 2,
+    "hit_rate": 0.4,
     "raw_hits": 0,
     "consistency": null,
-    "fades": 0
+    "fades": 1
    }
   },
   "trend": {},
   "result": {},
   "high52": {
    "__base__": {
-    "n": 12,
-    "hit_rate": 0.25,
-    "raw_hits": 1,
-    "consistency": 1.0,
+    "n": 15,
+    "hit_rate": 0.261,
+    "raw_hits": 2,
+    "consistency": 0.75,
     "fades": 0,
     "base": true
    }
   },
   "mom63_1": {
    "__base__": {
-    "n": 31,
-    "hit_rate": 0.282,
-    "raw_hits": 7,
-    "consistency": 0.5,
+    "n": 37,
+    "hit_rate": 0.267,
+    "raw_hits": 8,
+    "consistency": 0.579,
     "fades": 0,
     "base": true
    },
@@ -58568,25 +58568,25 @@
   },
   "corpact": {
    "__base__": {
-    "n": 98,
-    "hit_rate": 0.208,
-    "raw_hits": 18,
-    "consistency": 0.551,
+    "n": 116,
+    "hit_rate": 0.218,
+    "raw_hits": 23,
+    "consistency": 0.517,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 70,
-    "hit_rate": 0.141,
-    "raw_hits": 7,
-    "consistency": 0.771,
+    "n": 81,
+    "hit_rate": 0.146,
+    "raw_hits": 9,
+    "consistency": 0.707,
     "fades": 0
    },
    "dividend_split:down": {
-    "n": 28,
-    "hit_rate": 0.417,
-    "raw_hits": 11,
-    "consistency": 0.143,
+    "n": 35,
+    "hit_rate": 0.419,
+    "raw_hits": 14,
+    "consistency": 0.222,
     "fades": 0
    },
    "regulatory:up": {
@@ -58605,6 +58605,6 @@
    }
   }
  },
- "updated": "2026-11-11T01:16:07.051851",
- "backfill_cursor": 158
+ "updated": "2026-11-12T02:18:01.193661",
+ "backfill_cursor": 178
 }
