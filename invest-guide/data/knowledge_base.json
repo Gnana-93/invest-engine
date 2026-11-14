@@ -740,7 +740,7 @@
    "causes": [],
    "fwd_30d": 5.46,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -759,7 +759,7 @@
    "causes": [],
    "fwd_30d": -9.59,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -778,7 +778,7 @@
    "causes": [],
    "fwd_30d": -8.82,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -797,7 +797,7 @@
    "causes": [],
    "fwd_30d": -5.71,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -816,7 +816,7 @@
    "causes": [],
    "fwd_30d": -7.19,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -835,7 +835,7 @@
    "causes": [],
    "fwd_30d": -3.3,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -854,7 +854,7 @@
    "causes": [],
    "fwd_30d": 8.11,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -871,7 +871,7 @@
    "volume_x": 2.95,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -6.24,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -909,7 +909,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 4.91,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -928,7 +928,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 1.4,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2412,7 +2412,7 @@
    "causes": [],
    "fwd_30d": 0.5,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2448,7 +2448,7 @@
    "volume_x": 0.63,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 8.63,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2467,7 +2467,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -8.84,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -3932,7 +3932,7 @@
    "causes": [],
    "fwd_30d": -11.58,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -3970,7 +3970,7 @@
    "causes": [],
    "fwd_30d": -14.02,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-18"
   },
   {
@@ -3989,7 +3989,7 @@
    "causes": [],
    "fwd_30d": -9.69,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4025,7 +4025,7 @@
    "volume_x": 1.1,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -11.66,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4044,7 +4044,7 @@
    "volume_x": 1.51,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -16.57,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4063,7 +4063,7 @@
    "volume_x": 5.05,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -14.32,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4082,7 +4082,7 @@
    "volume_x": 5.63,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -17.99,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -7855,7 +7855,7 @@
    ],
    "fwd_30d": -9.13,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7876,7 +7876,7 @@
    ],
    "fwd_30d": 2.3,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7897,7 +7897,7 @@
    ],
    "fwd_30d": 6.65,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7918,7 +7918,7 @@
    ],
    "fwd_30d": -9.29,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7939,7 +7939,7 @@
    ],
    "fwd_30d": -1.61,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7960,7 +7960,7 @@
    ],
    "fwd_30d": -17.47,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -7981,7 +7981,7 @@
    ],
    "fwd_30d": -5.68,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8002,7 +8002,7 @@
    ],
    "fwd_30d": -13.98,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8023,7 +8023,7 @@
    ],
    "fwd_30d": -1.28,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8044,7 +8044,7 @@
    ],
    "fwd_30d": -8.9,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8065,7 +8065,7 @@
    ],
    "fwd_30d": -3.71,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8086,7 +8086,7 @@
    ],
    "fwd_30d": -12.39,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8107,7 +8107,7 @@
    ],
    "fwd_30d": 7.29,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8128,7 +8128,7 @@
    ],
    "fwd_30d": -2.68,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8149,7 +8149,7 @@
    ],
    "fwd_30d": -23.52,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8170,7 +8170,7 @@
    ],
    "fwd_30d": 6.96,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8191,7 +8191,7 @@
    ],
    "fwd_30d": 15.19,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8210,7 +8210,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -27.96,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8231,7 +8231,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 0.62,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8252,7 +8252,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -0.75,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8273,7 +8273,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.62,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8294,7 +8294,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 0.74,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8315,7 +8315,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.15,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8336,7 +8336,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 0.27,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8357,7 +8357,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.79,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8378,7 +8378,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -21.67,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8399,7 +8399,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.17,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8420,7 +8420,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8441,7 +8441,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -19.52,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8462,7 +8462,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -1.81,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8483,7 +8483,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 1.59,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -8504,7 +8504,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.66,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -13633,7 +13633,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -13.95,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -13652,7 +13652,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -2.5,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -14949,7 +14949,7 @@
    ],
    "fwd_30d": -6.59,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -14991,7 +14991,7 @@
    ],
    "fwd_30d": -10.63,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15012,7 +15012,7 @@
    ],
    "fwd_30d": -11.5,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15031,7 +15031,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.59,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15052,7 +15052,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -10.75,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15073,7 +15073,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -9.0,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15094,7 +15094,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -10.89,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -16700,7 +16700,7 @@
    "causes": [],
    "fwd_30d": 4.65,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -16717,7 +16717,7 @@
    "volume_x": 4.99,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 7.31,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-24"
@@ -16736,7 +16736,7 @@
    "volume_x": 0.76,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 22.92,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-24"
@@ -17282,7 +17282,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 18.41,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-25"
@@ -17304,7 +17304,7 @@
     "dividend_split",
     "results"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.1,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-25"
@@ -17325,7 +17325,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -6.8,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-25"
@@ -18369,7 +18369,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -0.03,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-30"
@@ -59837,15 +59837,1203 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-11-13"
+  },
+  {
+   "symbol": "360ONE",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 1.79,
+   "ret_5d": 11.43,
+   "ret_21d": 11.43,
+   "trigger_ret": -1.58,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "ABCAPITAL",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 5.93,
+   "ret_5d": 10.41,
+   "ret_21d": 10.32,
+   "trigger_ret": -1.22,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "ABREL",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 10.16,
+   "ret_5d": 12.87,
+   "ret_21d": 17.99,
+   "trigger_ret": 10.16,
+   "volume_x": 14.95,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "ANANTRAJ",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.68,
+   "ret_5d": 5.29,
+   "ret_21d": -14.89,
+   "trigger_ret": 5.68,
+   "volume_x": 2.61,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "AVANTIFEED",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 8.35,
+   "ret_5d": 7.98,
+   "ret_21d": 7.98,
+   "trigger_ret": 8.35,
+   "volume_x": 63.2,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "BANKBARODA",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 0.42,
+   "ret_5d": 12.54,
+   "ret_21d": 17.31,
+   "trigger_ret": 12.54,
+   "volume_x": 1.5,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "MAHABANK",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 1.76,
+   "ret_5d": 15.3,
+   "ret_21d": 10.59,
+   "trigger_ret": 15.3,
+   "volume_x": 1.03,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "BDL",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.08,
+   "ret_5d": -1.85,
+   "ret_21d": -3.11,
+   "trigger_ret": -4.08,
+   "volume_x": 5.43,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "CANHLIFE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.72,
+   "ret_5d": 7.49,
+   "ret_21d": -3.23,
+   "trigger_ret": 7.72,
+   "volume_x": 4.33,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "CAPLIPOINT",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.32,
+   "ret_5d": -1.23,
+   "ret_21d": -1.38,
+   "trigger_ret": -5.32,
+   "volume_x": 5.41,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "CUB",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 2.23,
+   "ret_5d": 10.49,
+   "ret_21d": 2.04,
+   "trigger_ret": -1.09,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "CLEANMAX",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.05,
+   "ret_5d": 4.5,
+   "ret_21d": 0.71,
+   "trigger_ret": 4.05,
+   "volume_x": 1.53,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "CUPID",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 8.7,
+   "ret_5d": 14.35,
+   "ret_21d": 6.36,
+   "trigger_ret": 8.7,
+   "volume_x": 3.95,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "DATAPATTNS",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.42,
+   "ret_5d": 3.75,
+   "ret_21d": 3.63,
+   "trigger_ret": 4.42,
+   "volume_x": 2.87,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "ELECON",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.82,
+   "ret_5d": 3.76,
+   "ret_21d": 11.37,
+   "trigger_ret": 5.82,
+   "volume_x": 0.81,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "FRACTAL",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.14,
+   "ret_5d": -1.66,
+   "ret_21d": 17.36,
+   "trigger_ret": 4.14,
+   "volume_x": 0.69,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "GABRIEL",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 16.53,
+   "ret_5d": 17.94,
+   "ret_21d": 17.13,
+   "trigger_ret": 0.0,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "GLAND",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 1.37,
+   "ret_5d": 4.74,
+   "ret_21d": 7.48,
+   "trigger_ret": 0.0,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "GODREJIND",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 11.88,
+   "ret_5d": 10.79,
+   "ret_21d": 9.97,
+   "trigger_ret": 11.88,
+   "volume_x": 29.55,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "GODREJPROP",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.5,
+   "ret_5d": 8.08,
+   "ret_21d": 21.69,
+   "trigger_ret": 4.5,
+   "volume_x": 1.82,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "GRANULES",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.16,
+   "ret_5d": 5.78,
+   "ret_21d": 4.62,
+   "trigger_ret": 5.16,
+   "volume_x": 4.7,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "HDFCLIFE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.23,
+   "ret_5d": 12.26,
+   "ret_21d": 6.89,
+   "trigger_ret": 4.23,
+   "volume_x": 2.82,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "HONASA",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 1.99,
+   "ret_5d": 7.34,
+   "ret_21d": 4.92,
+   "trigger_ret": -1.42,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "INDIAMART",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.5,
+   "ret_5d": 2.75,
+   "ret_21d": 2.69,
+   "trigger_ret": 5.5,
+   "volume_x": 2.66,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "IPCALAB",
+   "move_date": "2026-11-12",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -2.0,
+   "ret_5d": -3.67,
+   "ret_21d": -0.01,
+   "trigger_ret": 16.36,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "J&KBANK",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 2.61,
+   "ret_5d": 13.57,
+   "ret_21d": -0.25,
+   "trigger_ret": 13.57,
+   "volume_x": 0.73,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "KALYANKJIL",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.1,
+   "ret_5d": 34.37,
+   "ret_21d": 25.35,
+   "trigger_ret": 7.1,
+   "volume_x": 5.73,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "LTF",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.11,
+   "ret_5d": 7.09,
+   "ret_21d": 7.5,
+   "trigger_ret": 4.11,
+   "volume_x": 1.12,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "LICHSGFIN",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 2.48,
+   "ret_5d": 11.35,
+   "ret_21d": 1.94,
+   "trigger_ret": -1.25,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "LEMONTREE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.61,
+   "ret_5d": 4.19,
+   "ret_21d": 8.78,
+   "trigger_ret": 4.61,
+   "volume_x": 4.63,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "LODHA",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.38,
+   "ret_5d": 9.27,
+   "ret_21d": 14.61,
+   "trigger_ret": 4.38,
+   "volume_x": 1.31,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "MFSL",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.53,
+   "ret_5d": 10.5,
+   "ret_21d": 5.24,
+   "trigger_ret": 5.53,
+   "volume_x": 1.95,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "MEESHO",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 2.4,
+   "ret_5d": 13.16,
+   "ret_21d": 10.05,
+   "trigger_ret": 13.16,
+   "volume_x": 1.63,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "MOTILALOFS",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.21,
+   "ret_5d": 20.12,
+   "ret_21d": 15.78,
+   "trigger_ret": 5.21,
+   "volume_x": 4.04,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "NAVA",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.41,
+   "ret_5d": 10.0,
+   "ret_21d": 5.32,
+   "trigger_ret": 5.41,
+   "volume_x": 26.84,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "NAVINFLUOR",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 3.21,
+   "ret_5d": 13.48,
+   "ret_21d": 16.45,
+   "trigger_ret": 13.48,
+   "volume_x": 2.12,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "OBEROIRLTY",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.17,
+   "ret_5d": 6.2,
+   "ret_21d": 6.88,
+   "trigger_ret": 4.17,
+   "volume_x": 2.44,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "ONGC",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.39,
+   "ret_5d": -4.47,
+   "ret_21d": 2.05,
+   "trigger_ret": -4.39,
+   "volume_x": 2.06,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PAYTM",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 7.31,
+   "ret_5d": 11.12,
+   "ret_21d": 13.91,
+   "trigger_ret": 0.0,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "POLICYBZR",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.59,
+   "ret_5d": 8.82,
+   "ret_21d": 0.3,
+   "trigger_ret": 7.59,
+   "volume_x": 1.93,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PVRINOX",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.37,
+   "ret_5d": 4.77,
+   "ret_21d": 17.93,
+   "trigger_ret": 4.37,
+   "volume_x": 1.02,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PAGEIND",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": true,
+   "ret_1d": -12.91,
+   "ret_5d": -10.91,
+   "ret_21d": -13.7,
+   "trigger_ret": -12.91,
+   "volume_x": 16.06,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PHOENIXLTD",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.57,
+   "ret_5d": 10.22,
+   "ret_21d": 24.57,
+   "trigger_ret": 5.57,
+   "volume_x": 1.63,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PINELABS",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.82,
+   "ret_5d": 11.49,
+   "ret_21d": 7.9,
+   "trigger_ret": 5.82,
+   "volume_x": 2.33,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "POONAWALLA",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 1.45,
+   "ret_5d": 5.01,
+   "ret_21d": 9.78,
+   "trigger_ret": -1.93,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PRESTIGE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.24,
+   "ret_5d": 7.21,
+   "ret_21d": 18.5,
+   "trigger_ret": 4.24,
+   "volume_x": 2.47,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "PNB",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 2.39,
+   "ret_5d": 15.82,
+   "ret_21d": 22.23,
+   "trigger_ret": 15.82,
+   "volume_x": 2.23,
+   "confirmed": true,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "RADICO",
+   "move_date": "2026-11-12",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 4.46,
+   "ret_5d": 5.5,
+   "ret_21d": 1.83,
+   "trigger_ret": -2.0,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "REDINGTON",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.15,
+   "ret_5d": -2.09,
+   "ret_21d": -7.97,
+   "trigger_ret": 4.15,
+   "volume_x": 0.99,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "SIGNATURE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.27,
+   "ret_5d": 9.97,
+   "ret_21d": 10.1,
+   "trigger_ret": 5.27,
+   "volume_x": 1.69,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "SOBHA",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.4,
+   "ret_5d": 9.31,
+   "ret_21d": 12.3,
+   "trigger_ret": 4.4,
+   "volume_x": 1.57,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "TMCV",
+   "move_date": "2026-11-12",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 1.65,
+   "ret_5d": 12.56,
+   "ret_21d": 12.09,
+   "trigger_ret": 12.56,
+   "volume_x": 1.6,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "TECHNOE",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.64,
+   "ret_5d": 14.89,
+   "ret_21d": 6.32,
+   "trigger_ret": 4.64,
+   "volume_x": 1.78,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
+  },
+  {
+   "symbol": "TENNIND",
+   "move_date": "2026-11-12",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.17,
+   "ret_5d": -1.36,
+   "ret_21d": -3.46,
+   "trigger_ret": 4.17,
+   "volume_x": 1.19,
+   "confirmed": false,
+   "causes": [
+    "dividend_split",
+    "results"
+   ],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-14"
   }
  ],
  "signals": {
   "spike": {
    "__base__": {
-    "n": 43,
-    "hit_rate": 0.235,
-    "raw_hits": 8,
-    "consistency": 0.636,
+    "n": 46,
+    "hit_rate": 0.241,
+    "raw_hits": 9,
+    "consistency": 0.652,
     "fades": 0,
     "base": true
    },
@@ -59861,20 +61049,20 @@
   "result": {},
   "high52": {
    "__base__": {
-    "n": 17,
-    "hit_rate": 0.28,
+    "n": 20,
+    "hit_rate": 0.25,
     "raw_hits": 3,
-    "consistency": 0.556,
+    "consistency": 0.6,
     "fades": 0,
     "base": true
    }
   },
   "mom63_1": {
    "__base__": {
-    "n": 44,
-    "hit_rate": 0.327,
-    "raw_hits": 13,
-    "consistency": 0.182,
+    "n": 50,
+    "hit_rate": 0.31,
+    "raw_hits": 14,
+    "consistency": 0.2,
     "fades": 0,
     "base": true
    },
@@ -59895,25 +61083,25 @@
   },
   "corpact": {
    "__base__": {
-    "n": 135,
-    "hit_rate": 0.245,
-    "raw_hits": 31,
-    "consistency": 0.471,
+    "n": 155,
+    "hit_rate": 0.27,
+    "raw_hits": 40,
+    "consistency": 0.308,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 95,
-    "hit_rate": 0.175,
-    "raw_hits": 14,
-    "consistency": 0.542,
+    "n": 107,
+    "hit_rate": 0.183,
+    "raw_hits": 17,
+    "consistency": 0.519,
     "fades": 0
    },
    "dividend_split:down": {
-    "n": 40,
-    "hit_rate": 0.438,
-    "raw_hits": 17,
-    "consistency": 0.2,
+    "n": 48,
+    "hit_rate": 0.482,
+    "raw_hits": 23,
+    "consistency": 0.0,
     "fades": 0
    },
    "regulatory:up": {
@@ -59932,6 +61120,6 @@
    }
   }
  },
- "updated": "2026-11-13T01:51:12.390961",
- "backfill_cursor": 198
+ "updated": "2026-11-14T01:28:29.400556",
+ "backfill_cursor": 218
 }

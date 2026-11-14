@@ -1,12 +1,12 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "buy": [
   {
-   "symbol": "OBEROIRLTY",
-   "score": 70.2,
+   "symbol": "RUBICON",
+   "score": 63.4,
    "parts": {
-    "quality": 75.5,
-    "evidence": 39.4,
+    "quality": 62.6,
+    "evidence": 43.4,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -27,42 +27,14 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1744.3,
-   "date": "2026-11-13",
+   "ref_price": 1717.3,
+   "date": "2026-11-14",
    "causes": [
     "dividend_split",
     "results"
    ]
   }
  ],
- "watch": [
-  {
-   "symbol": "AETHER",
-   "score": 50.0,
-   "parts": {
-    "quality": 51.8,
-    "evidence": 15.8,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  }
- ],
+ "watch": [],
  "alerts": []
 }
