@@ -1,12 +1,12 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "buy": [
   {
-   "symbol": "RUBICON",
-   "score": 63.4,
+   "symbol": "TECHM",
+   "score": 65.4,
    "parts": {
-    "quality": 62.6,
-    "evidence": 43.4,
+    "quality": 66.2,
+    "evidence": 42.8,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -27,14 +27,42 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1717.3,
-   "date": "2026-11-14",
+   "ref_price": 1764.0,
+   "date": "2026-11-15",
    "causes": [
     "dividend_split",
     "results"
    ]
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "HAVELLS",
+   "score": 55.3,
+   "parts": {
+    "quality": 49.4,
+    "evidence": 42.8,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }

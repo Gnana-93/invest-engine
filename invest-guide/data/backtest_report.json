@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-14T01:28:30.573824",
+ "generated": "2026-11-15T01:03:22.082544",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2090,
+ "total_evaluable_events": 2096,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1098,
-   "hit_rate": 0.34,
+   "n": 1103,
+   "hit_rate": 0.338,
    "raw_hits": 372,
-   "raw_rate": 0.339,
-   "avg_fwd": 3.96,
-   "consistency": 0.4
+   "raw_rate": 0.337,
+   "avg_fwd": 3.95,
+   "consistency": 0.405
   },
   "trend": {
-   "n": 229,
-   "hit_rate": 0.321,
+   "n": 230,
+   "hit_rate": 0.319,
    "raw_hits": 72,
-   "raw_rate": 0.314,
-   "avg_fwd": 15.29,
+   "raw_rate": 0.313,
+   "avg_fwd": 15.2,
    "consistency": 0.322
   },
   "high52": {
@@ -88,28 +88,28 @@
    "consistency": 0.302
   },
   "spike:spike": {
-   "n": 1098,
-   "hit_rate": 0.34,
+   "n": 1103,
+   "hit_rate": 0.338,
    "raw_hits": 372,
-   "raw_rate": 0.339,
-   "avg_fwd": 3.96,
-   "consistency": 0.4
+   "raw_rate": 0.337,
+   "avg_fwd": 3.95,
+   "consistency": 0.405
   },
   "spike:spike+vol": {
-   "n": 565,
-   "hit_rate": 0.332,
+   "n": 569,
+   "hit_rate": 0.329,
    "raw_hits": 186,
-   "raw_rate": 0.329,
-   "avg_fwd": 2.05,
-   "consistency": 0.406
+   "raw_rate": 0.327,
+   "avg_fwd": 2.03,
+   "consistency": 0.411
   },
   "spike:spike-vol": {
-   "n": 533,
+   "n": 534,
    "hit_rate": 0.351,
    "raw_hits": 186,
-   "raw_rate": 0.349,
+   "raw_rate": 0.348,
    "avg_fwd": 5.99,
-   "consistency": 0.41
+   "consistency": 0.416
   },
   "spike:violent": {
    "n": 82,
@@ -144,12 +144,12 @@
    "consistency": 0.385
   },
   "trend:weekly": {
-   "n": 196,
-   "hit_rate": 0.333,
+   "n": 197,
+   "hit_rate": 0.332,
    "raw_hits": 64,
-   "raw_rate": 0.327,
-   "avg_fwd": 16.03,
-   "consistency": 0.306
+   "raw_rate": 0.325,
+   "avg_fwd": 15.91,
+   "consistency": 0.313
   },
   "trend:weekly+vol": {
    "n": 69,
@@ -160,11 +160,11 @@
    "consistency": 0.257
   },
   "trend:weekly-vol": {
-   "n": 127,
-   "hit_rate": 0.311,
+   "n": 128,
+   "hit_rate": 0.309,
    "raw_hits": 38,
-   "raw_rate": 0.299,
-   "avg_fwd": 16.4,
+   "raw_rate": 0.297,
+   "avg_fwd": 16.22,
    "consistency": 0.344
   }
  },
