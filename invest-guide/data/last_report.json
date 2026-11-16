@@ -1,12 +1,57 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "buy": [
   {
-   "symbol": "TECHM",
-   "score": 65.4,
+   "symbol": "HINDZINC",
+   "score": 81.6,
    "parts": {
-    "quality": 66.2,
-    "evidence": 42.8,
+    "quality": 90.2,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "A",
+   "strategies": [
+    "quality_compounder",
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "quality_compounder",
+     "criteria_passed": [
+      "roce_est >= min",
+      "debt_equity <= max",
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
+     ],
+     "criteria_unknown": [],
+     "bonus": 2,
+     "data_quality": 1.0
+    },
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 554.85,
+   "date": "2026-11-16",
+   "causes": []
+  },
+  {
+   "symbol": "KPRMILL",
+   "score": 70.3,
+   "parts": {
+    "quality": 71.3,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -27,25 +72,20 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1764.0,
-   "date": "2026-11-15",
-   "causes": [
-    "dividend_split",
-    "results"
-   ]
-  }
- ],
- "watch": [
+   "ref_price": 1158.4,
+   "date": "2026-11-16",
+   "causes": []
+  },
   {
-   "symbol": "HAVELLS",
-   "score": 55.3,
+   "symbol": "WELSPUNLIV",
+   "score": 60.8,
    "parts": {
-    "quality": 49.4,
-    "evidence": 42.8,
+    "quality": 55.6,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "C",
+   "band": "B",
    "strategies": [
     "turnaround"
    ],
@@ -61,8 +101,12 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ]
+   ],
+   "ref_price": 250.14,
+   "date": "2026-11-16",
+   "causes": []
   }
  ],
+ "watch": [],
  "alerts": []
 }
