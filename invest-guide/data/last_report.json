@@ -1,33 +1,31 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "buy": [
   {
-   "symbol": "HINDZINC",
-   "score": 81.6,
+   "symbol": "CHENNPETRO",
+   "score": 78.0,
    "parts": {
-    "quality": 90.2,
+    "quality": 84.2,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "A",
    "strategies": [
-    "quality_compounder",
+    "deep_value",
     "turnaround"
    ],
    "hits": [
     {
-     "strategy": "quality_compounder",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "roce_est >= min",
+      "pe <= max",
+      "pb <= max",
       "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
-     "bonus": 2,
+     "bonus": 0,
      "data_quality": 1.0
     },
     {
@@ -42,71 +40,94 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 554.85,
-   "date": "2026-11-16",
-   "causes": []
-  },
-  {
-   "symbol": "KPRMILL",
-   "score": 70.3,
-   "parts": {
-    "quality": 71.3,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1158.4,
-   "date": "2026-11-16",
-   "causes": []
-  },
-  {
-   "symbol": "WELSPUNLIV",
-   "score": 60.8,
-   "parts": {
-    "quality": 55.6,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 250.14,
-   "date": "2026-11-16",
+   "ref_price": 1440.0,
+   "date": "2026-11-17",
    "causes": []
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "APOLLOTYRE",
+   "score": 59.9,
+   "parts": {
+    "quality": 54.0,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "deep_value"
+   ],
+   "hits": [
+    {
+     "strategy": "deep_value",
+     "criteria_passed": [
+      "pe <= max",
+      "pb <= max",
+      "debt_equity <= max",
+      "earnings stabilizing"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0
+    }
+   ]
+  },
+  {
+   "symbol": "NYKAA",
+   "score": 56.2,
+   "parts": {
+    "quality": 47.8,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "OLECTRA",
+   "score": 56.1,
+   "parts": {
+    "quality": 47.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }

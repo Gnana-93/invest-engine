@@ -1025,7 +1025,7 @@
    "causes": [],
    "fwd_30d": -5.75,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1044,7 +1044,7 @@
    "causes": [],
    "fwd_30d": -1.04,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1063,7 +1063,7 @@
    "causes": [],
    "fwd_30d": -2.61,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1080,7 +1080,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -3.12,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1099,7 +1099,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -16.41,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1118,7 +1118,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -4.02,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2526,7 +2526,7 @@
    "causes": [],
    "fwd_30d": -1.17,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2543,7 +2543,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.78,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -4122,7 +4122,7 @@
    "causes": [],
    "fwd_30d": -6.14,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4141,7 +4141,7 @@
    "causes": [],
    "fwd_30d": -10.51,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-18"
   },
   {
@@ -4160,7 +4160,7 @@
    "causes": [],
    "fwd_30d": 23.24,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4177,7 +4177,7 @@
    "volume_x": 2.13,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -11.35,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4196,7 +4196,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -6.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4215,7 +4215,7 @@
    "volume_x": 3.15,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -15.6,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4253,7 +4253,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.84,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4272,7 +4272,7 @@
    "volume_x": 2.76,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -2.29,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -8926,7 +8926,7 @@
    ],
    "fwd_30d": 14.1,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8947,7 +8947,7 @@
    ],
    "fwd_30d": 1.22,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8968,7 +8968,7 @@
    ],
    "fwd_30d": -8.86,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -8989,7 +8989,7 @@
    ],
    "fwd_30d": -6.87,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9010,7 +9010,7 @@
    ],
    "fwd_30d": -10.29,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9031,7 +9031,7 @@
    ],
    "fwd_30d": 3.75,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9052,7 +9052,7 @@
    ],
    "fwd_30d": -11.34,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9073,7 +9073,7 @@
    ],
    "fwd_30d": -5.69,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9094,7 +9094,7 @@
    ],
    "fwd_30d": 9.2,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9115,7 +9115,7 @@
    ],
    "fwd_30d": -22.63,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9136,7 +9136,7 @@
    ],
    "fwd_30d": -19.63,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9157,7 +9157,7 @@
    ],
    "fwd_30d": 2.13,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9178,7 +9178,7 @@
    ],
    "fwd_30d": -2.81,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9199,7 +9199,7 @@
    ],
    "fwd_30d": -2.96,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9220,7 +9220,7 @@
    ],
    "fwd_30d": 0.4,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9241,7 +9241,7 @@
    ],
    "fwd_30d": -18.63,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9262,7 +9262,7 @@
    ],
    "fwd_30d": -6.94,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9281,7 +9281,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.86,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9323,7 +9323,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.45,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9344,7 +9344,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.48,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9365,7 +9365,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -1.09,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9386,7 +9386,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -12.69,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9407,7 +9407,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -17.57,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9428,7 +9428,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -14.69,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9449,7 +9449,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -9.59,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9470,7 +9470,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -1.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9491,7 +9491,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -6.79,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9512,7 +9512,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -9.79,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9533,7 +9533,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -16.49,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9554,7 +9554,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 1.63,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9575,7 +9575,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -16.53,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -13443,7 +13443,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -10.53,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-20"
@@ -13673,7 +13673,7 @@
    "causes": [],
    "fwd_30d": 13.96,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-22"
   },
   {
@@ -13690,7 +13690,7 @@
    "volume_x": 17.57,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -16.38,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -13709,7 +13709,7 @@
    "volume_x": 5.33,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.08,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-22"
@@ -15159,7 +15159,7 @@
    ],
    "fwd_30d": -1.47,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15180,7 +15180,7 @@
    ],
    "fwd_30d": -0.09,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15201,7 +15201,7 @@
    ],
    "fwd_30d": 24.47,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15222,7 +15222,7 @@
    ],
    "fwd_30d": -5.99,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15241,7 +15241,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -6.96,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15262,7 +15262,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -5.43,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15283,7 +15283,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.05,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15325,7 +15325,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.35,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15346,7 +15346,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 2.55,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -16814,7 +16814,7 @@
    "causes": [],
    "fwd_30d": -2.66,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -16833,7 +16833,7 @@
    "causes": [],
    "fwd_30d": -1.94,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -16852,7 +16852,7 @@
    "causes": [],
    "fwd_30d": -20.1,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-24"
   },
   {
@@ -17346,7 +17346,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -10.25,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-25"
@@ -19188,7 +19188,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -12.7,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -19209,7 +19209,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -22.44,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -61569,21 +61569,458 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-11-16"
+  },
+  {
+   "symbol": "ABREL",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 0.66,
+   "ret_5d": 13.34,
+   "ret_21d": 12.13,
+   "trigger_ret": 13.34,
+   "volume_x": 0.03,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "AFCONS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.85,
+   "ret_5d": 5.6,
+   "ret_21d": -8.02,
+   "trigger_ret": 4.85,
+   "volume_x": 0.51,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "ABDL",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.67,
+   "ret_5d": 14.15,
+   "ret_21d": 11.04,
+   "trigger_ret": 4.67,
+   "volume_x": 0.35,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "ANGELONE",
+   "move_date": "2026-11-17",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 0.86,
+   "ret_5d": 3.89,
+   "ret_21d": 12.19,
+   "trigger_ret": 15.75,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "ANURAS",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 1.25,
+   "ret_5d": 13.02,
+   "ret_21d": 10.94,
+   "trigger_ret": 13.02,
+   "volume_x": 0.03,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "ASAHIINDIA",
+   "move_date": "2026-11-17",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -1.94,
+   "ret_5d": 8.2,
+   "ret_21d": 23.38,
+   "trigger_ret": 17.48,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "MAHABANK",
+   "move_date": "2026-11-17",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 0.6,
+   "ret_5d": 5.55,
+   "ret_21d": 15.46,
+   "trigger_ret": -1.39,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "move_date": "2026-11-17",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "down",
+   "ret_1d": -0.13,
+   "ret_5d": 3.8,
+   "ret_21d": 16.01,
+   "trigger_ret": -0.55,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "DLF",
+   "move_date": "2026-11-17",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 0.32,
+   "ret_5d": 0.28,
+   "ret_21d": 12.92,
+   "trigger_ret": 17.6,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "DEEPAKFERT",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 8.88,
+   "ret_5d": 18.92,
+   "ret_21d": 0.5,
+   "trigger_ret": 8.88,
+   "volume_x": 0.68,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "FEDERALBNK",
+   "move_date": "2026-11-17",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 1.04,
+   "ret_5d": 7.23,
+   "ret_21d": 10.52,
+   "trigger_ret": -1.88,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "FRACTAL",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.1,
+   "ret_5d": -1.5,
+   "ret_21d": 10.5,
+   "trigger_ret": -4.1,
+   "volume_x": 0.0,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "INDIACEM",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.85,
+   "ret_5d": -5.97,
+   "ret_21d": 11.08,
+   "trigger_ret": -5.85,
+   "volume_x": 0.0,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "KPRMILL",
+   "move_date": "2026-11-17",
+   "kind": "high52",
+   "regime": "high52",
+   "direction": "up",
+   "ret_1d": 0.54,
+   "ret_5d": 5.43,
+   "ret_21d": 10.82,
+   "trigger_ret": -0.08,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "KIMS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.73,
+   "ret_5d": 5.69,
+   "ret_21d": 10.27,
+   "trigger_ret": 4.73,
+   "volume_x": 0.04,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "POLICYBZR",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 0.02,
+   "ret_5d": 13.38,
+   "ret_21d": 0.19,
+   "trigger_ret": 13.38,
+   "volume_x": 0.02,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "PGEL",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.68,
+   "ret_5d": -1.07,
+   "ret_21d": 3.31,
+   "trigger_ret": -4.68,
+   "volume_x": 0.03,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "PAGEIND",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": 0.54,
+   "ret_5d": -13.04,
+   "ret_21d": -13.33,
+   "trigger_ret": -13.04,
+   "volume_x": 0.06,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "PNB",
+   "move_date": "2026-11-17",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": 1.91,
+   "ret_5d": 11.49,
+   "ret_21d": 28.07,
+   "trigger_ret": 15.12,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "SAILIFE",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": true,
+   "ret_1d": -8.05,
+   "ret_5d": -0.64,
+   "ret_21d": 23.85,
+   "trigger_ret": -8.05,
+   "volume_x": 0.05,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "STLTECH",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.48,
+   "ret_5d": -3.87,
+   "ret_21d": -26.58,
+   "trigger_ret": -4.48,
+   "volume_x": 0.26,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "TATACHEM",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 8.88,
+   "ret_5d": 10.2,
+   "ret_21d": 6.06,
+   "trigger_ret": 8.88,
+   "volume_x": 1.33,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "VIJAYA",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.08,
+   "ret_5d": 0.9,
+   "ret_21d": 5.68,
+   "trigger_ret": 5.08,
+   "volume_x": 0.04,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-17"
   }
  ],
  "signals": {
   "spike": {
    "__base__": {
-    "n": 60,
+    "n": 68,
     "hit_rate": 0.25,
-    "raw_hits": 13,
-    "consistency": 0.467,
+    "raw_hits": 15,
+    "consistency": 0.471,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 4,
-    "hit_rate": 0.333,
+    "n": 5,
+    "hit_rate": 0.308,
     "raw_hits": 0,
     "consistency": null,
     "fades": 3
@@ -61637,20 +62074,20 @@
   },
   "high52": {
    "__base__": {
-    "n": 22,
-    "hit_rate": 0.233,
-    "raw_hits": 3,
-    "consistency": 0.636,
+    "n": 24,
+    "hit_rate": 0.25,
+    "raw_hits": 4,
+    "consistency": 0.5,
     "fades": 0,
     "base": true
    }
   },
   "mom63_1": {
    "__base__": {
-    "n": 55,
-    "hit_rate": 0.286,
+    "n": 57,
+    "hit_rate": 0.277,
     "raw_hits": 14,
-    "consistency": 0.286,
+    "consistency": 0.31,
     "fades": 0,
     "base": true
    },
@@ -61671,25 +62108,25 @@
   },
   "corpact": {
    "__base__": {
-    "n": 194,
-    "hit_rate": 0.272,
-    "raw_hits": 51,
-    "consistency": 0.32,
+    "n": 214,
+    "hit_rate": 0.27,
+    "raw_hits": 56,
+    "consistency": 0.364,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 131,
-    "hit_rate": 0.173,
-    "raw_hits": 20,
-    "consistency": 0.545,
+    "n": 145,
+    "hit_rate": 0.17,
+    "raw_hits": 22,
+    "consistency": 0.589,
     "fades": 0
    },
    "dividend_split:down": {
-    "n": 63,
-    "hit_rate": 0.493,
-    "raw_hits": 31,
-    "consistency": 0.0,
+    "n": 69,
+    "hit_rate": 0.494,
+    "raw_hits": 34,
+    "consistency": 0.029,
     "fades": 0
    },
    "regulatory:up": {
@@ -61708,6 +62145,6 @@
    }
   }
  },
- "updated": "2026-11-16T01:01:46.232907",
- "backfill_cursor": 258
+ "updated": "2026-11-17T03:50:10.807545",
+ "backfill_cursor": 278
 }

@@ -1,175 +1,175 @@
 {
- "generated": "2026-11-16T01:01:47.213660",
+ "generated": "2026-11-17T03:50:12.114718",
  "universe_symbols": 150,
  "symbols_with_events": 150,
  "total_evaluable_events": 2096,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1103,
-   "hit_rate": 0.338,
-   "raw_hits": 372,
-   "raw_rate": 0.337,
-   "avg_fwd": 3.95,
-   "consistency": 0.405
+   "n": 1107,
+   "hit_rate": 0.33,
+   "raw_hits": 364,
+   "raw_rate": 0.329,
+   "avg_fwd": 4.04,
+   "consistency": 0.41
   },
   "trend": {
-   "n": 230,
-   "hit_rate": 0.319,
+   "n": 232,
+   "hit_rate": 0.317,
    "raw_hits": 72,
-   "raw_rate": 0.313,
-   "avg_fwd": 15.2,
-   "consistency": 0.322
+   "raw_rate": 0.31,
+   "avg_fwd": 14.95,
+   "consistency": 0.328
   },
   "high52": {
-   "n": 215,
-   "hit_rate": 0.386,
-   "raw_hits": 82,
-   "raw_rate": 0.381,
-   "avg_fwd": 0.37,
-   "consistency": 0.083
+   "n": 210,
+   "hit_rate": 0.381,
+   "raw_hits": 79,
+   "raw_rate": 0.376,
+   "avg_fwd": 0.79,
+   "consistency": 0.075
   },
   "mom63_1": {
-   "n": 548,
-   "hit_rate": 0.338,
+   "n": 547,
+   "hit_rate": 0.339,
    "raw_hits": 184,
    "raw_rate": 0.336,
-   "avg_fwd": 2.09,
+   "avg_fwd": 2.12,
    "consistency": 0.285
   }
  },
  "signals": {
   "high52:high52": {
-   "n": 215,
-   "hit_rate": 0.386,
-   "raw_hits": 82,
-   "raw_rate": 0.381,
-   "avg_fwd": 0.37,
-   "consistency": 0.083
+   "n": 210,
+   "hit_rate": 0.381,
+   "raw_hits": 79,
+   "raw_rate": 0.376,
+   "avg_fwd": 0.79,
+   "consistency": 0.075
   },
   "high52:high52+vol": {
    "n": 79,
    "hit_rate": 0.391,
    "raw_hits": 30,
    "raw_rate": 0.38,
-   "avg_fwd": 1.35,
-   "consistency": 0.024
+   "avg_fwd": 2.23,
+   "consistency": 0.0
   },
   "high52:high52-vol": {
-   "n": 136,
-   "hit_rate": 0.389,
-   "raw_hits": 52,
-   "raw_rate": 0.382,
-   "avg_fwd": -0.2,
-   "consistency": 0.143
+   "n": 131,
+   "hit_rate": 0.381,
+   "raw_hits": 49,
+   "raw_rate": 0.374,
+   "avg_fwd": -0.08,
+   "consistency": 0.134
   },
   "mom63_1:mom63_1": {
-   "n": 548,
-   "hit_rate": 0.338,
+   "n": 547,
+   "hit_rate": 0.339,
    "raw_hits": 184,
    "raw_rate": 0.336,
-   "avg_fwd": 2.09,
+   "avg_fwd": 2.12,
    "consistency": 0.285
   },
   "mom63_1:mom63_1+vol": {
-   "n": 39,
-   "hit_rate": 0.426,
-   "raw_hits": 16,
-   "raw_rate": 0.41,
-   "avg_fwd": 4.35,
+   "n": 40,
+   "hit_rate": 0.438,
+   "raw_hits": 17,
+   "raw_rate": 0.425,
+   "avg_fwd": 4.68,
    "consistency": 0.1
   },
   "mom63_1:mom63_1-vol": {
-   "n": 509,
-   "hit_rate": 0.333,
-   "raw_hits": 168,
-   "raw_rate": 0.33,
-   "avg_fwd": 1.91,
-   "consistency": 0.302
+   "n": 507,
+   "hit_rate": 0.332,
+   "raw_hits": 167,
+   "raw_rate": 0.329,
+   "avg_fwd": 1.92,
+   "consistency": 0.299
   },
   "spike:spike": {
-   "n": 1103,
-   "hit_rate": 0.338,
-   "raw_hits": 372,
-   "raw_rate": 0.337,
-   "avg_fwd": 3.95,
-   "consistency": 0.405
+   "n": 1107,
+   "hit_rate": 0.33,
+   "raw_hits": 364,
+   "raw_rate": 0.329,
+   "avg_fwd": 4.04,
+   "consistency": 0.41
   },
   "spike:spike+vol": {
-   "n": 569,
-   "hit_rate": 0.329,
-   "raw_hits": 186,
-   "raw_rate": 0.327,
-   "avg_fwd": 2.03,
+   "n": 568,
+   "hit_rate": 0.325,
+   "raw_hits": 183,
+   "raw_rate": 0.322,
+   "avg_fwd": 2.25,
    "consistency": 0.411
   },
   "spike:spike-vol": {
-   "n": 534,
-   "hit_rate": 0.351,
-   "raw_hits": 186,
-   "raw_rate": 0.348,
-   "avg_fwd": 5.99,
-   "consistency": 0.416
+   "n": 539,
+   "hit_rate": 0.338,
+   "raw_hits": 181,
+   "raw_rate": 0.336,
+   "avg_fwd": 5.94,
+   "consistency": 0.432
   },
   "spike:violent": {
-   "n": 82,
-   "hit_rate": 0.367,
-   "raw_hits": 29,
-   "raw_rate": 0.354,
-   "avg_fwd": 1.56,
-   "consistency": 0.381
+   "n": 83,
+   "hit_rate": 0.374,
+   "raw_hits": 30,
+   "raw_rate": 0.361,
+   "avg_fwd": 1.99,
+   "consistency": 0.333
   },
   "trend:monthly": {
-   "n": 33,
-   "hit_rate": 0.293,
+   "n": 34,
+   "hit_rate": 0.286,
    "raw_hits": 8,
-   "raw_rate": 0.242,
-   "avg_fwd": 10.93,
-   "consistency": 0.294
+   "raw_rate": 0.235,
+   "avg_fwd": 10.47,
+   "consistency": 0.412
   },
   "trend:monthly+vol": {
    "n": 7,
    "hit_rate": 0.333,
    "raw_hits": 1,
    "raw_rate": 0.143,
-   "avg_fwd": 20.72,
+   "avg_fwd": 9.44,
    "consistency": 0.5
   },
   "trend:monthly-vol": {
-   "n": 26,
-   "hit_rate": 0.324,
+   "n": 27,
+   "hit_rate": 0.314,
    "raw_hits": 7,
-   "raw_rate": 0.269,
-   "avg_fwd": 8.3,
-   "consistency": 0.385
+   "raw_rate": 0.259,
+   "avg_fwd": 10.74,
+   "consistency": 0.429
   },
   "trend:weekly": {
-   "n": 197,
-   "hit_rate": 0.332,
+   "n": 198,
+   "hit_rate": 0.33,
    "raw_hits": 64,
-   "raw_rate": 0.325,
-   "avg_fwd": 15.91,
+   "raw_rate": 0.323,
+   "avg_fwd": 15.72,
    "consistency": 0.313
   },
   "trend:weekly+vol": {
-   "n": 69,
-   "hit_rate": 0.39,
-   "raw_hits": 26,
-   "raw_rate": 0.377,
-   "avg_fwd": 15.33,
-   "consistency": 0.257
+   "n": 67,
+   "hit_rate": 0.36,
+   "raw_hits": 23,
+   "raw_rate": 0.343,
+   "avg_fwd": 13.96,
+   "consistency": 0.294
   },
   "trend:weekly-vol": {
-   "n": 128,
-   "hit_rate": 0.309,
-   "raw_hits": 38,
-   "raw_rate": 0.297,
-   "avg_fwd": 16.22,
-   "consistency": 0.344
+   "n": 131,
+   "hit_rate": 0.324,
+   "raw_hits": 41,
+   "raw_rate": 0.313,
+   "avg_fwd": 16.62,
+   "consistency": 0.333
   }
  },
  "examples": [
-  "360ONE 2025-02-24 weekly up (+12.6%/5d) \u2192 90d +18.4% = HIT",
+  "360ONE 2025-02-25 weekly up (+17.4%/5d) \u2192 90d +15.0% = HIT",
   "360ONE 2025-03-10 spike down (-8.0%/1d) \u2192 30d +9.9% = MISS",
   "360ONE 2025-05-12 spike up (+5.0%/1d) \u2192 30d +20.3% = HIT",
   "360ONE 2025-06-20 mom63_1 up (+2.0%/1d) \u2192 30d -7.5% = MISS",
