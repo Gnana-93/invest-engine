@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-17T03:50:12.114718",
+ "generated": "2026-11-18T02:55:14.532117",
  "universe_symbols": 150,
  "symbols_with_events": 150,
- "total_evaluable_events": 2096,
+ "total_evaluable_events": 2095,
  "method": "evicting detectors, no lookahead, real cached NSE data",
  "regimes": {
   "spike": {
-   "n": 1107,
+   "n": 1106,
    "hit_rate": 0.33,
    "raw_hits": 364,
    "raw_rate": 0.329,
    "avg_fwd": 4.04,
-   "consistency": 0.41
+   "consistency": 0.409
   },
   "trend": {
    "n": 232,
@@ -88,12 +88,12 @@
    "consistency": 0.299
   },
   "spike:spike": {
-   "n": 1107,
+   "n": 1106,
    "hit_rate": 0.33,
    "raw_hits": 364,
    "raw_rate": 0.329,
    "avg_fwd": 4.04,
-   "consistency": 0.41
+   "consistency": 0.409
   },
   "spike:spike+vol": {
    "n": 568,
@@ -104,12 +104,12 @@
    "consistency": 0.411
   },
   "spike:spike-vol": {
-   "n": 539,
-   "hit_rate": 0.338,
+   "n": 538,
+   "hit_rate": 0.339,
    "raw_hits": 181,
    "raw_rate": 0.336,
-   "avg_fwd": 5.94,
-   "consistency": 0.432
+   "avg_fwd": 5.93,
+   "consistency": 0.43
   },
   "spike:violent": {
    "n": 83,

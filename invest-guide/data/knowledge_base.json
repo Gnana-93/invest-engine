@@ -1082,7 +1082,7 @@
    "causes": [],
    "fwd_30d": -3.12,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1101,7 +1101,7 @@
    "causes": [],
    "fwd_30d": -16.41,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1120,7 +1120,7 @@
    "causes": [],
    "fwd_30d": -4.02,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -1137,7 +1137,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -13.07,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1156,7 +1156,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 3.92,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1175,7 +1175,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -18.64,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1194,7 +1194,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -6.7,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -1213,7 +1213,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 20.53,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2545,7 +2545,7 @@
    "causes": [],
    "fwd_30d": -7.78,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-17"
   },
   {
@@ -2562,7 +2562,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -8.78,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2581,7 +2581,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.5,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -2600,7 +2600,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": 26.24,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-17"
@@ -4179,7 +4179,7 @@
    "causes": [],
    "fwd_30d": -11.35,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-18"
   },
   {
@@ -4198,7 +4198,7 @@
    "causes": [],
    "fwd_30d": -6.3,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4217,7 +4217,7 @@
    "causes": [],
    "fwd_30d": -15.6,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-18"
   },
   {
@@ -4255,7 +4255,7 @@
    "causes": [],
    "fwd_30d": -7.84,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4274,7 +4274,7 @@
    "causes": [],
    "fwd_30d": -2.29,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-18"
   },
   {
@@ -4291,7 +4291,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -8.59,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4310,7 +4310,7 @@
    "volume_x": 0.63,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -7.35,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4329,7 +4329,7 @@
    "volume_x": 1.32,
    "confirmed": false,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -19.24,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -4348,7 +4348,7 @@
    "volume_x": null,
    "confirmed": null,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -0.39,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-18"
@@ -9283,7 +9283,7 @@
    ],
    "fwd_30d": 3.86,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9325,7 +9325,7 @@
    ],
    "fwd_30d": -4.45,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9346,7 +9346,7 @@
    ],
    "fwd_30d": 3.48,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9367,7 +9367,7 @@
    ],
    "fwd_30d": -1.09,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9388,7 +9388,7 @@
    ],
    "fwd_30d": -12.69,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9409,7 +9409,7 @@
    ],
    "fwd_30d": -17.57,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9430,7 +9430,7 @@
    ],
    "fwd_30d": -14.69,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9451,7 +9451,7 @@
    ],
    "fwd_30d": -9.59,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9472,7 +9472,7 @@
    ],
    "fwd_30d": -1.3,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9493,7 +9493,7 @@
    ],
    "fwd_30d": -6.79,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9514,7 +9514,7 @@
    ],
    "fwd_30d": -9.79,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9535,7 +9535,7 @@
    ],
    "fwd_30d": -16.49,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9556,7 +9556,7 @@
    ],
    "fwd_30d": 1.63,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9577,7 +9577,7 @@
    ],
    "fwd_30d": -16.53,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-19"
   },
   {
@@ -9596,7 +9596,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -4.72,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9617,7 +9617,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -12.66,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9638,7 +9638,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 1.19,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9659,7 +9659,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.85,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9680,7 +9680,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -21.74,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9701,7 +9701,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -20.47,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9722,7 +9722,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 12.64,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9743,7 +9743,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -9.8,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9764,7 +9764,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 26.18,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9785,7 +9785,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.88,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9806,7 +9806,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -2.99,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9827,7 +9827,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -1.45,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9851,7 +9851,7 @@
     "order_win",
     "results"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 1.63,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9893,7 +9893,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 18.88,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -9935,7 +9935,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 7.32,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-19"
@@ -13445,7 +13445,7 @@
    ],
    "fwd_30d": -10.53,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-20"
   },
   {
@@ -13692,7 +13692,7 @@
    "causes": [],
    "fwd_30d": -16.38,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-09-22"
   },
   {
@@ -13711,7 +13711,7 @@
    "causes": [],
    "fwd_30d": -7.08,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-22"
   },
   {
@@ -15243,7 +15243,7 @@
    ],
    "fwd_30d": -6.96,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15264,7 +15264,7 @@
    ],
    "fwd_30d": -5.43,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15285,7 +15285,7 @@
    ],
    "fwd_30d": -7.05,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15327,7 +15327,7 @@
    ],
    "fwd_30d": -7.35,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15348,7 +15348,7 @@
    ],
    "fwd_30d": 2.55,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-23"
   },
   {
@@ -15367,7 +15367,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -2.06,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15388,7 +15388,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.16,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15409,7 +15409,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -10.48,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15430,7 +15430,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 3.54,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -15451,7 +15451,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 4.78,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-23"
@@ -16869,7 +16869,7 @@
    "volume_x": 9.94,
    "confirmed": true,
    "causes": [],
-   "fwd_30d": null,
+   "fwd_30d": -2.94,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-24"
@@ -17348,7 +17348,7 @@
    ],
    "fwd_30d": -10.25,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-09-25"
   },
   {
@@ -17367,7 +17367,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -7.34,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-25"
@@ -18432,7 +18432,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -2.32,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-30"
@@ -18453,7 +18453,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -29.55,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-09-30"
@@ -19190,7 +19190,7 @@
    ],
    "fwd_30d": -12.7,
    "fwd_90d": null,
-   "faded": null,
+   "faded": true,
    "recorded": "2026-10-01"
   },
   {
@@ -19211,7 +19211,7 @@
    ],
    "fwd_30d": -22.44,
    "fwd_90d": null,
-   "faded": null,
+   "faded": false,
    "recorded": "2026-10-01"
   },
   {
@@ -19230,7 +19230,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 13.45,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -19251,7 +19251,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -11.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -19272,7 +19272,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": -27.41,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -19293,7 +19293,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 5.28,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -19314,7 +19314,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 37.82,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-01"
@@ -20133,7 +20133,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 29.19,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-02"
@@ -20154,7 +20154,7 @@
    "causes": [
     "dividend_split"
    ],
-   "fwd_30d": null,
+   "fwd_30d": 22.3,
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-10-02"
@@ -62006,24 +62006,689 @@
    "fwd_90d": null,
    "faded": null,
    "recorded": "2026-11-17"
+  },
+  {
+   "symbol": "CPPLUS",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.45,
+   "ret_5d": -4.07,
+   "ret_21d": -10.74,
+   "trigger_ret": -4.45,
+   "volume_x": 0.81,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "APARINDS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.45,
+   "ret_5d": -0.24,
+   "ret_21d": -16.22,
+   "trigger_ret": -4.45,
+   "volume_x": 0.76,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "APTUS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.19,
+   "ret_5d": 7.13,
+   "ret_21d": -15.89,
+   "trigger_ret": 7.19,
+   "volume_x": 6.5,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "ASHOKLEY",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.17,
+   "ret_5d": -8.21,
+   "ret_21d": 8.31,
+   "trigger_ret": -4.17,
+   "volume_x": 2.66,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "BANKINDIA",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.12,
+   "ret_5d": 9.85,
+   "ret_21d": 22.15,
+   "trigger_ret": 4.12,
+   "volume_x": 2.08,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "FIRSTCRY",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 12.85,
+   "ret_5d": 10.33,
+   "ret_21d": -0.93,
+   "trigger_ret": 12.85,
+   "volume_x": 113.35,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "CAPLIPOINT",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.25,
+   "ret_5d": -10.21,
+   "ret_21d": -2.38,
+   "trigger_ret": -4.25,
+   "volume_x": 2.22,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "CARBORUNIV",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.29,
+   "ret_5d": -3.53,
+   "ret_21d": -8.18,
+   "trigger_ret": -4.29,
+   "volume_x": 0.7,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "CEMPRO",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.14,
+   "ret_5d": 3.43,
+   "ret_21d": 10.72,
+   "trigger_ret": 4.14,
+   "volume_x": 1.65,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "CONCORDBIO",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.51,
+   "ret_5d": -7.04,
+   "ret_21d": -18.01,
+   "trigger_ret": -4.51,
+   "volume_x": 2.09,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "EXIDEIND",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.01,
+   "ret_5d": -1.27,
+   "ret_21d": 1.45,
+   "trigger_ret": 4.01,
+   "volume_x": 1.99,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "GLAND",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.06,
+   "ret_5d": -1.64,
+   "ret_21d": 5.94,
+   "trigger_ret": -4.06,
+   "volume_x": 0.54,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "GLENMARK",
+   "move_date": "2026-11-17",
+   "kind": "mom63_1",
+   "regime": "mom63_1",
+   "direction": "up",
+   "ret_1d": -0.65,
+   "ret_5d": -2.07,
+   "ret_21d": 16.23,
+   "trigger_ret": 17.2,
+   "violent": false,
+   "volume_x": null,
+   "confirmed": null,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "KPRMILL",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.54,
+   "ret_5d": 4.0,
+   "ret_21d": 8.01,
+   "trigger_ret": 4.54,
+   "volume_x": 1.8,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "KEI",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.2,
+   "ret_5d": -3.79,
+   "ret_21d": -15.76,
+   "trigger_ret": -4.2,
+   "volume_x": 1.29,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "KAYNES",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.09,
+   "ret_5d": -13.39,
+   "ret_21d": -12.33,
+   "trigger_ret": -4.09,
+   "volume_x": 3.76,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "KIMS",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.62,
+   "ret_5d": 5.58,
+   "ret_21d": 10.16,
+   "trigger_ret": 4.62,
+   "volume_x": 2.83,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.32,
+   "ret_5d": -4.73,
+   "ret_21d": 15.83,
+   "trigger_ret": 5.32,
+   "volume_x": 1.7,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "MAXHEALTH",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 2.08,
+   "ret_5d": 12.67,
+   "ret_21d": 20.15,
+   "trigger_ret": 12.67,
+   "volume_x": 1.48,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "MINDACORP",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.01,
+   "ret_5d": -0.84,
+   "ret_21d": 7.53,
+   "trigger_ret": -4.01,
+   "volume_x": 0.45,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "PFOCUS",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.26,
+   "ret_5d": -0.21,
+   "ret_21d": 0.56,
+   "trigger_ret": 4.26,
+   "volume_x": 1.21,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "RHIM",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.04,
+   "ret_5d": -4.38,
+   "ret_21d": -6.83,
+   "trigger_ret": 4.04,
+   "volume_x": 2.7,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "SAMMAANCAP",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.42,
+   "ret_5d": -2.51,
+   "ret_21d": -4.15,
+   "trigger_ret": -4.42,
+   "volume_x": 1.03,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "SIGNATURE",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": true,
+   "ret_1d": 9.14,
+   "ret_5d": 15.11,
+   "ret_21d": 14.73,
+   "trigger_ret": 9.14,
+   "volume_x": 4.27,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TATACOMM",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.38,
+   "ret_5d": 8.55,
+   "ret_21d": 11.55,
+   "trigger_ret": 4.38,
+   "volume_x": 1.12,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TATAINVEST",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.74,
+   "ret_5d": 5.6,
+   "ret_21d": -0.23,
+   "trigger_ret": 5.74,
+   "volume_x": 11.07,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TMCV",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 4.06,
+   "ret_5d": 2.06,
+   "ret_21d": 5.4,
+   "trigger_ret": 4.06,
+   "volume_x": 1.51,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TMPV",
+   "move_date": "2026-11-17",
+   "kind": "weekly",
+   "regime": "trend",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -1.22,
+   "ret_5d": -12.14,
+   "ret_21d": -9.7,
+   "trigger_ret": -12.14,
+   "volume_x": 1.89,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TEGA",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.21,
+   "ret_5d": -4.98,
+   "ret_21d": -18.47,
+   "trigger_ret": -4.21,
+   "volume_x": 0.72,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "TRITURBINE",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.29,
+   "ret_5d": -2.02,
+   "ret_21d": -7.5,
+   "trigger_ret": -5.29,
+   "volume_x": 0.67,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "URBANCO",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.86,
+   "ret_5d": 1.58,
+   "ret_21d": 4.74,
+   "trigger_ret": -5.86,
+   "volume_x": 4.96,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "VOGL",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -4.73,
+   "ret_5d": -4.33,
+   "ret_21d": -10.14,
+   "trigger_ret": -4.73,
+   "volume_x": 0.7,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "VIJAYA",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 5.49,
+   "ret_5d": 1.29,
+   "ret_21d": 6.08,
+   "trigger_ret": 5.49,
+   "volume_x": 5.87,
+   "confirmed": true,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "WELSPUNLIV",
+   "move_date": "2026-11-17",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "up",
+   "violent": false,
+   "ret_1d": 7.92,
+   "ret_5d": 5.32,
+   "ret_21d": 22.52,
+   "trigger_ret": 7.92,
+   "volume_x": 1.16,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
+  },
+  {
+   "symbol": "ZFCVINDIA",
+   "move_date": "2026-11-16",
+   "kind": "spike",
+   "regime": "spike",
+   "direction": "down",
+   "violent": false,
+   "ret_1d": -5.35,
+   "ret_5d": -3.7,
+   "ret_21d": 1.59,
+   "trigger_ret": -5.35,
+   "volume_x": 1.35,
+   "confirmed": false,
+   "causes": [],
+   "fwd_30d": null,
+   "fwd_90d": null,
+   "faded": null,
+   "recorded": "2026-11-18"
   }
  ],
  "signals": {
   "spike": {
    "__base__": {
-    "n": 68,
-    "hit_rate": 0.25,
+    "n": 75,
+    "hit_rate": 0.229,
     "raw_hits": 15,
-    "consistency": 0.471,
+    "consistency": 0.526,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 5,
-    "hit_rate": 0.308,
+    "n": 7,
+    "hit_rate": 0.267,
     "raw_hits": 0,
     "consistency": null,
-    "fades": 3
+    "fades": 4
    },
    "dividend_split:down": {
     "n": 3,
@@ -62074,20 +62739,20 @@
   },
   "high52": {
    "__base__": {
-    "n": 24,
-    "hit_rate": 0.25,
+    "n": 26,
+    "hit_rate": 0.235,
     "raw_hits": 4,
-    "consistency": 0.5,
+    "consistency": 0.538,
     "fades": 0,
     "base": true
    }
   },
   "mom63_1": {
    "__base__": {
-    "n": 57,
-    "hit_rate": 0.277,
+    "n": 62,
+    "hit_rate": 0.257,
     "raw_hits": 14,
-    "consistency": 0.31,
+    "consistency": 0.419,
     "fades": 0,
     "base": true
    },
@@ -62099,8 +62764,8 @@
     "fades": 0
    },
    "dividend_split:up": {
-    "n": 1,
-    "hit_rate": 0.556,
+    "n": 2,
+    "hit_rate": 0.5,
     "raw_hits": 1,
     "consistency": null,
     "fades": 0
@@ -62108,25 +62773,25 @@
   },
   "corpact": {
    "__base__": {
-    "n": 214,
-    "hit_rate": 0.27,
-    "raw_hits": 56,
-    "consistency": 0.364,
+    "n": 234,
+    "hit_rate": 0.269,
+    "raw_hits": 61,
+    "consistency": 0.402,
     "fades": 0,
     "base": true
    },
    "dividend_split:up": {
-    "n": 145,
-    "hit_rate": 0.17,
+    "n": 159,
+    "hit_rate": 0.156,
     "raw_hits": 22,
-    "consistency": 0.589,
+    "consistency": 0.7,
     "fades": 0
    },
    "dividend_split:down": {
-    "n": 69,
-    "hit_rate": 0.494,
-    "raw_hits": 34,
-    "consistency": 0.029,
+    "n": 75,
+    "hit_rate": 0.518,
+    "raw_hits": 39,
+    "consistency": 0.105,
     "fades": 0
    },
    "regulatory:up": {
@@ -62145,6 +62810,6 @@
    }
   }
  },
- "updated": "2026-11-17T03:50:10.807545",
- "backfill_cursor": 278
+ "updated": "2026-11-18T02:55:12.782022",
+ "backfill_cursor": 298
 }

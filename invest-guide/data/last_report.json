@@ -1,28 +1,60 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "buy": [
   {
-   "symbol": "CHENNPETRO",
-   "score": 78.0,
+   "symbol": "SJVN",
+   "score": 76.9,
    "parts": {
-    "quality": 84.2,
+    "quality": 82.3,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "A",
    "strategies": [
-    "deep_value",
     "turnaround"
    ],
    "hits": [
     {
-     "strategy": "deep_value",
+     "strategy": "turnaround",
      "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 56.58,
+   "date": "2026-11-18",
+   "causes": []
+  },
+  {
+   "symbol": "ZYDUSLIFE",
+   "score": 74.6,
+   "parts": {
+    "quality": 78.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "quality_compounder",
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "quality_compounder",
+     "criteria_passed": [
+      "roce_est >= min",
       "debt_equity <= max",
-      "earnings stabilizing"
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
      ],
      "criteria_unknown": [],
      "bonus": 0,
@@ -40,50 +72,20 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1440.0,
-   "date": "2026-11-17",
+   "ref_price": 1204.2,
+   "date": "2026-11-18",
    "causes": []
-  }
- ],
- "watch": [
-  {
-   "symbol": "APOLLOTYRE",
-   "score": 59.9,
-   "parts": {
-    "quality": 54.0,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "deep_value"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ]
   },
   {
-   "symbol": "NYKAA",
-   "score": 56.2,
+   "symbol": "ECLERX",
+   "score": 68.0,
    "parts": {
-    "quality": 47.8,
+    "quality": 67.5,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "C",
+   "band": "B",
    "strategies": [
     "turnaround"
    ],
@@ -99,13 +101,18 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ]
-  },
+   ],
+   "ref_price": 1546.1,
+   "date": "2026-11-18",
+   "causes": []
+  }
+ ],
+ "watch": [
   {
-   "symbol": "OLECTRA",
-   "score": 56.1,
+   "symbol": "SIGNATURE",
+   "score": 55.5,
    "parts": {
-    "quality": 47.6,
+    "quality": 46.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
