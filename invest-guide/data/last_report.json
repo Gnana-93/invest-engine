@@ -1,42 +1,12 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "buy": [
   {
-   "symbol": "SJVN",
-   "score": 76.9,
+   "symbol": "COFORGE",
+   "score": 64.6,
    "parts": {
-    "quality": 82.3,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "A",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 56.58,
-   "date": "2026-11-18",
-   "causes": []
-  },
-  {
-   "symbol": "ZYDUSLIFE",
-   "score": 74.6,
-   "parts": {
-    "quality": 78.6,
-    "evidence": 50.0,
+    "quality": 76.3,
+    "evidence": 15.5,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
@@ -72,48 +42,20 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 1204.2,
-   "date": "2026-11-18",
-   "causes": []
-  },
-  {
-   "symbol": "ECLERX",
-   "score": 68.0,
-   "parts": {
-    "quality": 67.5,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ],
-   "ref_price": 1546.1,
-   "date": "2026-11-18",
-   "causes": []
+   "ref_price": 2049.0,
+   "date": "2026-11-19",
+   "causes": [
+    "dividend_split"
+   ]
   }
  ],
  "watch": [
   {
-   "symbol": "SIGNATURE",
-   "score": 55.5,
+   "symbol": "PWL",
+   "score": 48.1,
    "parts": {
-    "quality": 46.7,
-    "evidence": 50.0,
+    "quality": 48.7,
+    "evidence": 15.5,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
