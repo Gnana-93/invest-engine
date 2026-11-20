@@ -1,35 +1,51 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "buy": [
   {
-   "symbol": "COFORGE",
-   "score": 64.6,
+   "symbol": "SAIL",
+   "score": 68.5,
    "parts": {
-    "quality": 76.3,
-    "evidence": 15.5,
+    "quality": 68.4,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "B",
    "strategies": [
-    "quality_compounder",
-    "turnaround"
+    "deep_value"
    ],
    "hits": [
     {
-     "strategy": "quality_compounder",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "roce_est >= min",
+      "pe <= max",
+      "pb <= max",
       "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
      "bonus": 0,
      "data_quality": 1.0
-    },
+    }
+   ],
+   "ref_price": 164.0,
+   "date": "2026-11-20",
+   "causes": []
+  },
+  {
+   "symbol": "ICICIAMC",
+   "score": 61.2,
+   "parts": {
+    "quality": 56.1,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
     {
      "strategy": "turnaround",
      "criteria_passed": [
@@ -42,38 +58,37 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2049.0,
-   "date": "2026-11-19",
-   "causes": [
-    "dividend_split"
-   ]
+   "ref_price": 2949.1,
+   "date": "2026-11-20",
+   "causes": []
   }
  ],
  "watch": [
   {
-   "symbol": "PWL",
-   "score": 48.1,
+   "symbol": "APOLLOTYRE",
+   "score": 59.9,
    "parts": {
-    "quality": 48.7,
-    "evidence": 15.5,
+    "quality": 54.0,
+    "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
    "strategies": [
-    "turnaround"
+    "deep_value"
    ],
    "hits": [
     {
-     "strategy": "turnaround",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "margins improving",
-      "not loss-making"
+      "pe <= max",
+      "pb <= max",
+      "debt_equity <= max",
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+     "data_quality": 1.0
     }
    ]
   }
