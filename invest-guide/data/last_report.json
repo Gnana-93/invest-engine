@@ -1,42 +1,11 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "buy": [
   {
-   "symbol": "SAIL",
-   "score": 68.5,
+   "symbol": "MEDANTA",
+   "score": 68.1,
    "parts": {
-    "quality": 68.4,
-    "evidence": 50.0,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "B",
-   "strategies": [
-    "deep_value"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ],
-   "ref_price": 164.0,
-   "date": "2026-11-20",
-   "causes": []
-  },
-  {
-   "symbol": "ICICIAMC",
-   "score": 61.2,
-   "parts": {
-    "quality": 56.1,
+    "quality": 67.7,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -58,37 +27,90 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 2949.1,
-   "date": "2026-11-20",
+   "ref_price": 1478.3,
+   "date": "2026-11-21",
    "causes": []
   }
  ],
  "watch": [
   {
-   "symbol": "APOLLOTYRE",
-   "score": 59.9,
+   "symbol": "ITCHOTELS",
+   "score": 59.6,
    "parts": {
-    "quality": 54.0,
+    "quality": 53.5,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
    "band": "C",
    "strategies": [
-    "deep_value"
+    "turnaround"
    ],
    "hits": [
     {
-     "strategy": "deep_value",
+     "strategy": "turnaround",
      "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
+      "margins improving",
+      "not loss-making"
      ],
      "criteria_unknown": [],
      "bonus": 0,
-     "data_quality": 1.0
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "OLECTRA",
+   "score": 56.1,
+   "parts": {
+    "quality": 47.6,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "ICICILIFE",
+   "score": 46.7,
+   "parts": {
+    "quality": 31.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ]
   }
