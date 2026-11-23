@@ -1,31 +1,33 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "buy": [
   {
-   "symbol": "IOC",
-   "score": 66.8,
+   "symbol": "HINDZINC",
+   "score": 81.6,
    "parts": {
-    "quality": 65.5,
+    "quality": 90.2,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "A",
    "strategies": [
-    "deep_value",
+    "quality_compounder",
     "turnaround"
    ],
    "hits": [
     {
-     "strategy": "deep_value",
+     "strategy": "quality_compounder",
      "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
+      "roce_est >= min",
       "debt_equity <= max",
-      "earnings stabilizing"
+      "rev_growth >= min",
+      "earn_growth >= min",
+      "opm >= min",
+      "fcf positive"
      ],
      "criteria_unknown": [],
-     "bonus": 0,
+     "bonus": 2,
      "data_quality": 1.0
     },
     {
@@ -40,15 +42,15 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 150.5,
-   "date": "2026-11-22",
+   "ref_price": 521.6,
+   "date": "2026-11-23",
    "causes": []
   },
   {
-   "symbol": "ANGELONE",
-   "score": 65.9,
+   "symbol": "NATCOPHARM",
+   "score": 72.4,
    "parts": {
-    "quality": 64.0,
+    "quality": 74.9,
     "evidence": 50.0,
     "data_quality": 100.0,
     "liquidity": 100.0
@@ -70,11 +72,69 @@
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
    ],
-   "ref_price": 348.3,
-   "date": "2026-11-22",
+   "ref_price": 814.3,
+   "date": "2026-11-23",
+   "causes": []
+  },
+  {
+   "symbol": "AFFLE",
+   "score": 60.4,
+   "parts": {
+    "quality": 54.9,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 1599.4,
+   "date": "2026-11-23",
    "causes": []
   }
  ],
- "watch": [],
+ "watch": [
+  {
+   "symbol": "SIEMENS",
+   "score": 57.7,
+   "parts": {
+    "quality": 50.4,
+    "evidence": 50.0,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  }
+ ],
  "alerts": []
 }
