@@ -1,30 +1,29 @@
 {
- "date": "2026-11-25",
- "buy": [
+ "date": "2026-11-26",
+ "buy": [],
+ "watch": [
   {
-   "symbol": "ANTHEM",
-   "score": 73.1,
+   "symbol": "IOC",
+   "score": 57.7,
    "parts": {
-    "quality": 77.4,
-    "evidence": 46.5,
+    "quality": 65.5,
+    "evidence": 13.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
-   "band": "B",
+   "band": "C",
    "strategies": [
-    "quality_compounder",
+    "deep_value",
     "turnaround"
    ],
    "hits": [
     {
-     "strategy": "quality_compounder",
+     "strategy": "deep_value",
      "criteria_passed": [
-      "roce_est >= min",
+      "pe <= max",
+      "pb <= max",
       "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
+      "earnings stabilizing"
      ],
      "criteria_unknown": [],
      "bonus": 0,
@@ -41,132 +40,41 @@
      "data_quality": 1.0,
      "risk_flag": "debt_watch: verify D/E and pledge before acting"
     }
-   ],
-   "ref_price": 952.9,
-   "date": "2026-11-25",
-   "causes": [
-    "dividend_split"
-   ]
-  }
- ],
- "watch": [
-  {
-   "symbol": "LAURUSLABS",
-   "score": 59.5,
-   "parts": {
-    "quality": 68.3,
-    "evidence": 14.1,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "HBLENGINE",
-   "score": 59.0,
-   "parts": {
-    "quality": 54.0,
-    "evidence": 46.5,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "TENNIND",
-   "score": 58.5,
-   "parts": {
-    "quality": 66.7,
-    "evidence": 14.1,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "quality_compounder"
-   ],
-   "hits": [
-    {
-     "strategy": "quality_compounder",
-     "criteria_passed": [
-      "roce_est >= min",
-      "debt_equity <= max",
-      "rev_growth >= min",
-      "earn_growth >= min",
-      "opm >= min",
-      "fcf positive"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    }
-   ]
-  },
-  {
-   "symbol": "BRITANNIA",
-   "score": 49.9,
-   "parts": {
-    "quality": 52.2,
-    "evidence": 14.1,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
    ]
   },
   {
    "symbol": "LEMONTREE",
-   "score": 49.5,
+   "score": 49.4,
    "parts": {
     "quality": 51.6,
-    "evidence": 14.1,
+    "evidence": 13.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "NYKAA",
+   "score": 47.1,
+   "parts": {
+    "quality": 47.8,
+    "evidence": 13.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
