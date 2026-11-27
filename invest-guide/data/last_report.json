@@ -1,80 +1,13 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "buy": [],
  "watch": [
   {
-   "symbol": "IOC",
-   "score": 57.7,
+   "symbol": "MARUTI",
+   "score": 55.3,
    "parts": {
-    "quality": 65.5,
-    "evidence": 13.6,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "deep_value",
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "deep_value",
-     "criteria_passed": [
-      "pe <= max",
-      "pb <= max",
-      "debt_equity <= max",
-      "earnings stabilizing"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0
-    },
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "LEMONTREE",
-   "score": 49.4,
-   "parts": {
-    "quality": 51.6,
-    "evidence": 13.6,
-    "data_quality": 100.0,
-    "liquidity": 100.0
-   },
-   "band": "C",
-   "strategies": [
-    "turnaround"
-   ],
-   "hits": [
-    {
-     "strategy": "turnaround",
-     "criteria_passed": [
-      "margins improving",
-      "not loss-making"
-     ],
-     "criteria_unknown": [],
-     "bonus": 0,
-     "data_quality": 1.0,
-     "risk_flag": "debt_watch: verify D/E and pledge before acting"
-    }
-   ]
-  },
-  {
-   "symbol": "NYKAA",
-   "score": 47.1,
-   "parts": {
-    "quality": 47.8,
-    "evidence": 13.6,
+    "quality": 48.2,
+    "evidence": 45.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
