@@ -1,13 +1,73 @@
 {
- "date": "2026-11-27",
- "buy": [],
+ "date": "2026-11-28",
+ "buy": [
+  {
+   "symbol": "ELECON",
+   "score": 61.1,
+   "parts": {
+    "quality": 71.2,
+    "evidence": 13.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "B",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ],
+   "ref_price": 440.95,
+   "date": "2026-11-28",
+   "causes": [
+    "dividend_split"
+   ]
+  }
+ ],
  "watch": [
   {
-   "symbol": "MARUTI",
-   "score": 55.3,
+   "symbol": "OBEROIRLTY",
+   "score": 59.6,
    "parts": {
-    "quality": 48.2,
-    "evidence": 45.6,
+    "quality": 68.6,
+    "evidence": 13.6,
+    "data_quality": 100.0,
+    "liquidity": 100.0
+   },
+   "band": "C",
+   "strategies": [
+    "turnaround"
+   ],
+   "hits": [
+    {
+     "strategy": "turnaround",
+     "criteria_passed": [
+      "margins improving",
+      "not loss-making"
+     ],
+     "criteria_unknown": [],
+     "bonus": 0,
+     "data_quality": 1.0,
+     "risk_flag": "debt_watch: verify D/E and pledge before acting"
+    }
+   ]
+  },
+  {
+   "symbol": "LINDEINDIA",
+   "score": 49.5,
+   "parts": {
+    "quality": 51.9,
+    "evidence": 13.6,
     "data_quality": 100.0,
     "liquidity": 100.0
    },
